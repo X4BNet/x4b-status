@@ -121,14 +121,17 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: "Filtering: North America"
+    - name: "Filtering: North American Anycast"
       description: North American Filtering Servers
       closed: false
-    - name: "Filtering: Europe"
-      description: European Filtering Servers
+    - name: "Filtering: European Anycast"
+      description: European & UK Filtering Servers
       closed: false
-    - name: "Filtering: Asia"
+    - name: "Filtering: Asian Anycast"
       description: Asian Filtering Servers
+      closed: false
+    - name: "Filtering: Budget Range"
+      description: US & European Budget Filtering servers
       closed: false
 
   # These are your systems. Change them to
@@ -137,8 +140,46 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Los Angeles
-      category: "Filtering: North America"
+    # North America
+    - name: LAX1
+      description: "Los Angeles 1"
+      category: "Filtering: North American Anycast"
+    - name: DAL1
+      description: "Dallas 1"
+      category: "Filtering: North American Anycast"
+    - name: ASH1
+      description: "Ashburn 1"
+      category: "Filtering: North American Anycast"
+    - name: MIM1
+      description: "Miami 1"
+      category: "Filtering: North American Anycast"
+
+    # Europe
+    - name: AMS1
+      description: "Amsterdam 1"
+      category: "Filtering: European Anycast"
+    - name: LON1
+      description: "London 1"
+      category: "Filtering: European Anycast"
+
+    # Asia
+    - name: SGP1
+      description: "Singapore 1"
+      category: "Filtering: Asian Anycast"
+    - name: TOK1
+      description: "Tokyo 1"
+      category: "Filtering: Asian Anycast"
+
+    # Budget
+    - name: LV1
+      description: "Las Vegas 1"
+      category: "Filtering: Budget Range"
+    - name: NY1
+      description: "New York 1"
+      category: "Filtering: Budget Range"
+    - name: LU1
+      description: "Luxemburg 1"
+      category: "Filtering: Budget Range"
 
   # What date format to use?
   #

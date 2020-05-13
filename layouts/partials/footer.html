@@ -1,0 +1,34 @@
+{{ if .Site.Params.enableCustomHTML }}
+  {{ partial "custom/above-footer" . }}
+{{ end }}
+
+<div class="footer">
+  <div class="contain">
+    <p><strong class="bold"><a href="https://www.x4b.net">X4B Network</a> Status</strong>
+       &nbsp; • &nbsp; <a href="#">{{ T "backToTop" }}</a>
+    </p>
+
+    <p>{{ .Site.Params.description | markdownify }}</p>
+
+    <hr>
+
+    <p class="hinted">
+      <small>
+        ⚡
+        {{ T "rss" }} —
+        {{ with $.Site.Home.OutputFormats.Get "rss" }}
+          <a href="{{ .Permalink }}" class="no-underline">{{ T "toAllUpdates" }}</a>
+        {{ end }}
+        {{ if not .IsHome }}
+        {{ with .OutputFormats.Get "rss" }}
+          {{ T "or" }} <a href="{{ .Permalink }}" class="no-underline">{{ T "onlyThisFeed" }} ({{ $.Title }})</a>
+        {{ end }}
+        {{ end }}
+      </small>
+    </p>
+  </div>
+</div>
+
+{{ if .Site.Params.enableCustomHTML }}
+  {{ partial "custom/below-footer" . }}
+{{ end }}
