@@ -8,7 +8,7 @@ jobs:
         uses: jitterbit/get-changed-files@v1
       - run: |
           for changed_file in ${{ steps.files.outputs.added }}; do
-            echo "Do something with this ${changed_file}."
+            echo "https://status.x4b.net/issues/${changed_file%.*}"
           done
       #- uses: ethomson/send-tweet-action@v1
       #  with:
