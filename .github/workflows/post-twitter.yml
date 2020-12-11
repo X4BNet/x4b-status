@@ -7,13 +7,16 @@ jobs:
       - id: files
         uses: jitterbit/get-changed-files@v1
       - run: |
+          sudo apt-get install jq curl nkf openssl
+
           for changed_file in ${{ steps.files.outputs.added }}; do
             echo "https://status.x4b.net/issues/${changed_file%.*}"
+            bash tweet.sh post "This is a test"
           done
-      #- uses: ethomson/send-tweet-action@v1
-      #  with:
-      #    status: "Hi, this is a test!"
-      #    consumer-key: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
-      #    consumer-secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
-      #    access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
-      #    access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+        env:
+          MY_SCREEN_NAME: "X4BNoc"
+          MY_LANGUAGE: "en"
+          CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
+          CONSUMER_SECRET: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
+          ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
