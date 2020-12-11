@@ -127,6 +127,9 @@ params:
     - name: "Filtering: European Anycast"
       description: European & UK Filtering Servers
       closed: false
+    - name: "Filtering: South American Anycast"
+      description: South American Filtering Servers
+      closed: false
     - name: "Filtering: Asian Anycast"
       description: Asian Filtering Servers
       closed: false
@@ -153,6 +156,11 @@ params:
     - name: MIM1
       description: "Miami 1"
       category: "Filtering: North American Anycast"
+
+    # South America
+    - name: BR1
+      description: "Brazil 1"
+      category: "Filtering: South American Anycast"
 
     # Europe
     - name: AMS1
