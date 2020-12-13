@@ -15,3 +15,5 @@ severity: disrupted
 *Investigating* - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
 
 *Cause* - We are seeing intermittent issues caused by an upstream system not working as it should or being delayed in operation. We have tickets waiting response upstream.
+
+*Update* - We have some mitigations in place and await full diagnosis and fix upstream.
