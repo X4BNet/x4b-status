@@ -11,8 +11,12 @@ jobs:
           sudo apt-get install -y jq curl nkf openssl
 
           for changed_file in ${{ steps.files.outputs.added }}; do
-            url=$(echo "https://status.x4b.net/issues/${changed_file%.*}")
-            bash tweet.sh post "$url"
+            f="${changed_file%.*}"
+            if [[ "$f" = issues/content/* ]]; then
+              f=$(basename "$f")
+              url=$(echo "https://status.x4b.net/issues/$f")
+              bash tweet.sh post "$url"
+            fi
           done
         env:
           MY_SCREEN_NAME: "X4BNoc"
