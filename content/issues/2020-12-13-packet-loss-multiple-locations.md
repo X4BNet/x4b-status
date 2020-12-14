@@ -16,4 +16,6 @@ severity: disrupted
 
 *Cause* - We are seeing intermittent issues caused by an upstream system not working as it should or being delayed in operation. We have tickets waiting response upstream.
 
-*Update* - We have some mitigations in place and await full diagnosis and fix upstream.
+*Update* 1 - We have some mitigations in place and await full diagnosis and fix upstream.
+
+*Update* 2 - We continue to await confirmation of permanent fix. Tempory fix means no issues have been observed for >24-hours.
