@@ -2,7 +2,7 @@
 section: issue
 title: Packet Loss (multiple locations)
 date: 2020-12-13T05:53:02.543Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 resolvedWhen: 2020-12-13T05:10:00.000Z
@@ -19,3 +19,5 @@ severity: disrupted
 *Update* 1 - We have some mitigations in place and await full diagnosis and fix upstream.
 
 *Update* 2 - We continue to await confirmation of permanent fix. Tempory fix means no issues have been observed for >24-hours.
+
+*Update 3* - We continue to await confirmation of permanent fix. However as there has been no impact on customer services for days we will close this issue.
