@@ -14,6 +14,6 @@ We will be upgrading our network capacity and filtering hardware in Amsterdam. A
 
 We expect the total maintenance to take approx 1-hour.
 
+*Update* - Maintenance taking a little longer than expected. Routes will be restored to Amsterdam as soon as possible.
 
-
-Update - Maintenance taking a little longer than expected. Routes will be restored to Amsterdam as soon as possible.
+*Update* - Routes have been restored, final finishing of tasks continues in the background with no expected interruption.
