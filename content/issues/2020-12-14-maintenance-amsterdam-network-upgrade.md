@@ -17,3 +17,5 @@ We expect the total maintenance to take approx 1-hour.
 *Update* - Maintenance taking a little longer than expected. Routes will be restored to Amsterdam as soon as possible.
 
 *Update* - Routes have been restored, final finishing of tasks continues in the background with no expected interruption.
+
+*Update* - Final checks complete. If you are experiencing any issues please don't hesitate to contact us.
