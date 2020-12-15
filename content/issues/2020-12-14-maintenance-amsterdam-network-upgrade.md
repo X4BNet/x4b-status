@@ -2,7 +2,7 @@
 section: issue
 title: "Maintenance: Amsterdam Network Upgrade"
 date: 2020-12-15T19:50:52.161Z
-resolved: false
+resolved: true
 draft: false
 informational: true
 resolvedWhen: 2020-12-15T21:00:52.175Z
