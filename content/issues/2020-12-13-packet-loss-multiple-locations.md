@@ -5,7 +5,7 @@ date: 2020-12-13T05:53:02.543Z
 resolved: true
 draft: false
 informational: false
-resolvedWhen: 2020-12-13T05:10:00.000Z
+resolvedWhen: 2020-12-16T05:10:00.000Z
 affected:
   - LAX1
   - LON1
