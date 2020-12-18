@@ -12,4 +12,4 @@ severity: disrupted
 ---
 *Investigating* - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
 
-*Identified-*  We hae confirmed a partial interruption in network traffic in region. This is similar to a smaller incident observed yesterday which was reported upstream. We have collected data and reported this incident upstream and are awaiting resolution. Routes have been pulled from Amsterdamn at this time.
+*Identified* -  We hae confirmed a partial interruption in network traffic in region. This is similar to a smaller incident observed yesterday which was reported upstream. We have collected data and reported this incident upstream and are awaiting resolution. Routes have been pulled from Amsterdamn at this time.
