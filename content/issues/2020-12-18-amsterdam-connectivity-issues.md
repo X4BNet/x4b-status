@@ -16,4 +16,4 @@ severity: disrupted
 
 *Identified* - Upstream beleives they have identified the issue on their end and are taking action to confirm. Routes remain removed from region.
 
-*Resolution (1)* - An emergency top of rack switch update has been scheduled to resolve a software bug in the managment software. Routes remain removed from region.
+*Resolution (1)* - An emergency top of rack switch update has been scheduled to resolve a software bug in the managment software. Routes restored until we have a date/time.
