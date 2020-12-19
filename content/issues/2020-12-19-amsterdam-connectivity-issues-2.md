@@ -1,0 +1,13 @@
+---
+section: issue
+title: "Amsterdam: Connectivity Issues (2)"
+date: 2020-12-19T14:42:11.028Z
+resolved: false
+draft: false
+informational: false
+resolvedWhen: 2020-12-19T14:42:11.073Z
+affected:
+  - AMS1
+severity: disrupted
+---
+*Investigating* - It appears that the Emergency maintenance performed by upstream to resolve Amsterdam: Connectivity Issues (2) has not been suvvessful in resolving the ToR stability issue. We have seen what appears to be a similar interuption. We have pulled routes again and await upstream response.
