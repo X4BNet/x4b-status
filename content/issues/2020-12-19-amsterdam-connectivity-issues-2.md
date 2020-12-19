@@ -11,3 +11,5 @@ affected:
 severity: disrupted
 ---
 *Investigating* - It appears that the Emergency maintenance performed by upstream to resolve Amsterdam: Connectivity Issues (2) has not been suvvessful in resolving the ToR stability issue. We have seen what appears to be a similar interuption. We have pulled routes again and await upstream response.
+
+*Investigating* - COU spikes on upstream ToR switch. They have made some adjustments and continue to monitor. We have restored routes.
