@@ -2,10 +2,10 @@
 section: issue
 title: "Budget: Incident"
 date: 2020-12-30T04:20:00.000Z
-resolved: false
+resolved: true
 draft: false
 informational: false
-resolvedWhen: 2020-12-30T04:22:57.231Z
+resolvedWhen: 2020-12-30T12:53:00.000Z
 affected:
   - LU1
   - LV1
@@ -16,4 +16,6 @@ severity: disrupted
 
 *Upstream response* - Confirms issue on their end.
 
-*Upstream response* - Upstream is experiencing DDoS attacks on unprotected resources they operate.
+*Upstream response* - Upstream is experiencing DDoS attacks on unprotected resources they operate (extortion).
+
+Attack looks to have ended for some hours. Marked as resolved.
