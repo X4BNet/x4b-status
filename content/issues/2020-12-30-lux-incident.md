@@ -2,7 +2,7 @@
 section: issue
 title: "Lux: Incident"
 date: 2020-12-30T04:20:00.000Z
-resolved: true
+resolved: false
 draft: false
 informational: false
 resolvedWhen: 2020-12-30T04:22:57.231Z
