@@ -2,10 +2,10 @@
 section: issue
 title: "Budget: Issue continued."
 date: 2021-01-02T03:49:26.584Z
-resolved: false
+resolved: true
 draft: false
 informational: false
-resolvedWhen: 2021-01-02T03:49:26.597Z
+resolvedWhen: 2021-01-02T07:04:00.000Z
 affected:
   - LU1
   - LV1
