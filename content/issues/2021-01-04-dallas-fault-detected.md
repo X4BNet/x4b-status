@@ -11,3 +11,5 @@ severity: notice
 *Investigating* - We have detected a fault in our network cable / switch port. We will be scheduling replacement later today.
 
 *Update* - Replacement occurring now
+
+*Update* - While we confirm the issue is resolved we will keep routes disabled. If the lack of Dallas routes is causing you issue please open a support ticket and we will see what we can do.
