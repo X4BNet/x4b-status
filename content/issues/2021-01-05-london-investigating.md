@@ -12,4 +12,4 @@ severity: notice
 ---
 *Investigating* - We are investigating a potential issue that might affect the uptime of one our of services. As such we have pulled routes from the London region while we investigate.
 
-*Update* - Routes have been restored. We took the opportunity to also perform some upgrades to the software running in the region while traffic was diverted away.
+*Update* - Attempted to restore routes however we are seeing a problem with that. Please hold while the issue is identified.
