@@ -2,7 +2,7 @@
 section: issue
 title: "London: Investigating"
 date: 2021-01-05T04:31:15.058Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 resolvedWhen: 2021-01-05T08:31:55.445Z
