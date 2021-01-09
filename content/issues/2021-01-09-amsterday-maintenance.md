@@ -1,6 +1,6 @@
 ---
 section: issue
-title: "Amsterday: Maintenance"
+title: "Amsterdam: Maintenance"
 date: 2021-01-09T01:40:16.217Z
 resolved: false
 draft: false
