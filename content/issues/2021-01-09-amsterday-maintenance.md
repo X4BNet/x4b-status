@@ -2,10 +2,10 @@
 section: issue
 title: "Amsterdam: Maintenance"
 date: 2021-01-09T01:40:16.217Z
-resolved: false
+resolved: true
 draft: false
 informational: false
-resolvedWhen: 2021-01-09T01:40:16.234Z
+resolvedWhen: 2021-01-09T03:12:08.243Z
 affected:
   - AMS1
 severity: notice
