@@ -5,7 +5,7 @@ date: 2021-01-14T01:50:45.511Z
 resolved: false
 draft: false
 informational: false
-resolvedWhen: 2021-01-14T07:00:00.000Z
+resolvedWhen: 2021-01-14T01:50:00.000Z
 affected:
   - DAL1
 severity: notice
