@@ -2,10 +2,10 @@
 section: issue
 title: "Hazard Notice: Dallas"
 date: 2021-01-14T01:50:45.511Z
-resolved: false
+resolved: true
 draft: false
 informational: false
-resolvedWhen: 2021-01-14T01:50:00.000Z
+resolvedWhen: 2021-01-15T01:50:00.000Z
 affected:
   - DAL1
 severity: notice
