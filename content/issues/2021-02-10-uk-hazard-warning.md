@@ -2,7 +2,7 @@
 section: issue
 title: "UK: Hazard Warning"
 date: 2021-02-10T03:00:00.000Z
-resolved: false
+resolved: true
 draft: false
 informational: true
 resolvedWhen: 2021-02-10T05:30:00.000Z
