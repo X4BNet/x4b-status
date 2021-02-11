@@ -1,11 +1,11 @@
 ---
 section: issue
 title: "London: Minor Maintenance"
-date: 2021-02-11T20:00:00.000Z
+date: 2021-02-12T19:00:00.000Z
 resolved: false
 draft: false
 informational: false
-resolvedWhen: 2021-02-11T22:30:00.000Z
+resolvedWhen: 2021-02-12T22:30:00.000Z
 affected:
   - LON1
 severity: notice
