@@ -2,7 +2,7 @@
 section: issue
 title: "Amsterdam: Minor Maintenance"
 date: 2021-02-15T20:00:00.000Z
-resolved: false
+resolved: true
 draft: false
 informational: true
 resolvedWhen: 2021-02-15T22:00:00.000Z
