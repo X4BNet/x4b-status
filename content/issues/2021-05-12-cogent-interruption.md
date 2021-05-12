@@ -2,10 +2,10 @@
 section: issue
 title: Cogent interruption
 date: 2021-05-12T17:00:00.000Z
-resolved: false
+resolved: true
 draft: false
 informational: false
-resolvedWhen: 2021-05-12T19:32:46.302Z
+resolvedWhen: 2021-05-12T20:14:36.632Z
 affected:
   - LAX1
   - AMS1
