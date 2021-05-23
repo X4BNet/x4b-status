@@ -11,3 +11,5 @@ affected:
 severity: disrupted
 ---
 *Investigating* - We are investigating some observed uptream packet loss in London.
+
+*Update* - London network vendor has confirmed the issue
