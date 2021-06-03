@@ -8,8 +8,10 @@ informational: false
 resolvedWhen: 2021-06-03T00:46:45.326Z
 affected:
   - AMS1
-severity: down
+severity: disrupted
 ---
 *Investigating* - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
 
 *Investigating* - We are seeing  an issue with either network port stability or ixgbe driver stability in Amsterdam. We are investigating.
+
+*Monitoring* - We continue to watch for issues
