@@ -15,3 +15,5 @@ severity: disrupted
 *Investigating* - We are seeing  an issue with either network port stability or ixgbe driver stability in Amsterdam. We are investigating.
 
 *Monitoring* - We continue to watch for issues
+
+*Monitoring* - We continue to watch for issues. Nothing has been observed as of yet.
