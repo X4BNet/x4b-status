@@ -19,3 +19,5 @@ severity: disrupted
 *Monitoring* - We continue to watch for issues. Nothing has been observed as of yet.
 
 *Investigating* - We continue to search for the root cause. Another incident occurred around 07:35 GMT.
+
+*Changes* - Some changes have been made to test a theory. We continue to monitor.
