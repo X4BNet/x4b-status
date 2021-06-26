@@ -5,7 +5,7 @@ date: 2021-06-27T06:00:00.000Z
 resolved: false
 draft: false
 informational: false
-resolvedWhen: 2021-06-28T08:00:00.000Z
+resolvedWhen: 2021-06-29T08:00:00.000Z
 affected:
   - ASH1
 severity: notice
