@@ -2,10 +2,10 @@
 section: issue
 title: "Brazil: Packet Loss"
 date: 2021-06-26T03:07:48.997Z
-resolved: false
+resolved: true
 draft: false
 informational: false
-resolvedWhen: 2021-06-26T03:07:49.016Z
+resolvedWhen: 2021-06-26T04:38:31.525Z
 affected:
   - BR1
 severity: disrupted
