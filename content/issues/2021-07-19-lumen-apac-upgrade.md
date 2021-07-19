@@ -11,7 +11,7 @@ affected:
   - TOK1
 severity: notice
 ---
-We are currently in the process of onboarding our new (replacement) transit provider Lumen (formerly Level3). Due to delays in port turn up the NTT turn down date for APAC is scheduled to occur prior to the turn of ports in US and EU. 
+We are currently in the process of onboarding our new (replacement) transit provider Lumen (formerly Level3). Due to delays in port turn up the NTT turn down date for APAC is scheduled to occur prior to the turn up of ports in US and EU. 
 
 To ensure the Anycast network remains balanced we have done extensive traffic engineering works over the past week which were applied this hour. We expect most customer routes will be unaffected.
 
