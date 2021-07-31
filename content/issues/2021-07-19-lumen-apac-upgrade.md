@@ -9,6 +9,7 @@ resolvedWhen: 2021-07-19T04:29:53.276Z
 affected:
   - SGP1
   - TOK1
+  - SYD1
 severity: notice
 ---
 We are currently in the process of onboarding our new (replacement) transit provider Lumen (formerly Level3). Due to delays in port turn up the NTT turn down date for APAC is scheduled to occur prior to the turn up of ports in US and EU. 
