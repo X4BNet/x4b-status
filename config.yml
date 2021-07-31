@@ -130,8 +130,11 @@ params:
     - name: "Filtering: South American Anycast"
       description: South American Filtering Servers
       closed: false
-    - name: "Filtering: Asian Anycast"
+    - name: "Filtering: Asia Anycast"
       description: Asian Filtering Servers
+      closed: false
+    - name: "Filtering: Oceania Anycast"
+      description: Australian Filtering Servers
       closed: false
     - name: "Filtering: Budget Range"
       description: US & European Budget Filtering servers
@@ -173,10 +176,15 @@ params:
     # Asia
     - name: SGP1
       description: "Singapore 1"
-      category: "Filtering: Asian Anycast"
+      category: "Filtering: Asia Anycast"
     - name: TOK1
       description: "Tokyo 1"
-      category: "Filtering: Asian Anycast"
+      category: "Filtering: Asia Anycast"
+      
+    # Oceania
+    - name: SYD1
+      description: "Sydney 1"
+      category: "Filtering: Oceania Anycast"    
 
     # Budget
     - name: LV1
