@@ -153,6 +153,9 @@ params:
     - name: DAL1
       description: "Dallas 1"
       category: "Filtering: North American Anycast"
+    - name: CHI1
+      description: "Chicago 1"
+      category: "Filtering: North American Anycast"
     - name: ASH1
       description: "Ashburn 1"
       category: "Filtering: North American Anycast"
