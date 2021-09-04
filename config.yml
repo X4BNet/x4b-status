@@ -130,14 +130,14 @@ params:
     - name: "Filtering: South American Anycast"
       description: South American Filtering Servers
       closed: false
-    - name: "Filtering: Asia Anycast"
-      description: Asian Filtering Servers
-      closed: false
-    - name: "Filtering: Oceania Anycast"
-      description: Australian Filtering Servers
+    - name: "Filtering: Asia & Oceana Anycast"
+      description: Asia and Australian Filtering Servers
       closed: false
     - name: "Filtering: Budget Range"
       description: US & European Budget Filtering servers
+      closed: false
+    - name: "Core Platform"
+      description: Web and Core Platform Services
       closed: false
 
   # These are your systems. Change them to
@@ -179,15 +179,13 @@ params:
     # Asia
     - name: SGP1
       description: "Singapore 1"
-      category: "Filtering: Asia Anycast"
+      category: "Filtering: Asia & Oceana Anycast"
     - name: TOK1
       description: "Tokyo 1"
-      category: "Filtering: Asia Anycast"
-      
-    # Oceania
+      category: "Filtering: Asia & Oceana Anycast"
     - name: SYD1
       description: "Sydney 1"
-      category: "Filtering: Oceania Anycast"    
+      category: "Filtering: Asia & Oceana Anycast"    
 
     # Budget
     - name: LV1
@@ -199,6 +197,11 @@ params:
     - name: LU1
       description: "Luxemburg 1"
       category: "Filtering: Budget Range"
+
+    # Core Platform
+    - name: WEB
+      description: "Client Portal and Website"
+      category: "Web and Core Platform Services"
 
   # What date format to use?
   #
