@@ -10,6 +10,8 @@ affected:
   - LAX
 severity: notice
 ---
+**Update** Maintenance is proceeding roughly on schedule. We expect to be complete in 15-30 minutes.
+
 **Update** Maintenance is begining now
 
 
