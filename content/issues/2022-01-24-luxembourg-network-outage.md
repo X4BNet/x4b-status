@@ -5,11 +5,13 @@ date: 2022-01-24T01:31:04.199Z
 resolved: false
 draft: false
 informational: true
-resolvedWhen: 2022-01-24T11:48:37.893Z
+resolvedWhen: 2022-01-24T12:09:49.072Z
 affected:
   - LU1
 severity: notice
 ---
+**Update** No official all clear yet as work related to the move continues. However all XCs are now up and services online for over half an hour.
+
 **Update** Some routes are back. Some XCs are not yet spliced.
 
 Upstream network provider has announced a maintenenace affecting Lux customers.
