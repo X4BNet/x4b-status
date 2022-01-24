@@ -2,7 +2,7 @@
 section: issue
 title: Luxembourg Network Outage
 date: 2022-01-24T01:31:04.199Z
-resolved: false
+resolved: true
 draft: false
 informational: true
 resolvedWhen: 2022-01-24T12:09:49.072Z
