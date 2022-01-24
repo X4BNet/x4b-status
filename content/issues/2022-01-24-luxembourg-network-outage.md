@@ -5,7 +5,7 @@ date: 2022-01-24T01:31:04.199Z
 resolved: false
 draft: false
 informational: true
-resolvedWhen: 2022-01-25T01:31:04.207Z
+resolvedWhen: 2022-01-24T10:48:37.893Z
 affected:
   - LU1
 severity: notice
