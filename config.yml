@@ -201,7 +201,7 @@ params:
     # Core Platform
     - name: WEB
       description: "Client Portal and Website"
-      category: "Web and Core Platform Services"
+      category: "Core Platform"
 
   # What date format to use?
   #
