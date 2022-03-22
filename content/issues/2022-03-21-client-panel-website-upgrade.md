@@ -2,7 +2,7 @@
 section: issue
 title: Client Panel & Website Upgrade
 date: 2022-03-22T02:00:00.000Z
-resolved: false
+resolved: true
 draft: false
 informational: true
 resolvedWhen: 2022-03-22T04:00:00.000Z
@@ -10,6 +10,8 @@ affected:
   - WEB
 severity: notice
 ---
+**Update** Deployment of all queued customer configuration updates has been performed. If you are encountering any issues please do let us know.
+
 **Update** Customer deployments and all customer facing services are up. If you are encountering any issues please do let us know. We will process the backlog of request for all services after a short break.
 
 **Update** Most site components are are up. Customer service deployments will be available shortly. Appologies that this has taken much longer than expected.
