@@ -10,6 +10,8 @@ affected:
   - WEB
 severity: notice
 ---
+**Update** Maintenance has begun
+
 **Update** Maintenance will begin on time in less than half an hour.
 
 ---
