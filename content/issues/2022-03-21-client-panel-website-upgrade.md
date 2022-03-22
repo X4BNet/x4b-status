@@ -10,6 +10,8 @@ affected:
   - WEB
 severity: notice
 ---
+**Update** We are currently running a bit behind schedule on the first stage of the maintenance. We now hope to complete the first stage within the next 45 minutes.
+
 **Update** Maintenance has begun
 
 **Update** Maintenance will begin on time in less than half an hour.
