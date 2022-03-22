@@ -10,7 +10,7 @@ affected:
   - WEB
 severity: notice
 ---
-**Update** Most services are are up. Customer service deployments will be available shortly. Appologies that this has taken much longer than expected.
+**Update** Most site components are are up. Customer service deployments will be available shortly. Appologies that this has taken much longer than expected.
 
 **Update** Site is up (in dry-run mode). Changes to customer services will be deployed once we have completed full system tests. We will be taking this slowly and will update when an ETA is available.
 
