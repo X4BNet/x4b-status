@@ -10,6 +10,8 @@ affected:
   - WEB
 severity: notice
 ---
+**Update** Site is up (in dry-run mode). Changes to customer services will be deployed once we have completed full system tests. We will be taking this slowly and will update when an ETA is available.
+
 **Update** We are currently running a bit behind schedule on the first stage of the maintenance. We now hope to complete the first stage within the next 45 minutes.
 
 **Update** Maintenance has begun
