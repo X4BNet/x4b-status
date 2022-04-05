@@ -10,6 +10,8 @@ affected:
   - SGP1
 severity: disrupted
 ---
-We are aware of some (HE) traffic on the Premium Line from around the world arriving in Signapore. This appears to be due to a BGP bug in Equinix IX (Singapore). We are working with our upstreams on it.
+**Update** We have made adjustments temporarily reducing the traffic going to SG but preventing route over-reach. We await the IX fix.
 
 **Update** we are awaiting upstream response on this matter
+
+We are aware of some (HE) traffic on the Premium Line from around the world arriving in Signapore. This appears to be due to a BGP bug in Equinix IX (Singapore). We are working with our upstreams on it.
