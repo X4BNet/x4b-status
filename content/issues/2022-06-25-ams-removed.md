@@ -2,10 +2,10 @@
 section: issue
 title: "AMS: Removed"
 date: 2022-06-25T09:11:42.252Z
-resolved: false
+resolved: true
 draft: false
 informational: false
-resolvedWhen: 2022-06-25T09:11:42.261Z
+resolvedWhen: 2022-06-25T11:25:07.521Z
 affected:
   - AMS1
 severity: disrupted
