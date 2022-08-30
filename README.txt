@@ -1,1 +1,1 @@
-X4B.net status (powered by cState)
+https://status.x4b.net (powered by cState)
