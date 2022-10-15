@@ -1,21 +1,21 @@
 ---
 section: issue
-title: "Premium Anycast: Lumen APAC Upgrade"
-date: 2021-07-19T04:29:53.262Z
+title: "Premium Anycast: Lumen Transit"
+date: 2022-10-04T01:55:08.023Z
 resolved: false
 draft: false
 informational: false
 resolvedWhen: 2021-07-19T04:29:53.276Z
 affected:
-  - SGP1
-  - TOK1
-  - SYD1
+  - LON1
 severity: notice
 ---
-We are currently in the process of onboarding our new (replacement) transit provider Lumen (formerly Level3). Due to delays in port turn up the NTT turn down date for APAC is scheduled to occur prior to the turn up of ports in US and EU. 
+We are currently in the process of onboarding our new (replacement) transit provider Lumen (formerly Level3). Originally lit only for APAC and South America Lumen transit has now been lit for US and EU PoPs with one exception.
 
-To ensure the Anycast network remains balanced we have done extensive traffic engineering works over the past week which were applied this hour. We expect most customer routes will be unaffected.
 
-We do note some troublesome routes, particularly those of AS6939 (Hurricane Electric) who peers very poorly with both NTT and GTT (not at all) our current US & EU transits. We are discussing mitigation strategies with our upstream provider however in the interim we expect some Asian HE traffic to be direct to the US (specifically LA). This is a problem which will affect singlehomed HE networks. This issue and any others like it should be resolved fully within the month as Lumen lights the remaining ports.
 
-Please feel free to report bad routes to support and we will see what we can do about them.
+W﻿e are currently waiting on transit availability in London (Globalswitch). Due to the close pysical location and significant advantage in lighting Lumen accross EU and US at this time we have opted to proceed before London is ready.
+
+
+
+T﻿he current ETA for London's lumen transit is "a few weeks".
