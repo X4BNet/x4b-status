@@ -2,14 +2,16 @@
 section: issue
 title: "Premium Anycast: Lumen Transit"
 date: 2022-10-04T01:55:08.023Z
-resolved: false
+resolved: true
 draft: false
 informational: false
-resolvedWhen: 2021-07-19T04:29:53.276Z
+resolvedWhen: 2023-02-09T02:44:02.746Z
 affected:
   - LON1
 severity: notice
 ---
+**Update** It finally happened, it was a saga, but london Lumen has finally been lit.
+
 We are currently in the process of onboarding our new (replacement) transit provider Lumen (formerly Level3). Originally lit only for APAC and South America Lumen transit has now been lit for US and EU PoPs with one exception.
 
 
