@@ -5,7 +5,7 @@ date: 2023-06-23T04:00:00.000Z
 resolved: false
 draft: false
 informational: false
-resolvedWhen: 2023-06-23T08:00:22.040Z
+resolvedWhen: 2023-06-23T07:28:23.682Z
 affected:
   - TOK1
   - BR1
