@@ -2,10 +2,10 @@
 section: issue
 title: Dallas & Japan issue detected
 date: 2023-06-26T12:47:18.504Z
-resolved: false
+resolved: true
 draft: false
 informational: false
-resolvedWhen: 2023-06-26T12:47:18.515Z
+resolvedWhen: 2023-06-27T04:12:21.031Z
 affected:
   - DAL1
   - TOK1
