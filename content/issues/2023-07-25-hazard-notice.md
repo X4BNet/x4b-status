@@ -2,7 +2,7 @@
 section: issue
 title: Hazard Notice
 date: 2023-07-26T03:00:00.000Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 resolvedWhen: 2023-07-19T07:00:22.832Z
