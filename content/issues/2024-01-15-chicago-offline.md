@@ -2,10 +2,10 @@
 section: issue
 title: "Chicago: Offline"
 date: 2024-01-15T11:39:00.000Z
-resolved: false
+resolved: true
 draft: false
 informational: false
-resolvedWhen: 2024-01-15T01:39:08.646Z
+resolvedWhen: 2024-01-15T05:47:59.651Z
 affected:
   - CHI1
 severity: disrupted
