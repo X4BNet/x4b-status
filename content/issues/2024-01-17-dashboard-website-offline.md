@@ -10,6 +10,8 @@ affected:
   - WEB
 severity: down
 ---
+*﻿Update* - Vendor has informed us that its an issue affecting all Block Storage in the Newyork Region and that we should expect an update soon.
+
 *Investigating* - Block Storage failure affecting our database server currently has the panel offline.
 
 W﻿e have made the vendor aware and are awaiting a fix.
