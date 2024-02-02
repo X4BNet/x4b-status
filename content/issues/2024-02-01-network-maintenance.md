@@ -2,10 +2,10 @@
 section: issue
 title: Network Maintenance
 date: 2024-02-01T08:08:16.425Z
-resolved: false
+resolved: true
 draft: false
 informational: false
-resolvedWhen: 2024-02-01T08:08:16.431Z
+resolvedWhen: 2024-02-02T09:01:22.629Z
 affected:
   - LON1
 severity: notice
