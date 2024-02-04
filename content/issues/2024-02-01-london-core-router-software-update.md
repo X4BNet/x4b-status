@@ -2,10 +2,10 @@
 section: issue
 title: London Core Router Software Update
 date: 2024-02-02T14:00:05.816Z
-resolved: false
+resolved: true
 draft: false
 informational: false
-resolvedWhen: 2024-02-03T14:00:00.000Z
+resolvedWhen: 2024-02-04T00:32:32.180Z
 affected:
   - LON1
 severity: notice
