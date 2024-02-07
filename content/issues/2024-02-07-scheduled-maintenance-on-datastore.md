@@ -14,4 +14,6 @@ We will be performing maintenance on the Datastore powering access logs, error l
 
 N﻿o significant interruption is expected however reduced performance and minor disruptions are likely.
 
+S﻿lightly reduced performance may occur tonight as we prepare for the update.
+
 I﻿t is possible that data collected during this time may be under representative of actual traffic and patterns.
