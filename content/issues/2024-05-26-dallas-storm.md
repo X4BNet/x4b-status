@@ -2,10 +2,10 @@
 section: issue
 title: Dallas storm
 date: 2024-05-26T12:15:00.000Z
-resolved: false
+resolved: true
 draft: false
 informational: false
-resolvedWhen: 2024-05-26T13:15:27.633Z
+resolvedWhen: 2024-05-26T19:57:28.115Z
 affected:
   - DAL1
 severity: down
