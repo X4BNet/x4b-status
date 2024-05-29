@@ -91,6 +91,18 @@ defaultContentLanguage: en
 #
 # Example: https://status.example.com/
 baseURL: https://status.x4b.net
+# For features like Last modified, you
+# need to use a Git repository. If you
+# are using Netlify, you are already
+# using Git (with GitHub, GitLab, etc)
+#
+# So, should Git information be used
+# for this website?
+#
+# We recommend to keep this at `true`.
+# BOOLEAN; `true`, `false`
+enableGitInfo: true
+
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -217,7 +229,7 @@ params:
 
   # What header design should we use?
   #
-  # Default: true
+  # Default: `true`
   # BOOLEAN; `true`, `false`
   useLargeHeaderDesign: false
 
@@ -229,6 +241,18 @@ params:
   # Default: `yearly`
   # STRING; `monthly`, `yearly`, `none`
   incidentHistoryFormat: "yearly"
+
+  # Should incident history be hidden?
+  #
+  # By disabling the incident history, you also disable
+  # the RSS feed. To ensure no incidents are shown, you
+  # should delete them after they are resolved. This option
+  # overrides any other options that tailor your incident
+  # history’s look.
+  #
+  # Default: `false`
+  # BOOLEAN; `true`, `false`
+  disableIncidentHistory: false
 
   # Disable dark mode
   #
@@ -248,7 +272,7 @@ params:
   # Should we show the logo or the title
   # of the status page?
   #
-  # Default: false
+  # Default: `false`
   # BOOLEAN; `true`, `false`
   useLogo: true
 
@@ -285,7 +309,7 @@ params:
   # for average downtime on
   # systems ("/affected/") pages
   #
-  # Default: false
+  # Default: `false`
   # BOOLEAN; `true`, `false`
   disableComplexCalculations: false
 
@@ -372,6 +396,11 @@ outputs:
     - json
     - rss
   home:
+    - html
+    - json
+    - rss
+    - svg
+  term:
     - html
     - json
     - rss
