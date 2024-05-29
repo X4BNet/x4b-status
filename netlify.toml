@@ -4,7 +4,7 @@
     functions = "functions"
 
 [build.environment]
-    HUGO_VERSION = "0.48"
+    HUGO_VERSION = "0.80.0"
 
 [context.production.environment]
     HUGO_ENV = "production"
@@ -17,7 +17,6 @@
     command = "hugo -b $DEPLOY_PRIME_URL"
 
 [[headers]]
-  # Define which paths this specific [[headers]] block will cover.
-  for = "/*"
+    for = "/*"
     [headers.values]
-    Access-Control-Allow-Origin = "*"
+      Access-Control-Allow-Origin = "*"
