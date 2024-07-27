@@ -2,11 +2,11 @@
 section: issue
 title: "Sydney: routes pulled"
 date: 2024-07-11T13:25:03.775Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false
-resolvedWhen: 2024-07-23T13:25:03.792Z
+resolvedWhen: 2024-07-27T15:14:18.226Z
 affected:
   - Syd1
 severity: disrupted
