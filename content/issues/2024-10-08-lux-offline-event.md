@@ -2,7 +2,7 @@
 section: issue
 title: "Lux: offline event "
 date: 2024-10-08T14:37:17.787Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false
