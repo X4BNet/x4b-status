@@ -6,7 +6,7 @@ resolved: false
 draft: false
 informational: false
 pin: false
-resolvedWhen: 2024-10-08T16:37:17.806Z
+resolvedWhen: 2024-10-08T20:07:05.103Z
 affected:
   - LU1
 severity: disrupted
