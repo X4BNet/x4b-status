@@ -12,3 +12,5 @@ affected:
 severity: disrupted
 ---
 *Investigating* - We are aware of delays processing paypal payments. We have contacted Paypal merchant support for a fix and are awaiting a response.
+
+If you need a payment manually processed open a support ticket including a screenshot of your payment and we will get to it ASAP.
