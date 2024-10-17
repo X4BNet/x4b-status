@@ -11,6 +11,14 @@ affected:
   - WEB
 severity: disrupted
 ---
+*Update* - Still yet to receive any solution from Paypal.
+
+We have implemented a payment check job which is able to import payments made once they are available via Paypal REST api (up to 3 hours). We understand this is inconvenient however at this time it is what we have available to us.
+
+Paypal's IPN system has abruptly stopped communicating with us and we await a serious response from Paypal on this matter.
+
+Stripe (Credit Card) and Crypto payments are unaffected. If you need to make an urgent payment we strongly recommend using Stripe until this matter can be resolved.
+
 *Investigating* - Still yet to receive any solution from Paypal.
 
 Transactions are being manually processed in a priority queue. Open a support ticket if you need manual processing urgently.
