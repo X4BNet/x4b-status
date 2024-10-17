@@ -13,6 +13,10 @@ severity: disrupted
 ---
 *Update* - Still yet to receive any solution from Paypal.
 
+Our Transaction log check job remains in place. Having discovered a suspected workaround to the Paypal IPN system bug have implemented a workaround that appears to enable IPNs to be sent again. We will continue to run both.
+
+*Update* - Still yet to receive any solution from Paypal.
+
 We have implemented a payment check job which is able to import payments made once they are available via Paypal REST api (up to 3 hours). We understand this is inconvenient however at this time it is what we have available to us.
 
 Paypal's IPN system has abruptly stopped communicating with us and we await a serious response from Paypal on this matter.
