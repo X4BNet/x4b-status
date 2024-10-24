@@ -6,11 +6,19 @@ resolved: false
 draft: false
 informational: false
 pin: false
-resolvedWhen: 2024-10-16T00:53:48.564Z
+resolvedWhen: 2024-10-24T09:47:45.711Z
 affected:
   - WEB
 severity: disrupted
 ---
+*Update* - Still yet to receive any solution from Paypal. Only an acknowledgement of suspected fault on their end.
+
+We are processing payments through our workaround as per normal. However there is still some element of unknown until paypal resolve the actual issue (which appears to be issues specifically with our x4b.net domain name)
+
+As this issue does not have any known customer impact we are going to bring it to a close now.
+
+Should you experience any delayed payments (either immeidately, or after 3 hours when the new correlation script can recover any missed payments) via paypal let us know and we will sort it out.
+
 *Update* - Still yet to receive any solution from Paypal.
 
 Our Transaction log check job remains in place. Having discovered a suspected workaround to the Paypal IPN system bug have implemented a workaround that appears to enable IPNs to be sent again. We will continue to run both.
