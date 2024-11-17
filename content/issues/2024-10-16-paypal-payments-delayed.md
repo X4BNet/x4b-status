@@ -2,7 +2,7 @@
 section: issue
 title: Paypal payments delayed
 date: 2024-10-15T00:53:48.552Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false
