@@ -13,4 +13,4 @@ severity: disrupted
 ---
 An outage at our cloud service provide is affecting the web panel.
 
-No customer services are affected. Services will be restored when upstream resolves issue.
+No customer services are affected. Panel access will be restored when upstream resolves issue.
