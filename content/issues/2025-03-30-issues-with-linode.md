@@ -1,6 +1,6 @@
 ---
 section: issue
-title: Issues with Linode
+title: Issues with Akamai
 date: 2025-03-30T11:29:49.797Z
 resolved: false
 draft: false
