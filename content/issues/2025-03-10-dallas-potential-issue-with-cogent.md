@@ -11,7 +11,7 @@ affected:
   - DAL1
 severity: disrupted
 ---
-*Update* Upstream has installed a workaround and is looking to drop cogent in the near future. We have been able to restore routes to Dallas PoP.
+*Update* Upstream has installed a workaround and is looking to drop cogent in the near future. We have been able to restore routes to Dallas PoP. If you encounter any Dallas issues please let us know.
 
 *Update* We still await upstream fix
  
