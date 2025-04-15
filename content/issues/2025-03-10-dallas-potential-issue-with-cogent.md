@@ -2,7 +2,7 @@
 section: issue
 title: "Dallas: Potential issue with Cogent"
 date: 2025-03-10T09:40:07.055Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false
