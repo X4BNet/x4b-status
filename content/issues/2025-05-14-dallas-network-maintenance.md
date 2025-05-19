@@ -2,7 +2,7 @@
 section: issue
 title: "Dallas: Network Maintenance"
 date: 2025-05-19T09:00:00.000Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false
