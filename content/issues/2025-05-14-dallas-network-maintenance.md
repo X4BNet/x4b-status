@@ -6,11 +6,13 @@ resolved: false
 draft: false
 informational: false
 pin: false
-resolvedWhen: 2025-05-19T11:00:00.000Z
+resolvedWhen: 2025-05-19T09:08:47.588Z
 affected:
   - DAL1
 severity: disrupted
 ---
+*Update* Maintenance complete. Routes restored.
+
 *Update* Pulling network routes.
 
 Upstream network is performing maintenance on our network slice. We will take this time to do some long delayed network configuration changes brining this location into sync with other locations configuration. 
