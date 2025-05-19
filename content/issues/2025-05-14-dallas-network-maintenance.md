@@ -11,6 +11,8 @@ affected:
   - DAL1
 severity: disrupted
 ---
+*Update* Pulling network routes.
+
 Upstream network is performing maintenance on our network slice. We will take this time to do some long delayed network configuration changes brining this location into sync with other locations configuration. 
 
 We expect 15 minutes of interruption in Dallas during this time. We will pull routes from the region in advance of the maintenance. We will update on status here.
