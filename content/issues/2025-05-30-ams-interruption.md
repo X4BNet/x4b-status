@@ -11,4 +11,6 @@ affected:
   - AMS1
 severity: disrupted
 ---
+*Update* Upstream confirms that the issue is taking longer than expected to resolve. We continue to route around the issue.
+
 Upstream has confirmed an interruption in AMS affecting firewalled TCP traffic. We have pulled routes from the region until incident confirmed over.
