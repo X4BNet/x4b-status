@@ -25,6 +25,7 @@ Though the outage is not expected to last more than 5 to 10 minutes, the work wi
 
 **Maintenance Details**
 
+```
 Day/Date: Thursday, June 05th, 2025
 Start Time: 6:00 AM (PDT)
 End Time: 8:00 AM (PDT)
@@ -32,3 +33,4 @@ Outage Estimated Duration:  5-10 mins
 Effect: Short Outage
 Facilities: AM11
 Device Description: 0818.16.Black
+```
