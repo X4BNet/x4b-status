@@ -2,7 +2,7 @@
 section: issue
 title: "AMS: Scheduled Maintenance"
 date: 2025-06-05T08:00:00.000Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false
