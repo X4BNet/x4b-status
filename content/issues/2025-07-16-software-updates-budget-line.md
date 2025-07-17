@@ -1,7 +1,7 @@
 ---
 section: issue
 title: Software Updates (Budget Line)
-date: 2025-07-18T01:00:13.881Z
+date: 2025-07-17T23:56:30.432Z
 resolved: false
 draft: false
 informational: false
@@ -13,6 +13,8 @@ affected:
   - NY1
 severity: notice
 ---
+*Update* Started
+
 We will be performing system upgrades on Friday. No interruption is expected.
 
 Systems will be done in parallel with an estimated total risk of interruption period per server of 30 minutes.
