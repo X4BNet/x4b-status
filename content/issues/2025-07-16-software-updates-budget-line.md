@@ -2,17 +2,19 @@
 section: issue
 title: Software Updates (Budget Line)
 date: 2025-07-17T23:56:30.432Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false
-resolvedWhen: 2025-07-18T03:00:13.888Z
+resolvedWhen: 2025-07-18T00:17:47.711Z
 affected:
   - LU1
   - LV1
   - NY1
 severity: notice
 ---
+*Update* Complete
+
 *Update* Started
 
 We will be performing system upgrades on Friday. No interruption is expected.
