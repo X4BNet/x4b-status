@@ -2,11 +2,11 @@
 section: issue
 title: Software Updates (Anycast)
 date: 2025-07-22T23:00:00.000Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false
-resolvedWhen: 2025-07-23T02:00:00.000Z
+resolvedWhen: 2025-07-23T00:03:22.113Z
 affected:
   - LAX1
   - DAL1
@@ -21,6 +21,8 @@ affected:
   - SYD1
 severity: notice
 ---
+*Update* Complete
+
 We will be performing system upgrades on Wednesday. No interruption is expected.
 
 Systems will be done in parallel in groups with an estimated total risk of interruption period per server of 30 minutes.
