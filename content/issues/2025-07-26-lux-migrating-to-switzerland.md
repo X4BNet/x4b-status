@@ -1,8 +1,8 @@
 ---
 section: issue
 title: "LUX: Migrating to Switzerland"
-date: 2025-07-28T13:56:59.207Z
-resolved: false
+date: 2025-07-26T14:06:45.872Z
+resolved: true
 draft: false
 informational: false
 pin: false
