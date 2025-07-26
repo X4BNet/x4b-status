@@ -11,7 +11,7 @@ affected:
   - LU1
 severity: disrupted
 ---
-*Upstream* Resolved.
+*Upstream* Resolved through early moving our hardware to Switzerland.
 
 Luxembourg network issues affecting Budget Line Luxembourg services currently.
 
