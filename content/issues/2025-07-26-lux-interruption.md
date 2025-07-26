@@ -11,6 +11,8 @@ affected:
   - LU1
 severity: disrupted
 ---
+*Update* Up. No information currently from upstream. Will leave open as more interruptions are posssible during the night.
+
 *Update* Appears down again.
 
 *Update* Upstream reports resolved through early moving our hardware to Switzerland.
