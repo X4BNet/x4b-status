@@ -2,15 +2,18 @@
 section: issue
 title: Cloud Service outage
 date: 2025-07-27T11:08:06.977Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false
-resolvedWhen: 2025-07-27T11:08:06.985Z
+resolvedWhen: 2025-07-28T01:46:53.712Z
 affected:
   - WEB
 severity: disrupted
 ---
+*Update* Holy Smokes Akamai that was a long one. Services are restored. We are going through and checking everything in line with our DRP.
+
+
 Upstream Update - 
 Our SMEs continue to work bringing our services back online, and we will provide an update as progress is made.
 
