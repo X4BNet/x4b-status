@@ -11,6 +11,8 @@ affected:
   - WEB
 severity: disrupted
 ---
+*Update* We currently await Akamai to fix their internal networking. 4/12 of our cluster nodes are currently online. The panel is up but slow. Some non essential services that rely on inter-node communication are degraded. 
+
 *Update* Panel is currently very slow due to 70% of cloud nodes being offline currently. We await Akamai's resolution to their datacenter outage.
 
 We apologise for the inconvenience and are doing everything we can to return to 100%. Even including moving our services to another vendor.
