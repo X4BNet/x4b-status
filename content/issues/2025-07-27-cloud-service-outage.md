@@ -11,6 +11,10 @@ affected:
   - WEB
 severity: disrupted
 ---
+*Update* We will be keeping this incident open for now as we are still seeing substantially lowered performance in the region and half of our cluster nodes are still unavailable. The panel is however online.
+
+We continue to monitor the [upstream issue](https://status.linode.com/incidents/6yw88b0ft94g) and await resolution.
+
 *Update* We will be keeping this incident open for now as we are still seeing substantially lowered performance in the region and some of our cluster nodes are still unavailable. The panel is however online.
 
 *Update* Holy Smokes Akamai that was a long one. Services are restored. We are going through and checking everything in line with our DRP.
