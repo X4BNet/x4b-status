@@ -2,7 +2,7 @@
 section: issue
 title: LUX interruption
 date: 2025-07-26T13:18:31.979Z
-resolved: true
+resolved: false
 draft: false
 informational: false
 pin: false
@@ -11,7 +11,9 @@ affected:
   - LU1
 severity: disrupted
 ---
-*Update* No interruotions today. Upstream really messed up communication on this one. They will be emailing everyone over the next couple of days at which time we will know more. The next couple of days may have some network noise but is generally expected to be fine.
+*Update* Looks like theres an interuption currently. No information yet provided from upstream on current or previous interruptions.
+
+*Update* No interruptions today. Upstream really messed up communication on this one. They will be emailing everyone over the next couple of days at which time we will know more. The next couple of days may have some network noise but is generally expected to be fine.
 
 *Update*. No information currently from upstream. Will leave open as more interruptions are posssible during the night.
 
