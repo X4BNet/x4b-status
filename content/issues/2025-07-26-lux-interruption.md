@@ -2,7 +2,7 @@
 section: issue
 title: LUX interruption
 date: 2025-07-26T13:18:31.979Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false
