@@ -2,7 +2,7 @@
 section: issue
 title: Cloud Service outage
 date: 2025-07-27T11:08:06.977Z
-resolved: true
+resolved: false
 draft: false
 informational: false
 pin: false
@@ -11,6 +11,8 @@ affected:
   - WEB
 severity: disrupted
 ---
+*Update* We will be keeping this incident open for now as we are still seeing substantially lowered performance in the region and some of our cluster nodes are still unavailable. The panel is however online.
+
 *Update* Holy Smokes Akamai that was a long one. Services are restored. We are going through and checking everything in line with our DRP.
 
 
