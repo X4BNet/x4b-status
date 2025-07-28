@@ -11,6 +11,12 @@ affected:
   - WEB
 severity: disrupted
 ---
+*Update* Panel is currently very slow due to 70% of cloud nodes being offline currently. We await Akamai's resolution to their datacenter outage.
+
+We apologise for the inconvenience and are doing everything we can to return to 100%. Even including moving our services to another vendor.
+
+If you would like to follow the [upstream issue](https://status.linode.com/incidents/6yw88b0ft94g) you may.
+
 *Update* We will be keeping this incident open for now as we are still seeing substantially lowered performance in the region and half of our cluster nodes are still unavailable. The panel is however online.
 
 We continue to monitor the [upstream issue](https://status.linode.com/incidents/6yw88b0ft94g) and await resolution.
