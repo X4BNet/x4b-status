@@ -11,6 +11,8 @@ affected:
   - WEB
 severity: disrupted
 ---
+*Update* No update from Akamai yet but we are seeing Kubernetes nodes that were offline return to function slowly starting around 5 minutes ago.
+
 *Update* We currently await Akamai to fix their internal networking. 4/12 of our cluster nodes are currently online. The panel is up but slow. Some non essential services that rely on inter-node communication are degraded. 
 
 *Update* Panel is currently very slow due to 70% of cloud nodes being offline currently. We await Akamai's resolution to their datacenter outage.
