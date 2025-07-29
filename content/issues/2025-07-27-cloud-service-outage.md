@@ -2,11 +2,11 @@
 section: issue
 title: Cloud Service outage
 date: 2025-07-27T11:08:06.977Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false
-resolvedWhen: 2025-07-28T01:46:53.712Z
+resolvedWhen: 2025-07-29T04:51:41.609Z
 affected:
   - WEB
 severity: disrupted
