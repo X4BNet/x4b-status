@@ -15,4 +15,4 @@ We are depreciating Recaptcha & recaptcha fallback for validation pages. Current
 
 If any customer requires a no-javascript verification page they may contact us and we will see what we can do, however its our current belief given the analytics gathered from user agents and usage of the default PoW verification system that this is below a significant number.
 
-We will of course be adding an appropriate message for clients without javascipt enabled.
+We will of course be adding an appropriate message for clients without javascipt enabled when Recaptcha fallback & support is removed before the end of 2025.
