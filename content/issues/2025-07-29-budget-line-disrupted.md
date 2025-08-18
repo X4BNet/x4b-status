@@ -2,7 +2,7 @@
 section: issue
 title: Budget Line Disrupted (US-EAST)
 date: 2025-07-29T10:14:47.644Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false
