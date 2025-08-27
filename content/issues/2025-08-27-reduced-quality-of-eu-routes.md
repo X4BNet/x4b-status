@@ -12,6 +12,8 @@ affected:
   - LON1
 severity: disrupted
 ---
+*Update* Appears to be a GTT fault. Fault ticket has been opened.
+
 *Update* Investigation continues upstream. This issue only appears to affect Premium Anycast customers. Standard Anycast routes seem unaffected.
 
 
