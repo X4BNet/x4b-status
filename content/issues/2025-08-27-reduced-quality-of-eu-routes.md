@@ -12,4 +12,7 @@ affected:
   - LON1
 severity: disrupted
 ---
+*Update* Investigation continues upstream. This issue only appears to affect Premium Anycast customers. Standard Anycast routes seem unaffected.
+
+
 *Investigating* - We are investigating a potential issue that might affect the uptime of one our of services. It appears to be a bug in the upstream providers routing configuration. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
