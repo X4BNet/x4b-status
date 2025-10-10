@@ -2,11 +2,11 @@
 section: issue
 title: Brazil outage
 date: 2025-10-09T22:29:45.149Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false
-resolvedWhen: 2025-10-10T00:29:45.161Z
+resolvedWhen: 2025-10-10T01:59:22.991Z
 affected:
   - BR1
 severity: disrupted
