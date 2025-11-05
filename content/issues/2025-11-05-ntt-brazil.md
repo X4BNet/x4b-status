@@ -11,7 +11,7 @@ affected:
   - BR1
 severity: disrupted
 ---
-*Update* NTT resolved
+*Update* Resolved. Issue was related to outgoing routes via Algar.
 
 *Update* Issue appears to be on NTT's side. Ticket is open with NTT.
 
