@@ -13,6 +13,8 @@ affected:
   - LV1
 severity: notice
 ---
+*Update* Switzerland done.
+
 We will be performing system software updates on Tuesday (AEDT).
 
 It is expected that maintenance will take a couple hours per server. No interruption is expected however risk does exist.
