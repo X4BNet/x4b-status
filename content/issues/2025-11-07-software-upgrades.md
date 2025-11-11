@@ -13,6 +13,8 @@ affected:
   - LV1
 severity: notice
 ---
+*Update* Vegas done. Sorry that one was a bit less smooth.
+
 *Update* Switzerland done.
 
 We will be performing system software updates on Tuesday (AEDT).
