@@ -2,17 +2,19 @@
 section: issue
 title: Software Upgrades
 date: 2025-11-10T22:30:00.000Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false
-resolvedWhen: 2025-11-11T06:30:00.000Z
+resolvedWhen: 2025-11-11T00:55:19.795Z
 affected:
   - LU1
   - NY1
   - LV1
 severity: notice
 ---
+*Update* NY done. All Done. If you have any issues please do let us know.
+
 *Update* Vegas done. Sorry that one was a bit less smooth.
 
 *Update* Switzerland done.
