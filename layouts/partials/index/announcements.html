@@ -9,6 +9,14 @@
           <a href="{{ .RelPermalink }}"><strong class="bold">{{ .Title }} →</strong></a>
         </p>
 
+        <p><small class="date">
+          {{ if .Site.Params.dateFormat }}
+            {{ .Date.Format .Site.Params.dateFormat }} GMT
+          {{ else }}
+            {{ .Date.Format "January 2, 2006 at 3:04 PM" }} GMT
+          {{ end }}
+        </small></p>
+
         <p><small>
           {{ range .Params.Affected }}
               
