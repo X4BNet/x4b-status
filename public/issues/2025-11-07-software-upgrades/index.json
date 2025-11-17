@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Software Upgrades",
+  "body": "\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e NY done. All Done. If you have any issues please do let us know.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e Vegas done. Sorry that one was a bit less smooth.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e Switzerland done.\u003c/p\u003e\n\u003cp\u003eWe will be performing system software updates on Tuesday (AEDT).\u003c/p\u003e\n\u003cp\u003eIt is expected that maintenance will take a couple hours per server. No interruption is expected however risk does exist.\u003c/p\u003e\n\u003cp\u003eWe will update this announcment when maintenance is complete. Thank you for your patience.\u003c/p\u003e\n",
+  "createdAt": "2025-11-10 22:30:00 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2025-11-07-software-upgrades/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2025-11-11T00:55:19.795Z",
+  "affected": ["LU1", "NY1", "LV1"],
+  "filename": "2025-11-07-software-upgrades.md"
+}

@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Amsterdam: Connectivity Issues",
+  "body": "\u003cp\u003e\u003cem\u003eInvestigating\u003c/em\u003e - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eIdentified\u003c/em\u003e -  We hae confirmed a partial interruption in network traffic in region. This is similar to a smaller incident observed yesterday which was reported upstream. We have collected data and reported this incident upstream and are awaiting resolution. Routes have been pulled from Amsterdam at this time.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eIdentified\u003c/em\u003e - Upstream beleives they have identified the issue on their end and are taking action to confirm. Routes remain removed from region.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eResolution (1)\u003c/em\u003e - An emergency top of rack switch update has been scheduled to resolve a software bug in the managment software. Routes restored until we have a date/time.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eResolved\u003c/em\u003e - ToR switch updated\u003c/p\u003e\n",
+  "createdAt": "2020-12-18 16:02:44.132 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2020-12-18-amsterdam-connectivity-issues/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2020-12-18T16:02:44.146Z",
+  "affected": ["AMS1"],
+  "filename": "2020-12-18-amsterdam-connectivity-issues.md"
+}

@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Dallas: Fault Detected",
+  "body": "\u003cp\u003e\u003cem\u003eInvestigating\u003c/em\u003e - We have detected a fault in our network cable / switch port. We will be scheduling replacement later today.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e - Replacement occurring now\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e - While we confirm the issue is resolved we will keep routes disabled. If the lack of Dallas routes is causing you issue please open a support ticket and we will see what we can do.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e - Confirmed resolved, routes re-enabled.\u003c/p\u003e\n",
+  "createdAt": "2021-01-04 00:32:13.508 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2021-01-04-dallas-fault-detected/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": true,
+  "resolvedAt": "2021-01-05T01:26:52.786Z",
+  "affected": [],
+  "filename": "2021-01-04-dallas-fault-detected.md"
+}

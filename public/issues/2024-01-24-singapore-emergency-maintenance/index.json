@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Singapore: Emergency Maintenance",
+  "body": "\u003cp\u003e\u003cem\u003e﻿Update\u003c/em\u003e - Problem appears resolved. We will continue to observe for any regression.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eInvestigating\u003c/em\u003e - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.\u003c/p\u003e\n",
+  "createdAt": "2024-01-24 20:16:20.803 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2024-01-24-singapore-emergency-maintenance/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2024-01-24T20:26:27.090Z",
+  "affected": ["SG1"],
+  "filename": "2024-01-24-singapore-emergency-maintenance.md"
+}

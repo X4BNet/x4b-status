@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Dallas: Switch issues",
+  "body": "\u003cp\u003eWe are aware of some instability in the region. When contacted our upstream confirmed it and that it was resolved. It doesnt seem to be resolved.\u003c/p\u003e\n\u003cp\u003eWe have hence pulled our routes from the region.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e upstream has reported that everything has normalized and we have obersved the same. We are restoring Dallas routes.\u003c/p\u003e\n",
+  "createdAt": "2021-04-14 00:01:59.444 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2021-04-14-dallas-switch-issues/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2021-04-14T02:01:59.462Z",
+  "affected": ["DAL1"],
+  "filename": "2021-04-14-dallas-switch-issues.md"
+}

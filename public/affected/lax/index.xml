@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://status.x4b.net/"/>
+    <title>LAX on X4B Network Status</title>
+    <link>https://status.x4b.net/affected/lax/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2021-09-28T04:50:32+00:00</lastBuildDate>
+    <updated>2021-09-28T04:50:32+00:00</updated>
+    
+    
+    
+      <atom:link href="https://status.x4b.net/affected/lax/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>[Resolved] LA: Hardware Upgrade</title>
+        <link>https://status.x4b.net/issues/2021-09-23-la-hardware-upgrade/</link>
+        <pubDate>Tue, 28 Sep 2021 04:50:32 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2021-09-23-la-hardware-upgrade/</guid>
+        <category>2021-09-28T06:44:35.075Z</category>
+        <description>Update Routes are up. We will observe closely for any issues. Please do open a support ticket if you notice anything we don&amp;rsquo;t.
+Update Maintenance is proceeding roughly on schedule. We expect to be complete in 15-30 minutes.
+Update Maintenance is begining now
+We will be performing maintenance in L.A on Monday and Tuesday to upgrade the hardware we have deployed in the region.
+We will endeavour to keep interruption to a minimum by removing the PoP before and during major works.</description>
+        <content type="html">&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; Routes are up. We will observe closely for any issues. Please do open a support ticket if you notice anything we don&amp;rsquo;t.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; Maintenance is proceeding roughly on schedule. We expect to be complete in 15-30 minutes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; Maintenance is begining now&lt;/p&gt;
+&lt;p&gt;We will be performing maintenance in L.A on Monday and Tuesday to upgrade the hardware we have deployed in the region.&lt;/p&gt;
+&lt;p&gt;We will endeavour to keep interruption to a minimum by removing the PoP before and during major works. We expect to be able to perform this maintenance within 1-2 hours.&lt;/p&gt;
+&lt;p&gt;We will update this announcement with further information when available.&lt;/p&gt;
+</content>
+      </item>
+    
+  </channel>
+</rss>

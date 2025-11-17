@@ -1,0 +1,97 @@
+{
+  "is": "system",
+  "title": "SYD1",
+  "permalink": "https://status.x4b.net/affected/syd1/",
+  "status": "notice", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "Software Upgrades: Anycast",
+        "createdAt": "2025-11-17 22:30:12.248 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2025-11-11-software-upgrades-anycast/",
+        "severity": "notice",
+        "resolved": false,
+        "informational": false,
+        "resolvedAt": "2025-11-18T07:30:00.000Z",
+        "affected": ["ASH1", "CHI1", "DAL1", "LAX1", "MIM1", "AMS1", "LON1", "BR1", "SG1", "JP1", "SYD1"],
+        "filename": "2025-11-11-software-upgrades-anycast.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Maintenance",
+        "createdAt": "2025-11-07 00:30:00 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2025-11-06-maintenance/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2025-11-07T02:07:35.898Z",
+        "affected": ["LAX1", "DAL1", "CHI1", "ASH1", "MIM1", "AMS1", "LON1", "BR1", "SGP1", "TOK1", "SYD1"],
+        "filename": "2025-11-06-maintenance.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Software Updates (Anycast)",
+        "createdAt": "2025-07-22 23:00:00 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2025-07-22-software-updates-anycast/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2025-07-23T00:03:22.113Z",
+        "affected": ["LAX1", "DAL1", "CHI1", "ASH1", "MIM1", "AMS1", "LON1", "BR1", "SGP1", "TOK1", "SYD1"],
+        "filename": "2025-07-22-software-updates-anycast.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Sydney: routes pulled",
+        "createdAt": "2024-07-11 13:25:03.775 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2024-07-17-sydney-routes-pulled/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-07-27T15:14:18.226Z",
+        "affected": ["Syd1"],
+        "filename": "2024-07-17-sydney-routes-pulled.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "SYD1: Hazard Notice",
+        "createdAt": "2023-06-19 09:30:00 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2023-06-19-syd1-hazard-notice/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-06-19T10:35:51.285Z",
+        "affected": ["SYD1"],
+        "filename": "2023-06-19-syd1-hazard-notice.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "SYD1: Maintenance",
+        "createdAt": "2023-03-28 03:56:28.567 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2023-03-28-syd1-maintenance/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-03-28T05:07:35.398Z",
+        "affected": ["SYD1"],
+        "filename": "2023-03-28-syd1-maintenance.md"
+      }
+    
+  ]
+}
+
+
+
+
+

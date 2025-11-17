@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "London: Investigating",
+  "body": "\u003cp\u003e\u003cem\u003eInvestigating\u003c/em\u003e - We are investigating a potential issue that might affect the uptime of one our of services. As such we have pulled routes from the London region while we investigate.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e - Attempted to restore routes however we are seeing a problem with that. Please hold while the issue is identified.\u003c/p\u003e\n",
+  "createdAt": "2021-01-05 04:31:15.058 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2021-01-05-london-investigating/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2021-01-05T08:31:55.445Z",
+  "affected": ["LON1"],
+  "filename": "2021-01-05-london-investigating.md"
+}

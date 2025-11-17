@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "UK & Amsterdam Maintenance",
+  "body": "\u003cp\u003eWe will be conducting maintenance during regional off-peak in Europe tomorrow. No interruption is expected however a low risk of packet loss or latency does exist. This is the same maintenance conducted without interuption in Miami and L.A today.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eUpdate\u003c/strong\u003e  Maintenance is complete in both regions. Unfortunately not as smooth as yesterday with both regions experiencing short interruptions. Appologies for the inconvenience.\u003c/p\u003e\n\u003cp\u003eEverything should now be at 100%. Please feel free to contact us if you are experiencing any issues.\u003c/p\u003e\n",
+  "createdAt": "2021-04-03 02:00:00 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2021-03-03-uk-amsterdam-maintenance/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2021-03-04T02:18:22.810Z",
+  "affected": ["LON1", "AMS1"],
+  "filename": "2021-03-03-uk-amsterdam-maintenance.md"
+}

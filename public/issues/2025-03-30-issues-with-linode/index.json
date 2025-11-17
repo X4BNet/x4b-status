@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Issues with Akamai",
+  "body": "\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e Although we are yet to receive a response the issue has been resolved now for nearly 6 hours. As such we will mark as resolved.\u003c/p\u003e\n\u003cp\u003eSome services are affected by a service interruption with Linode (likely related to \u003ca href=\"https://status.linode.com/incidents/x14zys0wddxk)\"\u003ehttps://status.linode.com/incidents/x14zys0wddxk)\u003c/a\u003e. We opened a ticket 5 hours ago when it appeared as a minor issue on our monitoring however are yet to receive a response. Certain dashboard features are interrupted during this time.\u003c/p\u003e\n",
+  "createdAt": "2025-03-30 11:29:49.797 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2025-03-30-issues-with-linode/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2025-03-31T00:06:16.136Z",
+  "affected": ["WEB"],
+  "filename": "2025-03-30-issues-with-linode.md"
+}

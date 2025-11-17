@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Budget: Incident",
+  "body": "\u003cp\u003e\u003cem\u003eInvestigating\u003c/em\u003e - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eUpstream response\u003c/em\u003e - Confirms issue on their end.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eUpstream response\u003c/em\u003e - Upstream is experiencing DDoS attacks on unprotected resources they operate (extortion).\u003c/p\u003e\n\u003cp\u003eAttack looks to have ended for some hours. Marked as resolved.\u003c/p\u003e\n",
+  "createdAt": "2020-12-30 04:20:00 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2020-12-30-lux-incident/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2020-12-30T12:53:00.000Z",
+  "affected": ["LU1", "LV1", "NY1"],
+  "filename": "2020-12-30-lux-incident.md"
+}

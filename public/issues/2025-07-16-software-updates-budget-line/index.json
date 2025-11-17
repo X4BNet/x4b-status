@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Software Updates (Budget Line)",
+  "body": "\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e Complete\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e Started\u003c/p\u003e\n\u003cp\u003eWe will be performing system upgrades on Friday. No interruption is expected.\u003c/p\u003e\n\u003cp\u003eSystems will be done in parallel with an estimated total risk of interruption period per server of 30 minutes.\u003c/p\u003e\n\u003cp\u003eIf any interruption or unexpected event occurs we will update this incident.\u003c/p\u003e\n",
+  "createdAt": "2025-07-17 23:56:30.432 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2025-07-16-software-updates-budget-line/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2025-07-18T00:17:47.711Z",
+  "affected": ["LU1", "LV1", "NY1"],
+  "filename": "2025-07-16-software-updates-budget-line.md"
+}

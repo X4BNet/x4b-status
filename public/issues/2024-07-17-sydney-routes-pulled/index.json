@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Sydney: routes pulled",
+  "body": "\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e - We have been informed that the replacement parts for the failed upstream router have arrived. They will be getting installed on Friday.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eInvestigating\u003c/em\u003e - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.\u003c/p\u003e\n",
+  "createdAt": "2024-07-11 13:25:03.775 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2024-07-17-sydney-routes-pulled/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2024-07-27T15:14:18.226Z",
+  "affected": ["Syd1"],
+  "filename": "2024-07-17-sydney-routes-pulled.md"
+}

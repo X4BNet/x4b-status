@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "LA: Fault",
+  "body": "\u003cp\u003e\u003cstrong\u003eUpdate\u003c/strong\u003e Routes have been restored as Cogent have resolved the issue.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eUpdate\u003c/strong\u003e Upstream response: They are working with Cogent and hope to have a solution in a couple days. We will keep the routes removed from LAX until fixed.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eNote\u003c/strong\u003e We are aware of a fault upstream in LA. While we wait on resulution we have pulled all routes from the region.\u003c/p\u003e\n",
+  "createdAt": "2024-10-24 09:42:25.211 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2024-10-24-la-fault/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2024-12-03T03:40:50.534Z",
+  "affected": ["LAX1"],
+  "filename": "2024-10-24-la-fault.md"
+}

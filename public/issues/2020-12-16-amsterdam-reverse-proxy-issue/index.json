@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Amsterdam: Reverse Proxy issue",
+  "body": "\u003cp\u003eAn issue affecting Layer 4 reverse proxies in Amsterdam after todays maintenance has been reported and resolved. Appologies for the inconvenience.\u003c/p\u003e\n",
+  "createdAt": "2020-12-16 11:37:16.07 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2020-12-16-amsterdam-reverse-proxy-issue/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2020-12-16T11:37:16.086Z",
+  "affected": ["AMS1"],
+  "filename": "2020-12-16-amsterdam-reverse-proxy-issue.md"
+}

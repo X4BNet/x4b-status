@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://status.x4b.net/"/>
+    <title>LV1 on X4B Network Status</title>
+    <link>https://status.x4b.net/affected/lv1/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2025-11-10T22:30:00+00:00</lastBuildDate>
+    <updated>2025-11-10T22:30:00+00:00</updated>
+    
+    
+    
+      <atom:link href="https://status.x4b.net/affected/lv1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>[Resolved] Software Upgrades</title>
+        <link>https://status.x4b.net/issues/2025-11-07-software-upgrades/</link>
+        <pubDate>Mon, 10 Nov 2025 22:30:00 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2025-11-07-software-upgrades/</guid>
+        <category>2025-11-11T00:55:19.795Z</category>
+        <description>Update NY done. All Done. If you have any issues please do let us know.
+Update Vegas done. Sorry that one was a bit less smooth.
+Update Switzerland done.
+We will be performing system software updates on Tuesday (AEDT).
+It is expected that maintenance will take a couple hours per server. No interruption is expected however risk does exist.
+We will update this announcment when maintenance is complete. Thank you for your patience.</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Update&lt;/em&gt; NY done. All Done. If you have any issues please do let us know.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Update&lt;/em&gt; Vegas done. Sorry that one was a bit less smooth.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Update&lt;/em&gt; Switzerland done.&lt;/p&gt;
+&lt;p&gt;We will be performing system software updates on Tuesday (AEDT).&lt;/p&gt;
+&lt;p&gt;It is expected that maintenance will take a couple hours per server. No interruption is expected however risk does exist.&lt;/p&gt;
+&lt;p&gt;We will update this announcment when maintenance is complete. Thank you for your patience.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Budget Line Disrupted (US-EAST)</title>
+        <link>https://status.x4b.net/issues/2025-07-29-budget-line-disrupted/</link>
+        <pubDate>Tue, 29 Jul 2025 10:14:47 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2025-07-29-budget-line-disrupted/</guid>
+        <category>2025-07-29T10:14:47.651Z</category>
+        <description>Update No upstream updates at this time.
+Upstream network for all three PoPs has a reported interruption in New York. New York has been routed around sucessfully according to our observations.
+Eastern US may experience higher than expected latency until the situation is resolved.</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Update&lt;/em&gt; No upstream updates at this time.&lt;/p&gt;
+&lt;p&gt;Upstream network for all three PoPs has a reported interruption in New York. New York has been routed around sucessfully according to our observations.&lt;/p&gt;
+&lt;p&gt;Eastern US may experience higher than expected latency until the situation is resolved.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Software Updates (Budget Line)</title>
+        <link>https://status.x4b.net/issues/2025-07-16-software-updates-budget-line/</link>
+        <pubDate>Thu, 17 Jul 2025 23:56:30 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2025-07-16-software-updates-budget-line/</guid>
+        <category>2025-07-18T00:17:47.711Z</category>
+        <description>Update Complete
+Update Started
+We will be performing system upgrades on Friday. No interruption is expected.
+Systems will be done in parallel with an estimated total risk of interruption period per server of 30 minutes.
+If any interruption or unexpected event occurs we will update this incident.</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Update&lt;/em&gt; Complete&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Update&lt;/em&gt; Started&lt;/p&gt;
+&lt;p&gt;We will be performing system upgrades on Friday. No interruption is expected.&lt;/p&gt;
+&lt;p&gt;Systems will be done in parallel with an estimated total risk of interruption period per server of 30 minutes.&lt;/p&gt;
+&lt;p&gt;If any interruption or unexpected event occurs we will update this incident.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Vegas and Luxembourg</title>
+        <link>https://status.x4b.net/issues/2023-01-05-vegas-and-luxembourg/</link>
+        <pubDate>Fri, 06 Jan 2023 00:00:23 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2023-01-05-vegas-and-luxembourg/</guid>
+        <category>2023-01-06T00:57:27.047Z</category>
+        <description>We are scheduling maintenance (system restart) tomorrow for a quick patch. Interuption of less than 10 minutes is expected.
+C﻿omplete</description>
+        <content type="html">&lt;p&gt;We are scheduling maintenance (system restart) tomorrow for a quick patch. Interuption of less than 10 minutes is expected.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;C﻿omplete&lt;/strong&gt;&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Vegas: Offline</title>
+        <link>https://status.x4b.net/issues/2022-10-15-vegas-offline/</link>
+        <pubDate>Fri, 14 Oct 2022 18:25:00 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2022-10-15-vegas-offline/</guid>
+        <category>2022-10-15T07:50:10.046Z</category>
+        <description>U﻿pstream Incident Report -
+Short version:
+Networks&amp;rsquo; been crapping itself for the past day. After 2 - 3 hard failures today we did an emergency JunOS downgrade and are cautiously optimistic that it&amp;rsquo;s resolved.
+Longer/technical version:
+For the past month or so we&amp;rsquo;ve been suffering a weird issue where random IP addresses would stop responding. The issue is that our router would lose/expire out the ARP entry for these IP addresses and wouldn&amp;rsquo;t attempt to learn them again unless forced to.</description>
+        <content type="html">&lt;p&gt;U﻿pstream Incident Report -&lt;/p&gt;
+&lt;p&gt;Short version:&lt;br&gt;
+&lt;br&gt;
+Networks&amp;rsquo; been crapping itself for the past day. After 2 - 3 hard failures today we did an emergency JunOS downgrade and are cautiously optimistic that it&amp;rsquo;s resolved.&lt;br&gt;
+&lt;br&gt;
+Longer/technical version:&lt;br&gt;
+&lt;br&gt;
+For the past month or so we&amp;rsquo;ve been suffering a weird issue where random IP addresses would stop responding. The issue is that our router would lose/expire out the ARP entry for these IP addresses and wouldn&amp;rsquo;t attempt to learn them again unless forced to.&lt;br&gt;
+&lt;br&gt;
+No amount of traffic getting sent to the IP externally (pings, random connection attempts, etc) would make the router issue an ARP &amp;ldquo;who-has&amp;rdquo; message. The only fix was to either ping the IP on the LAN (through our speedtest page for instance), forcing the router to see the ARP message on the network, or to login to the router and ping from there.&lt;br&gt;
+&lt;br&gt;
+No amount of limits, tweaks, process restarts, etc, has helped with this. The only way to date has been the above methods.&lt;br&gt;
+&lt;br&gt;
+This morning we had an issue where all users on 209.141.x.x dropped offline. These subnets had been moved down to our new Cisco core switch to help resolve the issue. Our Juniper router dropped the ARP entry for the Cisco switch, killing BGP. After some time it re-learned then entry reestablished connectivity, bringing those subnets back online.&lt;br&gt;
+&lt;br&gt;
+This happened three times in the past 24 hours, each outage lasting anywhere from 5 minutes to 30 minutes.&lt;br&gt;
+&lt;br&gt;
+Las Vegas is the only location suffering this issue. The key difference between all locations being that Vegas was running JunOS 20.4, where as everywhere else is 18.2~4. In JunOS 20.x they made changes to ARP to allow policing. While we did change this policy, it didn&amp;rsquo;t help us any.&lt;br&gt;
+&lt;br&gt;
+As of an hour ago we performed a downgrade to JunOS 18.4. It obviously went terribly. After some research we found the configuration entry causing issues (our 100G ports kept channelizing) and fixed it, bringing things back online.&lt;br&gt;
+&lt;br&gt;
+As of now, ARP&amp;rsquo;s are resolving near instantaneously, even for new IP addresses. We took this as a good time to change the rest of our ports to 100G, giving us a 400Gbit interlink between our router and core switch.&lt;br&gt;
+&lt;br&gt;
+We&amp;rsquo;re cautiously optimistic that this issue is now resolved.&lt;br&gt;
+&lt;br&gt;
+We thank you for your patience.&lt;/p&gt;
+&lt;p&gt;-﻿-&lt;/p&gt;
+&lt;p&gt;U﻿pstream reports that it is conducting emergency maintenance to downgrade the router firmware in an attempt to resolve issues.&lt;/p&gt;
+&lt;p&gt;-﻿&amp;ndash;&lt;/p&gt;
+&lt;p&gt;O﻿ffline again, ticket has been sent.&lt;/p&gt;
+&lt;p&gt;-﻿&amp;ndash;&lt;/p&gt;
+&lt;p&gt;U﻿pstream restored services.&lt;/p&gt;
+&lt;p&gt;T﻿he underlying issue (router bug) is still under investigation.&lt;/p&gt;
+&lt;p&gt;-﻿&amp;ndash;&lt;/p&gt;
+&lt;p&gt;Vegas upstream is offline. We have ticketed them and contacted staff members. We await response.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Budget PoPs offline (upstream)</title>
+        <link>https://status.x4b.net/issues/2022-02-15-budget-pops-offline-upstream/</link>
+        <pubDate>Tue, 15 Feb 2022 00:07:29 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2022-02-15-budget-pops-offline-upstream/</guid>
+        <category>2022-02-15T00:20:57.017Z</category>
+        <description>Investigating - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+Update - Upstream resolved.</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Update&lt;/em&gt; - Upstream resolved.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] LV1: Outage</title>
+        <link>https://status.x4b.net/issues/2021-12-05-lv1-outage/</link>
+        <pubDate>Sun, 05 Dec 2021 23:37:00 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2021-12-05-lv1-outage/</guid>
+        <category>2021-12-06T00:57:00.000Z</category>
+        <description>Investigating - We are aware of an outage in Vegas, we reported to datacenter and are awaiting resolution.
+Update - Local engineer on his way to datacenter to replace server PSU
+Update Fixed</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are aware of an outage in Vegas, we reported to datacenter and are awaiting resolution.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Update&lt;/em&gt; - Local engineer on his way to datacenter to replace server PSU&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Update&lt;/em&gt; Fixed&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Budget: Issue continued.</title>
+        <link>https://status.x4b.net/issues/2021-01-02-budget-issue-continued/</link>
+        <pubDate>Sat, 02 Jan 2021 03:49:26 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2021-01-02-budget-issue-continued/</guid>
+        <category>2021-01-02T07:04:00.000Z</category>
+        <description>Investigating - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+Upstream - Confirmed issue with them.</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Upstream&lt;/em&gt; - Confirmed issue with them.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Budget: Incident</title>
+        <link>https://status.x4b.net/issues/2020-12-30-lux-incident/</link>
+        <pubDate>Wed, 30 Dec 2020 04:20:00 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2020-12-30-lux-incident/</guid>
+        <category>2020-12-30T12:53:00.000Z</category>
+        <description>Investigating - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+Upstream response - Confirms issue on their end.
+Upstream response - Upstream is experiencing DDoS attacks on unprotected resources they operate (extortion).
+Attack looks to have ended for some hours. Marked as resolved.</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Upstream response&lt;/em&gt; - Confirms issue on their end.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Upstream response&lt;/em&gt; - Upstream is experiencing DDoS attacks on unprotected resources they operate (extortion).&lt;/p&gt;
+&lt;p&gt;Attack looks to have ended for some hours. Marked as resolved.&lt;/p&gt;
+</content>
+      </item>
+    
+  </channel>
+</rss>

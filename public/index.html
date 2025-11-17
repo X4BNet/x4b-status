@@ -1,0 +1,4823 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content="We continuously monitor the status of our services and if there are any interruptions, a note will be posted here. The information here is the result of Automated and Manual input.">
+    <title>X4B Network Status</title>
+    <link rel="canonical" href="https://status.x4b.net/">
+    <link rel="alternate" type="application/json" href="https://status.x4b.net/index.json" title="X4B Network Status" />
+    <link rel="alternate" type="application/rss+xml" href="https://status.x4b.net/index.xml" title="X4B Network Status" />
+    <link rel="alternate" type="image/svg+xml" href="https://status.x4b.net/index.svg" title="X4B Network Status" />
+    <meta name="generator" content="cState v4.1.0 - https://github.com/cstate/cstate">
+    <meta name="theme-color" content="#0a0c0f">
+    <script>
+    var themeBrandColor = '#0a0c0f';
+    var themeOkColor = '#008000';
+    var themeNoticeColor = '#24478f';
+    var themeDisruptedColor = '#cc4400';
+    var themeDownColor = '#e60000';
+
+
+    </script>
+    
+    <style>
+    html, body {
+      margin: 0;
+      background: #fff;
+      color: #4d4d4d;
+      font: 100%/1.5 "Inter", "Inter UI", BlinkMacSystemFont, -apple-system, "San Francisco Text", "Roboto", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: rgba(0,0,0, 0.25);
+    }
+
+    ::selection { background: #B4D5FF; }
+
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+
+    a {
+      text-decoration: none;
+      color: #000;
+      border-bottom: 1px dotted currentColor;
+    }
+
+    a:hover { border-bottom-style: solid; }
+    a:active { position: relative; top: 2px; }
+
+    hr {
+      border: 0;
+      border-bottom: 1px solid #ccc;
+      margin: 24px 0;
+    }
+
+    h1 {
+      font-size: 40px;
+      line-height: 1;
+    }
+    h2 { font-size: 26px; }
+    h3 { font-size: 20px; }
+    h4 { font-size: 18px; }
+
+    h1, h2, h4 {
+      font-weight: normal;
+      color: #000;
+      font-family: "Inter", "Inter UI", "Segoe UI", BlinkMacSystemFont, -apple-system, "San Francisco Display", "Roboto", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      letter-spacing: -0.4px;
+    }
+
+    h3 {
+      margin: 0;
+      color: #000;
+    }
+
+    img {
+      border: 0;
+      width: 100%;
+      height: auto;
+    }
+
+     
+
+    a.no-underline { border-bottom: 0; }
+
+    .headline { font-size: 20px; }
+
+    .bold { color: #000; }
+    .hinted { color: #6d6d6d; }
+    .faded { color: #6d6d6d; }
+
+    .clean { margin: 0; }
+
+    .ok { color: #008000; }
+    .warning { color: #cc4400; }
+    .error { color: #e60000; }
+
+    .contain {
+      max-width: 640px;
+      margin: 16px auto;
+      padding: 16px;
+    }
+
+    .contain--more { max-width: 680px; }
+
+    .center { text-align: center; }
+    .right { text-align: right; }
+    .padding-s { padding: 6px; }
+    .padding { padding: 12px; }
+    .clicky { cursor: pointer; }
+
+
+     
+
+     
+    .js .category--open .category__closed-marker { display: none; }
+    .js .category--closed .components { display: none; }
+    .js .category--closed .category__open-marker { display: none; }
+
+     
+    .js .hidden-with-js { display: none; }
+    .hide-without-js { display: none; }
+    .js span.hide-without-js { display: inline; }
+    .js div.hide-without-js { display: block; }
+
+
+     
+
+    .date {
+      display: block;
+      margin-top: 12px;
+      color: #666;
+      font-variant: small-caps;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 4px 8px;
+      margin-right: 4px;
+      margin-bottom: 2px;
+      background: #eee;
+    }
+
+    .tag:hover { background: #ddd; }
+
+     
+
+    .header {
+      padding: 8px 0;
+      background: #0a0c0f;
+    }
+
+    .header a {
+      color: #fff;
+      font-size: 14px;
+      font-variant: small-caps;
+    }
+      
+    
+      
+    .header__logo img {
+      height: auto;
+      width: 320px;	border-right: #7c7c7c solid 2px;
+      padding-right: 10px;
+    }
+
+    .header__logo--small img {
+      height: auto;
+      width: 160px;	border-right: #7c7c7c solid 2px;
+      padding-right: 10px;
+    }
+
+    .header__logo--small h1 {
+      color: white;
+      display: inline;
+      padding-left: 4px;
+    }
+
+    .header--large { padding: 16px; }
+    .header--large a { font-size: 20px; }
+
+    .footer {
+      padding: 10px;
+      background: #f5f5f5;
+    }
+
+    .footer__copyright {
+      display: block;
+      font-variant: small-caps;
+    }
+
+    .footer__copyright a, a.header__logo {
+      border-bottom: 0;
+    }
+
+     
+
+    .summary {
+      padding: 16px;
+      color: #fff;
+    }
+
+    .summary__date:hover {
+      color: #ccc;
+    }
+
+    .summary__date:hover:after {
+      content: ' ⟳ ';
+      color: #fff;
+    }
+
+     
+
+     .components {
+       border: 2px solid #ddd;
+       border-bottom: 0;
+     }
+
+     .component {
+       color: #000;
+       padding: 16px;
+       border-bottom: 2px solid #ddd;
+     }
+
+    .tooltip { cursor: pointer; position: relative; }
+    .tooltip__text { display: none; }
+    .tooltip:hover .tooltip__text,
+    .tooltip:active .tooltip__text  {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 24px;
+      background: #181818;
+      color: #fff;
+      z-index: 50;
+      padding: 8px;
+      border: 2px solid #242424;
+      font-size: 14px;
+      color: #ccc;
+      width: 320px;
+      height: auto;
+    }
+
+    @media (max-width: 640px) {
+      .tooltip:hover .tooltip__text,
+      .tooltip:active .tooltip__text {
+        width: 50vw;
+      }
+    }
+
+     
+
+    .tabs { border-bottom: 1px solid #ccc; }
+    .tabs--inner { padding: 0 16px; margin: 0 auto; }
+    a.tab { display: inline-table; }
+
+    .tab--current {
+      border: 1px solid #ccc;
+      border-bottom-color: #fff;
+      padding: 12px 18px;
+      position: relative;
+      top: 1px;
+    }
+
+    .tab--other {
+      border: 0;
+      padding: 12px 18px;
+      position: relative;
+      top: 1px;
+      color: #757575;
+    }
+
+    .tab--other:hover { color: #000; }
+
+     
+
+    .issue { display: block; padding: 14px 24px; }
+    .issue:hover, .category__head:hover { background: #f5f5f5; }
+    .issue:active, .category__head:active { background: #eee; }
+
+    .issue h3 { line-height: 1.25; }
+
+    .category__head { margin-top: 20px; }
+
+
+     
+
+    .status-ok .summary { background: #008000; }
+    .status-disrupted .summary, .change-header-color.status-disrupted .header { background: #cc4400; }
+    .status-down .summary, .change-header-color.status-down .header { background: #e60000; }
+    .status-notice .summary, .change-header-color.status-notice .header { background: #24478f; }
+
+    .announcement-box .padding {
+      padding: 16px;
+    }
+
+    .status-disrupted .announcement-box { border: 2px solid #cc4400; }
+    .status-down .announcement-box { border: 2px solid #e60000; }
+    .status-notice .announcement-box { border: 2px solid #24478f; }
+    .status-disrupted .announcement-box,
+    .status-down .announcement-box,
+    .status-notice .announcement-box { border-top: 0; }
+
+     
+
+    .component-status { float: right; }
+    .component[data-status="ok"] .component-status { color: #008000; }
+    .component[data-status="disrupted"] .component-status { color: #cc4400; }
+    .component[data-status="down"] .component-status { color: #e60000; }
+    .component[data-status="notice"] .component-status { color: #24478f; }
+
+     
+
+    @media (min-width: 640px) {
+      .float-right {
+        float: right;
+        display: inline;
+      }
+    }
+
+    
+       
+      
+      @media (prefers-color-scheme: dark) {
+         
+        html, body { background:  #181a1b; color: #ccc9c1; }
+        h1, h2, h3, h4, a, .bold { color: #fafafa; }
+        hr { border-bottom-color: #3d3d3d; }
+        
+         
+        .footer { background: #1b1d1e; }
+        
+        .components {
+          border: 2px solid #ddd;
+          border-bottom: 0;
+          border-color: #3a3a3a;
+        }
+
+        .component {
+          border-bottom: 2px solid #ddd;
+          color: #e8e6e3;
+          border-bottom-color: #3a3a3a;
+        }
+
+        .tabs { border-bottom-color: #3d3d3d; }
+        .tab--current {
+          border-color: #3d3d3d;
+          border-bottom-color: #181a1b;
+        }
+        .tab--other { color: #757575; }
+        .tab--other:hover { color: #fff; }
+
+        .date { color: #c3bfb6; }
+
+        .tag { background-color: #1d1f20; }
+        .tag:hover { background: #222; }
+        .issue:hover,
+        .category__head:hover { background-color: #212121; }
+
+         
+
+        .hinted, .faded { color: #c1bcb3; }
+        .error { color: #ff4242; }
+        .warning {color: #ffde7f; }
+        .ok { color: #7fff7f; }
+
+        .component[data-status="ok"] 
+        .component-status { color: #7fff7f; }
+        .component[data-status="disrupted"] 
+        .component-status { color: #ffde7f; }
+        .component[data-status="notice"] 
+        .component-status { color: #83a4e8; }
+        .component[data-status="down"]
+        .component-status { color: #ff8181; }
+      }
+    
+    </style>
+    
+  </head>
+
+
+
+
+
+
+
+
+
+  <body class="status-homepage status-notice ">
+    
+
+
+<div class="header">
+  <div class="contain">
+    <a href="/" class="header__logo header__logo--small">
+      
+        <img src="/logo.svg" alt="X4B Network Status">
+      
+      <h1>Network Status</h1>
+    </a>
+  </div>
+</div>
+
+
+
+
+
+    
+    <div class="contain">
+      
+      <noscript>
+  <p class="error">Uh oh! It looks like you have disabled JavaScript. Please <a href="//enable-javascript.com">enable scripting</a> to enhance your experience on this website.</p>
+  <div class="padding"></div>
+</noscript>
+
+      
+      
+
+
+
+
+
+
+<div class="summary">
+  <strong>
+    
+    
+    
+      Please read announcement
+    
+  </strong>
+
+  <div class="summary__date clicky float-right relative-time" onclick="location.reload()" data-time-prefix="Last updated "></div>
+</div>
+
+
+      
+      
+
+
+
+  <div class="announcement-box" style="border-bottom: 0">
+    
+      <div class="padding">
+        <p>
+          <a href="/issues/2025-11-11-software-upgrades-anycast/"><strong class="bold">Software Upgrades: Anycast →</strong></a>
+        </p>
+
+        <p><small>
+          
+              
+          <a href="/affected/ash1/" class="tag no-underline">ASH1</a>
+          
+          
+              
+          <a href="/affected/chi1/" class="tag no-underline">CHI1</a>
+          
+          
+              
+          <a href="/affected/dal1/" class="tag no-underline">DAL1</a>
+          
+          
+              
+          <a href="/affected/lax1/" class="tag no-underline">LAX1</a>
+          
+          
+              
+          <a href="/affected/mim1/" class="tag no-underline">MIM1</a>
+          
+          
+              
+          <a href="/affected/ams1/" class="tag no-underline">AMS1</a>
+          
+          
+              
+          <a href="/affected/lon1/" class="tag no-underline">LON1</a>
+          
+          
+              
+          <a href="/affected/br1/" class="tag no-underline">BR1</a>
+          
+          
+              
+          <a href="/affected/sg1/" class="tag no-underline">SG1</a>
+          
+          
+              
+          <a href="/affected/jp1/" class="tag no-underline">JP1</a>
+          
+          
+              
+          <a href="/affected/syd1/" class="tag no-underline">SYD1</a>
+          
+          
+        </small></p>
+
+        <p>It is expected that maintenance will take approximately 1 hour per server. No interruption is expected however risk does exist. We will be updating a couple servers at a time.</p>
+<p>There is the chance that we will need to do the update of some servers the following day. However the plan is to get all the servers done in one day if possible.</p>
+<p>This is the same update that has already been performed on the budget line.</p>
+<p>We will update this announcment when maintenance for each region is complete. Thank you for your patience.</p>
+
+        <p></p>
+      </div>
+      <hr class="clean announcement-box">
+    
+  </div>
+
+
+      
+      
+
+      
+      
+
+
+
+
+
+
+
+<div class="categories">
+  
+  
+
+  <script>
+  function toggleCategoryHead(el) {
+    if (el.parentNode.className == 'category category--open') {
+      el.parentNode.className = 'category category--closed';
+    } else {
+      el.parentNode.className = 'category category--open';
+    }
+  }
+  </script>
+
+  
+    <div class="category category--open" id="filtering-north-american-anycast">
+      
+      <div class="bold padding clicky category__head" onclick="toggleCategoryHead(this)">
+        <span class="hide-without-js">
+          <span class="category__closed-marker">►</span>
+          <span class="category__open-marker">✕</span>
+        </span>
+
+      <b>
+        Filtering: North American Anycast
+      </b>
+      
+      
+        
+        <b>:</b> North American Filtering Servers 
+        
+      
+
+      </div>
+      
+
+      
+
+      <div class="components">
+      
+        
+
+        
+        
+        
+
+        <div class="component" data-status="notice">
+          <a href="/affected/lax1" class="no-underline">
+            LAX1
+          </a>
+
+         
+            
+            
+              <b>:</b> Los Angeles 1 
+            
+          
+
+          <span class="component-status">
+            
+            
+            
+              Maintenance
+            
+          </span>
+
+          
+        </div>
+      
+        
+
+        
+        
+        
+
+        <div class="component" data-status="notice">
+          <a href="/affected/dal1" class="no-underline">
+            DAL1
+          </a>
+
+         
+            
+            
+              <b>:</b> Dallas 1 
+            
+          
+
+          <span class="component-status">
+            
+            
+            
+              Maintenance
+            
+          </span>
+
+          
+        </div>
+      
+        
+
+        
+        
+        
+
+        <div class="component" data-status="notice">
+          <a href="/affected/chi1" class="no-underline">
+            CHI1
+          </a>
+
+         
+            
+            
+              <b>:</b> Chicago 1 
+            
+          
+
+          <span class="component-status">
+            
+            
+            
+              Maintenance
+            
+          </span>
+
+          
+        </div>
+      
+        
+
+        
+        
+        
+
+        <div class="component" data-status="notice">
+          <a href="/affected/ash1" class="no-underline">
+            ASH1
+          </a>
+
+         
+            
+            
+              <b>:</b> Ashburn 1 
+            
+          
+
+          <span class="component-status">
+            
+            
+            
+              Maintenance
+            
+          </span>
+
+          
+        </div>
+      
+        
+
+        
+        
+        
+
+        <div class="component" data-status="notice">
+          <a href="/affected/mim1" class="no-underline">
+            MIM1
+          </a>
+
+         
+            
+            
+              <b>:</b> Miami 1 
+            
+          
+
+          <span class="component-status">
+            
+            
+            
+              Maintenance
+            
+          </span>
+
+          
+        </div>
+      
+      </div>
+    </div>
+  
+    <div class="category category--open" id="filtering-european-anycast">
+      
+      <div class="bold padding clicky category__head" onclick="toggleCategoryHead(this)">
+        <span class="hide-without-js">
+          <span class="category__closed-marker">►</span>
+          <span class="category__open-marker">✕</span>
+        </span>
+
+      <b>
+        Filtering: European Anycast
+      </b>
+      
+      
+        
+        <b>:</b> European &amp; UK Filtering Servers 
+        
+      
+
+      </div>
+      
+
+      
+
+      <div class="components">
+      
+        
+
+        
+        
+        
+
+        <div class="component" data-status="notice">
+          <a href="/affected/ams1" class="no-underline">
+            AMS1
+          </a>
+
+         
+            
+            
+              <b>:</b> Amsterdam 1 
+            
+          
+
+          <span class="component-status">
+            
+            
+            
+              Maintenance
+            
+          </span>
+
+          
+        </div>
+      
+        
+
+        
+        
+        
+
+        <div class="component" data-status="notice">
+          <a href="/affected/lon1" class="no-underline">
+            LON1
+          </a>
+
+         
+            
+            
+              <b>:</b> London 1 
+            
+          
+
+          <span class="component-status">
+            
+            
+            
+              Maintenance
+            
+          </span>
+
+          
+        </div>
+      
+      </div>
+    </div>
+  
+    <div class="category category--open" id="filtering-south-american-anycast">
+      
+      <div class="bold padding clicky category__head" onclick="toggleCategoryHead(this)">
+        <span class="hide-without-js">
+          <span class="category__closed-marker">►</span>
+          <span class="category__open-marker">✕</span>
+        </span>
+
+      <b>
+        Filtering: South American Anycast
+      </b>
+      
+      
+        
+        <b>:</b> South American Filtering Servers 
+        
+      
+
+      </div>
+      
+
+      
+
+      <div class="components">
+      
+        
+
+        
+        
+        
+
+        <div class="component" data-status="notice">
+          <a href="/affected/br1" class="no-underline">
+            BR1
+          </a>
+
+         
+            
+            
+              <b>:</b> Brazil 1 
+            
+          
+
+          <span class="component-status">
+            
+            
+            
+              Maintenance
+            
+          </span>
+
+          
+        </div>
+      
+      </div>
+    </div>
+  
+    <div class="category category--open" id="filtering-asia-oceana-anycast">
+      
+      <div class="bold padding clicky category__head" onclick="toggleCategoryHead(this)">
+        <span class="hide-without-js">
+          <span class="category__closed-marker">►</span>
+          <span class="category__open-marker">✕</span>
+        </span>
+
+      <b>
+        Filtering: Asia &amp; Oceana Anycast
+      </b>
+      
+      
+        
+        <b>:</b> Asia and Australian Filtering Servers 
+        
+      
+
+      </div>
+      
+
+      
+
+      <div class="components">
+      
+        
+
+        
+        
+        
+
+        <div class="component" data-status="ok">
+          <a href="/affected/sgp1" class="no-underline">
+            SGP1
+          </a>
+
+         
+            
+            
+              <b>:</b> Singapore 1 
+            
+          
+
+          <span class="component-status">
+            
+            
+            
+              Operational
+            
+          </span>
+
+          
+        </div>
+      
+        
+
+        
+        
+        
+
+        <div class="component" data-status="ok">
+          <a href="/affected/tok1" class="no-underline">
+            TOK1
+          </a>
+
+         
+            
+            
+              <b>:</b> Tokyo 1 
+            
+          
+
+          <span class="component-status">
+            
+            
+            
+              Operational
+            
+          </span>
+
+          
+        </div>
+      
+        
+
+        
+        
+        
+
+        <div class="component" data-status="notice">
+          <a href="/affected/syd1" class="no-underline">
+            SYD1
+          </a>
+
+         
+            
+            
+              <b>:</b> Sydney 1 
+            
+          
+
+          <span class="component-status">
+            
+            
+            
+              Maintenance
+            
+          </span>
+
+          
+        </div>
+      
+      </div>
+    </div>
+  
+    <div class="category category--open" id="filtering-budget-range">
+      
+      <div class="bold padding clicky category__head" onclick="toggleCategoryHead(this)">
+        <span class="hide-without-js">
+          <span class="category__closed-marker">►</span>
+          <span class="category__open-marker">✕</span>
+        </span>
+
+      <b>
+        Filtering: Budget Range
+      </b>
+      
+      
+        
+        <b>:</b> US &amp; European Budget Filtering servers 
+        
+      
+
+      </div>
+      
+
+      
+
+      <div class="components">
+      
+        
+
+        
+        
+        
+
+        <div class="component" data-status="ok">
+          <a href="/affected/lv1" class="no-underline">
+            LV1
+          </a>
+
+         
+            
+            
+              <b>:</b> Las Vegas 1 
+            
+          
+
+          <span class="component-status">
+            
+            
+            
+              Operational
+            
+          </span>
+
+          
+        </div>
+      
+        
+
+        
+        
+        
+
+        <div class="component" data-status="ok">
+          <a href="/affected/ny1" class="no-underline">
+            NY1
+          </a>
+
+         
+            
+            
+              <b>:</b> New York 1 
+            
+          
+
+          <span class="component-status">
+            
+            
+            
+              Operational
+            
+          </span>
+
+          
+        </div>
+      
+        
+
+        
+        
+        
+
+        <div class="component" data-status="ok">
+          <a href="/affected/lu1" class="no-underline">
+            LU1
+          </a>
+
+         
+            
+            
+              <b>:</b> Luxemburg 1 
+            
+          
+
+          <span class="component-status">
+            
+            
+            
+              Operational
+            
+          </span>
+
+          
+        </div>
+      
+      </div>
+    </div>
+  
+    <div class="category category--open" id="core-platform">
+      
+      <div class="bold padding clicky category__head" onclick="toggleCategoryHead(this)">
+        <span class="hide-without-js">
+          <span class="category__closed-marker">►</span>
+          <span class="category__open-marker">✕</span>
+        </span>
+
+      <b>
+        Core Platform
+      </b>
+      
+      
+        
+        <b>:</b> Web and Core Platform Services 
+        
+      
+
+      </div>
+      
+
+      
+
+      <div class="components">
+      
+        
+
+        
+        
+        
+
+        <div class="component" data-status="ok">
+          <a href="/affected/web" class="no-underline">
+            WEB
+          </a>
+
+         
+            
+            
+              <b>:</b> Client Portal and Website 
+            
+          
+
+          <span class="component-status">
+            
+            
+            
+              Operational
+            
+          </span>
+
+          
+        </div>
+      
+      </div>
+    </div>
+  
+
+</div>
+
+
+      
+      
+    </div>
+
+  
+  
+  
+    <div class="contain contain--more">
+      <h2 class="center">Incident history</h2>
+      <hr class="clean">
+    </div>
+  
+
+
+
+  
+  
+    <div class="contain contain--more" id="incidents">
+      
+        
+
+
+
+  
+  <p class="center archive__head" id="archive-2025"><a href="#archive-2025" class="no-underline"><strong>2025</strong>
+    <span class="faded">(21)</span>
+  </a></p>
+  
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2025-11-11-software-upgrades-anycast/" class="issue no-underline">
+  
+
+    <small class="date float-right">
+      
+        November 17, 2025 at 10:30 PM
+      
+    </small>
+
+    <h3>
+      Software Upgrades: Anycast
+    </h3>
+
+    
+    
+      <strong class="warning">
+        ◆ 
+        This issue is not resolved yet
+      </strong>
+    
+
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2025-11-12-http-log-information/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        November 12, 2025 at 5:07 AM
+      
+    </small>
+
+    <h3>
+      HTTP Log information
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="ok">
+          Resolved after
+
+          
+
+          34m
+           of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2025-11-07-software-upgrades/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        November 10, 2025 at 10:30 PM
+      
+    </small>
+
+    <h3>
+      Software Upgrades
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          2h
+          25m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2025-11-06-maintenance/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        November 7, 2025 at 12:30 AM
+      
+    </small>
+
+    <h3>
+      Maintenance
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          1h
+          37m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2025-11-05-ntt-brazil/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        November 5, 2025 at 12:10 AM
+      
+    </small>
+
+    <h3>
+      NTT Brazil
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          3h
+          21m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2025-10-10-brazil-outage/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        October 9, 2025 at 10:29 PM
+      
+    </small>
+
+    <h3>
+      Brazil outage
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          3h
+          5m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2025-09-01-ashburn-emergency-maintenance/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        September 2, 2025 at 1:00 PM
+      
+    </small>
+
+    <h3>
+      Ashburn Emergency Maintenance
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          4h
+          0m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2025-08-27-reduced-quality-of-eu-routes/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        August 27, 2025 at 2:02 AM
+      
+    </small>
+
+    <h3>
+      Reduced quality of EU routes
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          6h
+          24m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2025-08-12-recaptcha-depreciation/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        August 12, 2025 at 4:29 AM
+      
+    </small>
+
+    <h3>
+      Recaptcha Depreciation
+    </h3>
+
+    
+    
+    
+
+    
+    
+    <div class="faded">
+      Resolved in under a minute
+    </div>
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2025-07-29-budget-line-disrupted/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        July 29, 2025 at 10:14 AM
+      
+    </small>
+
+    <h3>
+      Budget Line Disrupted (US-EAST)
+    </h3>
+
+    
+    
+    
+
+    
+    
+    <div class="faded">
+      Resolved in under a minute
+    </div>
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2025-07-27-cloud-service-outage/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        July 27, 2025 at 11:08 AM
+      
+    </small>
+
+    <h3>
+      Cloud Service outage
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          41h
+          43m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2025-07-26-lux-migrating-to-switzerland/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        July 26, 2025 at 2:06 PM
+      
+    </small>
+
+    <h3>
+      LUX: Migrating to Switzerland
+    </h3>
+
+    
+    
+    
+
+    
+    
+    <div class="faded">
+      Resolved in under a minute
+    </div>
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2025-07-26-lux-interruption/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        July 26, 2025 at 1:18 PM
+      
+    </small>
+
+    <h3>
+      LUX interruption
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          22h
+          1m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2025-07-22-software-updates-anycast/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        July 22, 2025 at 11:00 PM
+      
+    </small>
+
+    <h3>
+      Software Updates (Anycast)
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          1h
+          3m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2025-07-16-software-updates-budget-line/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        July 17, 2025 at 11:56 PM
+      
+    </small>
+
+    <h3>
+      Software Updates (Budget Line)
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="ok">
+          Resolved after
+
+          
+
+          21m
+           of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2025-07-11-autossl-issues/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        July 11, 2025 at 9:39 AM
+      
+    </small>
+
+    <h3>
+      Autossl issues 
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          39h
+          16m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2025-06-03-ams-scheduled-maintenance/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        June 5, 2025 at 8:00 AM
+      
+    </small>
+
+    <h3>
+      AMS: Scheduled Maintenance
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          2h
+          0m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2025-05-30-ams-interruption/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        May 30, 2025 at 1:58 PM
+      
+    </small>
+
+    <h3>
+      AMS Interruption
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          92h
+          28m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2025-05-14-dallas-network-maintenance/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        May 19, 2025 at 9:00 AM
+      
+    </small>
+
+    <h3>
+      Dallas: Network Maintenance
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="ok">
+          Resolved after
+
+          
+
+          8m
+           of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2025-03-30-issues-with-linode/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        March 30, 2025 at 11:29 AM
+      
+    </small>
+
+    <h3>
+      Issues with Akamai
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          12h
+          36m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2025-03-10-dallas-potential-issue-with-cogent/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        March 10, 2025 at 9:40 AM
+      
+    </small>
+
+    <h3>
+      Dallas: Potential issue with Cogent
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          865h
+          25m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+
+  
+  <p class="center archive__head" id="archive-2024"><a href="#archive-2024" class="no-underline"><strong>2024</strong>
+    <span class="faded">(15)</span>
+  </a></p>
+  
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2024-12-05-block-storage-outage/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        December 5, 2024 at 7:05 AM
+      
+    </small>
+
+    <h3>
+      Block Storage outage
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="ok">
+          Resolved after
+
+          
+
+          51m
+           of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2024-10-24-la-fault/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        October 24, 2024 at 9:42 AM
+      
+    </small>
+
+    <h3>
+      LA: Fault
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          953h
+          58m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2024-10-16-paypal-payments-delayed/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        October 15, 2024 at 12:53 AM
+      
+    </small>
+
+    <h3>
+      Paypal payments delayed
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          224h
+          53m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2024-10-08-lux-offline-event/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        October 8, 2024 at 2:37 PM
+      
+    </small>
+
+    <h3>
+      Lux: offline event 
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          5h
+          29m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2024-08-23-ashburn-offline/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        August 23, 2024 at 2:10 AM
+      
+    </small>
+
+    <h3>
+      Ashburn offline
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="ok">
+          Resolved after
+
+          
+
+          30m
+           of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2024-07-17-sydney-routes-pulled/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        July 11, 2024 at 1:25 PM
+      
+    </small>
+
+    <h3>
+      Sydney: routes pulled
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          385h
+          49m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2024-05-29-uk-migration-04-06-05-06/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        June 4, 2024 at 10:10 AM
+      
+    </small>
+
+    <h3>
+      UK Migration 04/06 - 05/06
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          39h
+          40m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2024-05-26-dallas-storm/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        May 26, 2024 at 12:15 PM
+      
+    </small>
+
+    <h3>
+      Dallas storm
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          7h
+          42m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2024-04-13-uk-lon-removal-temporary/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        April 13, 2024 at 12:28 PM
+      
+    </small>
+
+    <h3>
+      UK / LON removal (temporary)
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          109h
+          30m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2024-02-07-scheduled-maintenance-on-datastore/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        February 7, 2024 at 11:00 PM
+      
+    </small>
+
+    <h3>
+      Scheduled Maintenance on Datastore
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          5h
+          0m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2024-02-01-london-core-router-software-update/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        February 2, 2024 at 2:00 PM
+      
+    </small>
+
+    <h3>
+      London Core Router Software Update
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          34h
+          32m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2024-02-01-network-maintenance/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        February 1, 2024 at 8:08 AM
+      
+    </small>
+
+    <h3>
+      Network Maintenance
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          24h
+          53m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2024-01-24-singapore-emergency-maintenance/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        January 24, 2024 at 8:16 PM
+      
+    </small>
+
+    <h3>
+      Singapore: Emergency Maintenance
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="ok">
+          Resolved after
+
+          
+
+          10m
+           of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2024-01-17-dashboard-website-offline/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        January 17, 2024 at 9:01 AM
+      
+    </small>
+
+    <h3>
+      Dashboard &amp; Website offline
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          2h
+          14m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2024-01-15-chicago-offline/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        January 15, 2024 at 11:39 AM
+      
+    </small>
+
+    <h3>
+      Chicago: Offline
+    </h3>
+
+    
+    
+    
+
+    
+    
+    <div class="faded">
+      Resolved in under a minute
+    </div>
+    
+  
+</a>
+
+  
+
+  
+  <p class="center archive__head" id="archive-2023"><a href="#archive-2023" class="no-underline"><strong>2023</strong>
+    <span class="faded">(11)</span>
+  </a></p>
+  
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2023-09-01-lax-temporarily-removed/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        September 1, 2023 at 12:11 PM
+      
+    </small>
+
+    <h3>
+      LAX: Temporarily removed
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          4457h
+          12m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2023-08-20-lax-issues/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        August 20, 2023 at 8:37 AM
+      
+    </small>
+
+    <h3>
+      LAX: Issues
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          3h
+          57m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2023-07-25-hazard-notice/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        July 26, 2023 at 3:00 AM
+      
+    </small>
+
+    <h3>
+      Hazard Notice
+    </h3>
+
+    
+    
+    
+
+    
+    
+    <div class="faded">
+      Resolved in under a minute
+    </div>
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2023-06-28-hazard-notice-amsterdam-ashburn-chicago/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        June 29, 2023 at 1:00 AM
+      
+    </small>
+
+    <h3>
+      Hazard Notice: Amsterdam, Ashburn, Chicago
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="ok">
+          Resolved after
+
+          
+
+          43m
+           of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2023-06-26-dallas-japan-issue-detected/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        June 26, 2023 at 12:47 PM
+      
+    </small>
+
+    <h3>
+      Dallas &amp; Japan issue detected
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          15h
+          25m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2023-06-22-hazard-notice/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        June 23, 2023 at 4:00 AM
+      
+    </small>
+
+    <h3>
+      Hazard Notice
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          3h
+          28m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2023-06-19-syd1-hazard-notice/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        June 19, 2023 at 9:30 AM
+      
+    </small>
+
+    <h3>
+      SYD1: Hazard Notice
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          1h
+          5m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2023-05-12-configuration-update-delay/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        May 12, 2023 at 12:11 PM
+      
+    </small>
+
+    <h3>
+      Configuration update delay
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          1h
+          9m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2023-03-28-syd1-maintenance/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        March 28, 2023 at 3:56 AM
+      
+    </small>
+
+    <h3>
+      SYD1: Maintenance
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          1h
+          11m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2023-01-05-vegas-and-luxembourg/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        January 6, 2023 at 12:00 AM
+      
+    </small>
+
+    <h3>
+      Vegas and Luxembourg
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="ok">
+          Resolved after
+
+          
+
+          57m
+           of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2023-01-04-ny1/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        January 4, 2023 at 4:30 AM
+      
+    </small>
+
+    <h3>
+      NY1
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="ok">
+          Resolved after
+
+          
+
+          20m
+           of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+
+  
+  <p class="center archive__head" id="archive-2022"><a href="#archive-2022" class="no-underline"><strong>2022</strong>
+    <span class="faded">(9)</span>
+  </a></p>
+  
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2022-10-15-vegas-offline/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        October 14, 2022 at 6:25 PM
+      
+    </small>
+
+    <h3>
+      Vegas: Offline
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          13h
+          25m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2021-07-19-lumen-apac-upgrade/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        October 4, 2022 at 1:55 AM
+      
+    </small>
+
+    <h3>
+      Premium Anycast: Lumen Transit
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          3072h
+          48m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2022-07-05-miami-instability/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        July 5, 2022 at 4:54 AM
+      
+    </small>
+
+    <h3>
+      Miami: Instability
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          20h
+          56m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2022-06-25-ams-removed/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        June 25, 2022 at 9:11 AM
+      
+    </small>
+
+    <h3>
+      AMS: Removed
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          2h
+          13m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2022-05-17-miami-network-unabailable/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        May 16, 2022 at 1:22 AM
+      
+    </small>
+
+    <h3>
+      Miami: Network Unavailable
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          25h
+          22m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2022-04-05-equnix-ix-singapore/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        April 5, 2022 at 2:42 AM
+      
+    </small>
+
+    <h3>
+      Equnix IX (Singapore)
+    </h3>
+
+    
+    
+    
+
+    
+    
+    <div class="faded">
+      Resolved in under a minute
+    </div>
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2022-03-21-client-panel-website-upgrade/" class="issue no-underline">
+  
+    
+    <small class="date float-right">
+      
+        March 22, 2022 at 2:00 AM GMT
+      
+    </small>
+
+    <h3>
+      Client Panel &amp; Website Upgrade &nbsp;ℹ
+    </h3>
+    <span class="faded">Update Deployment of all queued customer configuration updates has been performed. If you are encountering any issues please do let us know.
+Update Customer deployments and all customer facing …
+    </span>
+  
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2022-02-15-budget-pops-offline-upstream/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        February 15, 2022 at 12:07 AM
+      
+    </small>
+
+    <h3>
+      Budget PoPs offline (upstream)
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="ok">
+          Resolved after
+
+          
+
+          13m
+           of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2022-01-24-luxembourg-network-outage/" class="issue no-underline">
+  
+    
+    <small class="date float-right">
+      
+        January 24, 2022 at 1:31 AM GMT
+      
+    </small>
+
+    <h3>
+      Luxembourg Network Outage &nbsp;ℹ
+    </h3>
+    <span class="faded">Update No official all clear yet as work related to the move continues. However all XCs are now up and services online for over half an hour.
+Update Some routes are back. Some XCs are not yet spliced. …
+    </span>
+  
+  
+</a>
+
+  
+
+  
+  <p class="center archive__head" id="archive-2021"><a href="#archive-2021" class="no-underline"><strong>2021</strong>
+    <span class="faded">(28)</span>
+  </a></p>
+  
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2021-12-05-lv1-outage/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        December 5, 2021 at 11:37 PM
+      
+    </small>
+
+    <h3>
+      LV1: Outage
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          1h
+          20m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2021-10-14-observed-issues-with-gtt-routes/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        October 14, 2021 at 3:23 AM
+      
+    </small>
+
+    <h3>
+      Observed issues with GTT routes
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          22h
+          8m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2021-10-09-chicago-rack-maintenance/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        October 12, 2021 at 10:00 PM
+      
+    </small>
+
+    <h3>
+      Chicago Rack Maintenance
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          1h
+          45m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2021-09-23-la-hardware-upgrade/" class="issue no-underline">
+  
+    
+    <small class="date float-right">
+      
+        September 28, 2021 at 4:50 AM GMT
+      
+    </small>
+
+    <h3>
+      LA: Hardware Upgrade &nbsp;ℹ
+    </h3>
+    <span class="faded">Update Routes are up. We will observe closely for any issues. Please do open a support ticket if you notice anything we don&rsquo;t.
+Update Maintenance is proceeding roughly on schedule. We expect to …
+    </span>
+  
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2021-09-24-outage/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        September 24, 2021 at 4:47 PM
+      
+    </small>
+
+    <h3>
+      Outage
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="ok">
+          Resolved after
+
+          
+
+          36m
+           of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2021-08-27-chicago-launch/" class="issue no-underline">
+  
+    
+    <small class="date float-right">
+      
+        August 27, 2021 at 7:22 AM GMT
+      
+    </small>
+
+    <h3>
+      Chicago Launch &nbsp;ℹ
+    </h3>
+    <span class="faded">Due to unforseen circumstances the launch of the Chicago PoP has been delayed from the 27/08/2021 to 28/08/2021. We appologise for the inconvenience.
+Routes are up for all ranges in Chicago. Please do …
+    </span>
+  
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2021-06-30-amsterdam-instability/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        June 30, 2021 at 2:58 PM
+      
+    </small>
+
+    <h3>
+      Amsterdam: Instability
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          1h
+          49m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2021-06-26-ashburn-maintenance/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        June 28, 2021 at 4:48 AM
+      
+    </small>
+
+    <h3>
+      Ashburn Maintenance
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          1h
+          55m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2021-06-26-brazil-packet-loss/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        June 26, 2021 at 3:07 AM
+      
+    </small>
+
+    <h3>
+      Brazil: Packet Loss
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          1h
+          30m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2021-06-03-amsterdam-issues/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        June 3, 2021 at 12:46 AM
+      
+    </small>
+
+    <h3>
+      Amsterdam: Issues
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          28h
+          26m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2021-05-23-packet-loss-in-london/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        May 23, 2021 at 9:17 PM
+      
+    </small>
+
+    <h3>
+      Packet Loss in London
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          2h
+          53m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2021-05-12-cogent-interruption/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        May 12, 2021 at 5:00 PM
+      
+    </small>
+
+    <h3>
+      Cogent interruption
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          3h
+          14m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2021-04-14-dallas-issue/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        April 14, 2021 at 11:56 AM
+      
+    </small>
+
+    <h3>
+      Dallas: Issue
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="ok">
+          Resolved after
+
+          
+
+          18m
+           of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2021-04-14-dallas-switch-issues/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        April 14, 2021 at 12:01 AM
+      
+    </small>
+
+    <h3>
+      Dallas: Switch issues
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          2h
+          0m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2021-03-03-uk-amsterdam-maintenance/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        April 3, 2021 at 2:00 AM
+      
+    </small>
+
+    <h3>
+      UK &amp; Amsterdam Maintenance
+    </h3>
+
+    
+    
+    
+
+    
+    
+    <div class="faded">
+      Resolved in under a minute
+    </div>
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2021-03-03-la-maintenance/" class="issue no-underline">
+  
+    
+    <small class="date float-right">
+      
+        March 3, 2021 at 10:00 AM GMT
+      
+    </small>
+
+    <h3>
+      LA: maintenance &nbsp;ℹ
+    </h3>
+    <span class="faded">Maintenance will be be performed in LA during regional off-peak time tonight. No interruption is expected, a risk of small interruption is possible.
+Update complete. No interruption observed.
+    </span>
+  
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2021-03-03-miami-maintenance/" class="issue no-underline">
+  
+    
+    <small class="date float-right">
+      
+        March 3, 2021 at 8:00 AM GMT
+      
+    </small>
+
+    <h3>
+      Miami: Maintenance &nbsp;ℹ
+    </h3>
+    <span class="faded">We are performing maintenance tonight during the regional off-peak. No interruption is expected however a risk does exist.
+Update Completed without interruption.
+    </span>
+  
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2021-02-27-london-hardware-crash/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        February 27, 2021 at 5:40 PM
+      
+    </small>
+
+    <h3>
+      London: Hardware Crash
+    </h3>
+
+    
+    
+    
+
+    
+    
+    <div class="faded">
+      Resolved in under a minute
+    </div>
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2021-02-14-amsterdam-minor-maintenance/" class="issue no-underline">
+  
+    
+    <small class="date float-right">
+      
+        February 15, 2021 at 8:00 PM GMT
+      
+    </small>
+
+    <h3>
+      Amsterdam: Minor Maintenance &nbsp;ℹ
+    </h3>
+    <span class="faded">We will be conducting minor maintenance in Amsterdam. There will be a risk of a minutes of interruption as sessions are updated. We will attempt to keep the interruption as quick as possible if …
+    </span>
+  
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2021-02-14-amsterdam-hazzard-notice/" class="issue no-underline">
+  
+    
+    <small class="date float-right">
+      
+        February 15, 2021 at 2:00 AM GMT
+      
+    </small>
+
+    <h3>
+      Amsterdam: Hazzard Notice &nbsp;ℹ
+    </h3>
+    <span class="faded">Today we will be performing preperation for tomorrows scheduled maintenance. No interruption is expected.
+    </span>
+  
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2021-02-10-london-minor-maintenance/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        February 12, 2021 at 7:00 PM
+      
+    </small>
+
+    <h3>
+      London: Minor Maintenance
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          3h
+          30m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2021-02-10-uk-hazard-warning/" class="issue no-underline">
+  
+    
+    <small class="date float-right">
+      
+        February 10, 2021 at 3:00 AM GMT
+      
+    </small>
+
+    <h3>
+      UK: Hazard Warning &nbsp;ℹ
+    </h3>
+    <span class="faded">We will be conducting some minor maintenance in London this afternoon. No interruption is expected however as always when work is being carried out there is a small chance of issue. Due to this we are …
+    </span>
+  
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2021-02-08-dallas-partial-interruption/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        February 8, 2021 at 6:51 PM
+      
+    </small>
+
+    <h3>
+      Dallas: Partial Interruption
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="ok">
+          Resolved after
+
+          
+
+          7m
+           of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2021-01-14-hazard-notice-dallas/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        January 14, 2021 at 1:50 AM
+      
+    </small>
+
+    <h3>
+      Hazard Notice: Dallas
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          23h
+          59m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2021-01-09-amsterday-maintenance/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        January 9, 2021 at 1:40 AM
+      
+    </small>
+
+    <h3>
+      Amsterdam: Maintenance
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          1h
+          31m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2021-01-05-london-investigating/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        January 5, 2021 at 4:31 AM
+      
+    </small>
+
+    <h3>
+      London: Investigating
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          4h
+          0m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2021-01-04-dallas-fault-detected/" class="issue no-underline">
+  
+    
+    <small class="date float-right">
+      
+        January 4, 2021 at 12:32 AM GMT
+      
+    </small>
+
+    <h3>
+      Dallas: Fault Detected &nbsp;ℹ
+    </h3>
+    <span class="faded">Investigating - We have detected a fault in our network cable / switch port. We will be scheduling replacement later today.
+Update - Replacement occurring now
+Update - While we confirm the issue is …
+    </span>
+  
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2021-01-02-budget-issue-continued/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        January 2, 2021 at 3:49 AM
+      
+    </small>
+
+    <h3>
+      Budget: Issue continued.
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          3h
+          14m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+
+  
+  <p class="center archive__head" id="archive-2020"><a href="#archive-2020" class="no-underline"><strong>2020</strong>
+    <span class="faded">(8)</span>
+  </a></p>
+  
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2020-12-30-lux-incident/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        December 30, 2020 at 4:20 AM
+      
+    </small>
+
+    <h3>
+      Budget: Incident
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          8h
+          33m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2020-12-27-lux-packet-loss/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        December 27, 2020 at 9:39 AM
+      
+    </small>
+
+    <h3>
+      Lux: Packet Loss
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="ok">
+          Resolved after
+
+          
+
+          15m
+           of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2020-12-23-luxembourg-unplanned-hardware-migration/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        December 23, 2020 at 9:50 AM
+      
+    </small>
+
+    <h3>
+      Luxembourg: Unplanned Hardware Migration
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          1h
+          2m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2020-12-19-amsterdam-connectivity-issues-2/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        December 19, 2020 at 2:42 PM
+      
+    </small>
+
+    <h3>
+      Amsterdam: Connectivity Issues (2)
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          8h
+          10m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2020-12-18-amsterdam-connectivity-issues/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        December 18, 2020 at 4:02 PM
+      
+    </small>
+
+    <h3>
+      Amsterdam: Connectivity Issues
+    </h3>
+
+    
+    
+    
+
+    
+    
+    <div class="faded">
+      Resolved in under a minute
+    </div>
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2020-12-16-amsterdam-reverse-proxy-issue/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        December 16, 2020 at 11:37 AM
+      
+    </small>
+
+    <h3>
+      Amsterdam: Reverse Proxy issue
+    </h3>
+
+    
+    
+    
+
+    
+    
+    <div class="faded">
+      Resolved in under a minute
+    </div>
+    
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2020-12-14-maintenance-amsterdam-network-upgrade/" class="issue no-underline">
+  
+    
+    <small class="date float-right">
+      
+        December 15, 2020 at 7:50 PM GMT
+      
+    </small>
+
+    <h3>
+      Maintenance: Amsterdam Network Upgrade &nbsp;ℹ
+    </h3>
+    <span class="faded">We will be upgrading our network capacity and filtering hardware in Amsterdam. Any customers who have configured a HA type setup will be largely unaffected as routes will be removed from the region …
+    </span>
+  
+  
+</a>
+
+  
+    
+
+
+
+
+
+
+<a href="https://status.x4b.net/issues/2020-12-13-packet-loss-multiple-locations/" class="issue no-underline">
+  
+    <small class="date float-right">
+      
+        December 13, 2020 at 5:53 AM
+      
+    </small>
+
+    <h3>
+      Packet Loss (multiple locations)
+    </h3>
+
+    
+    
+    
+
+    
+    
+      
+        <div class="warning">
+          Resolved after
+
+          
+
+          71h
+          16m of downtime
+        </div>
+      
+    
+  
+</a>
+
+  
+
+
+      
+      <div class="padding"></div>
+    </div>
+  
+
+  <script type="text/javascript">
+  
+
+
+  console.log('cState v5.6.1 - https://github.com/cstate/cstate');
+  document.getElementsByTagName('html')[0].className = 'js';
+
+  
+
+
+  if (document.body.className === 'change-header-color') {
+    if (document.body.className === 'status-down') {
+      document.querySelector('meta[name=theme-color]').setAttribute('content', themeDownColor);
+    } else if (document.body.className === 'status-disrupted') {
+      document.querySelector('meta[name=theme-color]').setAttribute('content', themeDisruptedColor);
+    } else {
+      document.querySelector('meta[name=theme-color]').setAttribute('content', themeNoticeColor);
+    }
+  }
+
+  
+
+
+  if (window.location.hash.match('access_token')) {
+    document.location.pathname = '/admin';
+  }
+  if (window.location.hash.match('invite_token')) {
+    document.location.pathname = '/admin';
+  }
+  if (window.location.hash.match('confirmation_token')) {
+    document.location.pathname = '/admin';
+  }
+  if (window.location.hash.match('email_change_token')) {
+    document.location.pathname = '/admin';
+  }
+  if (window.location.hash.match('recovery_token')) {
+    document.location.pathname = '/admin';
+  }
+
+  
+
+
+  function toggleCategoryHead(el) {
+    if (el.parentNode.className == 'category category--open category--titled') {
+      el.parentNode.className = 'category category--closed category--titled';
+    } else {
+      el.parentNode.className = 'category category--open category--titled';
+    }
+  }
+
+  
+
+  
+  function timeSince(date) {
+    var seconds = Math.floor((new Date() - date) / 1000);
+
+    var interval = Math.floor(seconds / 31536000);
+
+    if (interval > 1) {
+      return interval + ' years';
+    }
+    interval = Math.floor(seconds / 2592000);
+    if (interval > 1) {
+      return interval + ' months';
+    }
+    interval = Math.floor(seconds / 86400);
+    if (interval > 1) {
+      return interval + 'd';
+    }
+    interval = Math.floor(seconds / 3600);
+    if (interval > 1) {
+      return interval + 'h';
+    }
+    interval = Math.floor(seconds / 60);
+    if (interval > 1) {
+      return interval + ' min';
+    }
+
+    
+    if(Math.floor(seconds) < 0) {
+      return Math.floor(seconds);
+    }
+
+    
+    
+      return Math.floor(seconds) + 's';
+    
+  }
+
+  
+
+  
+  function updateRelativeTimes() {
+    var elements = document.querySelectorAll('.relative-time');
+    for (var i = 0; i < elements.length; i++) {
+      var element = elements[i];
+      var time = Date.parse(element.dataset.date);
+      var html = element.getAttribute('data-time-prefix') || '';
+
+
+      if (!time) {
+        time = element.innerText;
+        element.setAttribute('title', time || new Date);
+        html += 'just now';
+      } else if (timeSince(time) < 0) {
+        html = element.innerText;
+      } else {
+        html += timeSince(time) + ' ago';
+      }
+      html += element.getAttribute('data-time-suffix') || '';
+      element.innerHTML = html.trim();
+    }
+  }
+
+  updateRelativeTimes();
+
+  
+  setInterval(updateRelativeTimes, 5000);
+</script>
+
+
+
+
+  
+
+<div class="footer">
+  <div class="contain">
+    <p><strong class="bold"><a href="https://www.x4b.net">X4B Network</a> Status</strong>
+       &nbsp; • &nbsp; <a href="#">Back to top</a>
+    </p>
+
+    <p>We continuously monitor the status of our services and if there are any interruptions, a note will be posted here. The information here is the result of Automated and Manual input.</p>
+
+    <hr>
+
+    <p class="hinted">
+      <small>
+        ⚡
+        Subscribe via RSS —
+        
+          <a href="https://status.x4b.net/index.xml" class="no-underline">to all updates</a>
+        
+        
+      </small>
+    </p>
+  </div>
+</div>
+
+
+
+  </body>
+</html>

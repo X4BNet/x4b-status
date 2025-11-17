@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Cogent interruption",
+  "body": "\u003cp\u003e\u003cem\u003eInvestigating\u003c/em\u003e - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eInvestigating\u003c/em\u003e - We have narrowed the issue down to outgoing routes going over Cogent in two locations (AMS \u0026amp; LAX)\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eIdentified\u003c/em\u003e - Cogent activated uRPF (without notice) on our upstream ports (2 PoPs) leading to an interruption as we don\u0026rsquo;t use Cogent for Ingress but they are used (if they are the best route) for Egress selectively.\u003c/p\u003e\n\u003cp\u003eTo resolve this we are now exporting ingress routes to Cogent with Cogents own no-export community.\u003c/p\u003e\n",
+  "createdAt": "2021-05-12 17:00:00 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2021-05-12-cogent-interruption/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2021-05-12T20:14:36.632Z",
+  "affected": ["LAX1", "AMS1"],
+  "filename": "2021-05-12-cogent-interruption.md"
+}

@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Observed issues with GTT routes",
+  "body": "\u003cp\u003eWe are aware of issues with GTT routes at the transit level. These occur primarily from EU\u0026lt;-\u0026gt;US however some issues have been observed with other routes. We have contacted them for a comment however have not (as of yet) received one.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eObserved Resolved\u003c/strong\u003e We are not longer observing GTT related packet loss.\u003c/p\u003e\n",
+  "createdAt": "2021-10-14 03:23:50.44 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2021-10-14-observed-issues-with-gtt-routes/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2021-10-15T01:32:04.521Z",
+  "affected": ["CHI1", "ASH1", "LAX1", "AMS1", "LON1", "MIM1"],
+  "filename": "2021-10-14-observed-issues-with-gtt-routes.md"
+}

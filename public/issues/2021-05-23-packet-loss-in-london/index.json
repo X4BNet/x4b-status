@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Packet Loss in London",
+  "body": "\u003cp\u003e\u003cem\u003eInvestigating\u003c/em\u003e - We are investigating some observed uptream packet loss in London.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e - London network vendor has confirmed the issue\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e - We have not observed packet loss in half an hour. We await network vendor update.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e - Confirmed fixed upstream\u003c/p\u003e\n",
+  "createdAt": "2021-05-23 21:17:00 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2021-05-23-packet-loss-in-london/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2021-05-24T00:10:10.292Z",
+  "affected": ["LON1"],
+  "filename": "2021-05-23-packet-loss-in-london.md"
+}

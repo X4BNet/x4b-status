@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Hazard Notice: Amsterdam, Ashburn, Chicago",
+  "body": "\u003cp\u003e\u003cem\u003e﻿\u003c/em\u003eUpdate** Maintenance completed (smoothly). If you hve any issues please do let us know\u003c/p\u003e\n\u003cp\u003eWe will be be performing some maintenance in these three locations in sequence tomorrow. No interruption is expected however some periods of packet loss are possible.\u003c/p\u003e\n\u003cp\u003eCertain internal metrics such as filter graphs may be affected for periods of the maintenance.\u003c/p\u003e\n",
+  "createdAt": "2023-06-29 01:00:03.265 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2023-06-28-hazard-notice-amsterdam-ashburn-chicago/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2023-06-29T01:43:41.238Z",
+  "affected": ["ASH1", "AMS1", "CHI1"],
+  "filename": "2023-06-28-hazard-notice-amsterdam-ashburn-chicago.md"
+}

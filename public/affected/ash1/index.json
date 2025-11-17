@@ -1,0 +1,139 @@
+{
+  "is": "system",
+  "title": "ASH1",
+  "permalink": "https://status.x4b.net/affected/ash1/",
+  "status": "notice", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "Software Upgrades: Anycast",
+        "createdAt": "2025-11-17 22:30:12.248 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2025-11-11-software-upgrades-anycast/",
+        "severity": "notice",
+        "resolved": false,
+        "informational": false,
+        "resolvedAt": "2025-11-18T07:30:00.000Z",
+        "affected": ["ASH1", "CHI1", "DAL1", "LAX1", "MIM1", "AMS1", "LON1", "BR1", "SG1", "JP1", "SYD1"],
+        "filename": "2025-11-11-software-upgrades-anycast.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Maintenance",
+        "createdAt": "2025-11-07 00:30:00 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2025-11-06-maintenance/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2025-11-07T02:07:35.898Z",
+        "affected": ["LAX1", "DAL1", "CHI1", "ASH1", "MIM1", "AMS1", "LON1", "BR1", "SGP1", "TOK1", "SYD1"],
+        "filename": "2025-11-06-maintenance.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Ashburn Emergency Maintenance",
+        "createdAt": "2025-09-02 13:00:29.972 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2025-09-01-ashburn-emergency-maintenance/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2025-09-02T17:00:29.994Z",
+        "affected": ["ASH1"],
+        "filename": "2025-09-01-ashburn-emergency-maintenance.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Software Updates (Anycast)",
+        "createdAt": "2025-07-22 23:00:00 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2025-07-22-software-updates-anycast/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2025-07-23T00:03:22.113Z",
+        "affected": ["LAX1", "DAL1", "CHI1", "ASH1", "MIM1", "AMS1", "LON1", "BR1", "SGP1", "TOK1", "SYD1"],
+        "filename": "2025-07-22-software-updates-anycast.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Ashburn offline",
+        "createdAt": "2024-08-23 02:10:00 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2024-08-23-ashburn-offline/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-08-23T02:40:39.509Z",
+        "affected": ["ASH1"],
+        "filename": "2024-08-23-ashburn-offline.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Hazard Notice: Amsterdam, Ashburn, Chicago",
+        "createdAt": "2023-06-29 01:00:03.265 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2023-06-28-hazard-notice-amsterdam-ashburn-chicago/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-06-29T01:43:41.238Z",
+        "affected": ["ASH1", "AMS1", "CHI1"],
+        "filename": "2023-06-28-hazard-notice-amsterdam-ashburn-chicago.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Observed issues with GTT routes",
+        "createdAt": "2021-10-14 03:23:50.44 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2021-10-14-observed-issues-with-gtt-routes/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2021-10-15T01:32:04.521Z",
+        "affected": ["CHI1", "ASH1", "LAX1", "AMS1", "LON1", "MIM1"],
+        "filename": "2021-10-14-observed-issues-with-gtt-routes.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Ashburn Maintenance",
+        "createdAt": "2021-06-28 04:48:39.094 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2021-06-26-ashburn-maintenance/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2021-06-28T06:43:46.378Z",
+        "affected": ["ASH1"],
+        "filename": "2021-06-26-ashburn-maintenance.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Packet Loss (multiple locations)",
+        "createdAt": "2020-12-13 05:53:02.543 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2020-12-13-packet-loss-multiple-locations/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2020-12-16T05:10:00.000Z",
+        "affected": ["LAX1", "LON1", "ASH1"],
+        "filename": "2020-12-13-packet-loss-multiple-locations.md"
+      }
+    
+  ]
+}
+
+
+
+
+

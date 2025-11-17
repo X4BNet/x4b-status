@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Chicago: Offline",
+  "body": "\u003cp\u003eEquinix IBX Site Staff reports that multiple chillers are down at the moment and the vendor has been contacted. The vendor is expected to be onsite at approximately 10:30 Site Local Time. Temperatures at the IBX are rising and are above SLA. IBX Critical Facility Engineers continue to monitor.\u003c/p\u003e\n",
+  "createdAt": "2024-01-15 11:39:00 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2024-01-15-chicago-offline/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2024-01-15T05:47:59.651Z",
+  "affected": ["CHI1"],
+  "filename": "2024-01-15-chicago-offline.md"
+}

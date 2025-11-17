@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://status.x4b.net/"/>
+    <title>AMS1 on X4B Network Status</title>
+    <link>https://status.x4b.net/affected/ams1/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2025-11-17T22:30:12+00:00</lastBuildDate>
+    <updated>2025-11-17T22:30:12+00:00</updated>
+    
+    
+    
+      <atom:link href="https://status.x4b.net/affected/ams1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Software Upgrades: Anycast</title>
+        <link>https://status.x4b.net/issues/2025-11-11-software-upgrades-anycast/</link>
+        <pubDate>Mon, 17 Nov 2025 22:30:12 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2025-11-11-software-upgrades-anycast/</guid>
+        <category>2025-11-18T07:30:00.000Z</category>
+        <description>It is expected that maintenance will take approximately 1 hour per server. No interruption is expected however risk does exist. We will be updating a couple servers at a time.
+There is the chance that we will need to do the update of some servers the following day. However the plan is to get all the servers done in one day if possible.
+This is the same update that has already been performed on the budget line.</description>
+        <content type="html">&lt;p&gt;It is expected that maintenance will take approximately 1 hour per server. No interruption is expected however risk does exist. We will be updating a couple servers at a time.&lt;/p&gt;
+&lt;p&gt;There is the chance that we will need to do the update of some servers the following day. However the plan is to get all the servers done in one day if possible.&lt;/p&gt;
+&lt;p&gt;This is the same update that has already been performed on the budget line.&lt;/p&gt;
+&lt;p&gt;We will update this announcment when maintenance for each region is complete. Thank you for your patience.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Maintenance</title>
+        <link>https://status.x4b.net/issues/2025-11-06-maintenance/</link>
+        <pubDate>Fri, 07 Nov 2025 00:30:00 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2025-11-06-maintenance/</guid>
+        <category>2025-11-07T02:07:35.898Z</category>
+        <description>Update complete
+We will be performing upgrades of our BGP software. During this upgrade we will restart all sessions. No interruption is expected however a short routing blip is possible.
+We will do PoPs in sequence</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Update&lt;/em&gt; complete&lt;/p&gt;
+&lt;p&gt;We will be performing upgrades of our BGP software. During this upgrade we will restart all sessions. No interruption is expected however a short routing blip is possible.&lt;/p&gt;
+&lt;p&gt;We will do PoPs in sequence&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Reduced quality of EU routes</title>
+        <link>https://status.x4b.net/issues/2025-08-27-reduced-quality-of-eu-routes/</link>
+        <pubDate>Wed, 27 Aug 2025 02:02:17 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2025-08-27-reduced-quality-of-eu-routes/</guid>
+        <category>2025-08-27T08:26:55.459Z</category>
+        <description>Update issue was found upstream and resolved. Upstream will update their internal documentation to prevent recurrance.
+Update Appears to be a GTT fault. Fault ticket has been opened.
+Update Investigation continues upstream. This issue only appears to affect Premium Anycast customers. Standard Anycast routes seem unaffected.
+Investigating - We are investigating a potential issue that might affect the uptime of one our of services. It appears to be a bug in the upstream providers routing configuration.</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Update&lt;/em&gt; issue was found upstream and resolved. Upstream will update their internal documentation to prevent recurrance.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Update&lt;/em&gt; Appears to be a GTT fault. Fault ticket has been opened.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Update&lt;/em&gt; Investigation continues upstream. This issue only appears to affect Premium Anycast customers. Standard Anycast routes seem unaffected.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. It appears to be a bug in the upstream providers routing configuration. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Software Updates (Anycast)</title>
+        <link>https://status.x4b.net/issues/2025-07-22-software-updates-anycast/</link>
+        <pubDate>Tue, 22 Jul 2025 23:00:00 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2025-07-22-software-updates-anycast/</guid>
+        <category>2025-07-23T00:03:22.113Z</category>
+        <description>Update Complete
+We will be performing system upgrades on Wednesday. No interruption is expected.
+Systems will be done in parallel in groups with an estimated total risk of interruption period per server of 30 minutes.
+This is the same upgrade that was carried out on the budget line last week without interruption.
+If any interruption or unexpected event occurs we will update this incident.</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Update&lt;/em&gt; Complete&lt;/p&gt;
+&lt;p&gt;We will be performing system upgrades on Wednesday. No interruption is expected.&lt;/p&gt;
+&lt;p&gt;Systems will be done in parallel in groups with an estimated total risk of interruption period per server of 30 minutes.&lt;/p&gt;
+&lt;p&gt;This is the same upgrade that was carried out on the budget line last week without interruption.&lt;/p&gt;
+&lt;p&gt;If any interruption or unexpected event occurs we will update this incident.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] AMS: Scheduled Maintenance</title>
+        <link>https://status.x4b.net/issues/2025-06-03-ams-scheduled-maintenance/</link>
+        <pubDate>Thu, 05 Jun 2025 08:00:00 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2025-06-03-ams-scheduled-maintenance/</guid>
+        <category>2025-06-05T10:00:00.000Z</category>
+        <description>Our upstream datacenter has notified us today of upcoming maintenance in Amsterdam.
+Network engineers will be upgrading top-of-rack switches and reworking some of the network topologies for a more robust and stable overall network in the server cabinet.
+Though the outage is not expected to last more than 5 to 10 minutes, the work window will be longer as our team will test and ensure connectivity is stable before completing the maintenance.</description>
+        <content type="html">&lt;p&gt;Our upstream datacenter has notified us today of upcoming maintenance in Amsterdam.&lt;/p&gt;
+&lt;p&gt;Network engineers will be upgrading top-of-rack switches and reworking some of the network topologies for a more robust and stable overall network in the server cabinet.&lt;/p&gt;
+&lt;p&gt;Though the outage is not expected to last more than 5 to 10 minutes, the work window will be longer as our team will test and ensure connectivity is stable before completing the maintenance.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Maintenance Details&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Day/Date: Thursday, June 05th, 2025
+Start Time: 6:00 AM (PDT)
+End Time: 8:00 AM (PDT)
+Outage Estimated Duration:  5-10 mins
+Effect: Short Outage
+Facilities: AM11
+Device Description: 0818.16.Black
+&lt;/code&gt;&lt;/pre&gt;</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] AMS Interruption</title>
+        <link>https://status.x4b.net/issues/2025-05-30-ams-interruption/</link>
+        <pubDate>Fri, 30 May 2025 13:58:47 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2025-05-30-ams-interruption/</guid>
+        <category>2025-06-03T10:26:53.081Z</category>
+        <description>Update Hardware has been replaced upstream and we have restored routes. Sorry for any interruption over the past 5 minutes we had a limited window for restoration while under the eye of upstream NOC today.
+Update Upstream confirms that the issue is taking longer than expected to resolve. We continue to route around the issue.
+Upstream has confirmed an interruption in AMS affecting firewalled TCP traffic. We have pulled routes from the region until incident confirmed over.</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Update&lt;/em&gt; Hardware has been replaced upstream and we have restored routes. Sorry for any interruption over the past 5 minutes we had a limited window for restoration while under the eye of upstream NOC today.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Update&lt;/em&gt; Upstream confirms that the issue is taking longer than expected to resolve. We continue to route around the issue.&lt;/p&gt;
+&lt;p&gt;Upstream has confirmed an interruption in AMS affecting firewalled TCP traffic. We have pulled routes from the region until incident confirmed over.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Hazard Notice: Amsterdam, Ashburn, Chicago</title>
+        <link>https://status.x4b.net/issues/2023-06-28-hazard-notice-amsterdam-ashburn-chicago/</link>
+        <pubDate>Thu, 29 Jun 2023 01:00:03 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2023-06-28-hazard-notice-amsterdam-ashburn-chicago/</guid>
+        <category>2023-06-29T01:43:41.238Z</category>
+        <description>﻿Update** Maintenance completed (smoothly). If you hve any issues please do let us know
+We will be be performing some maintenance in these three locations in sequence tomorrow. No interruption is expected however some periods of packet loss are possible.
+Certain internal metrics such as filter graphs may be affected for periods of the maintenance.</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;﻿&lt;/em&gt;Update** Maintenance completed (smoothly). If you hve any issues please do let us know&lt;/p&gt;
+&lt;p&gt;We will be be performing some maintenance in these three locations in sequence tomorrow. No interruption is expected however some periods of packet loss are possible.&lt;/p&gt;
+&lt;p&gt;Certain internal metrics such as filter graphs may be affected for periods of the maintenance.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] AMS: Removed</title>
+        <link>https://status.x4b.net/issues/2022-06-25-ams-removed/</link>
+        <pubDate>Sat, 25 Jun 2022 09:11:42 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2022-06-25-ams-removed/</guid>
+        <category>2022-06-25T11:25:07.521Z</category>
+        <description>After observing intermitant interuptions throught the day we have made the decision to temporarily remove the AMS PoP from both Anycast networks while we await upstream resolution.
+Routes via AMS will be restored once we get a suitable response or stability has appeared to return.</description>
+        <content type="html">&lt;p&gt;After observing intermitant interuptions throught the day we have made the decision to temporarily remove the AMS PoP from both Anycast networks while we await upstream resolution.&lt;/p&gt;
+&lt;p&gt;Routes via AMS will be restored once we get a suitable response or stability has appeared to return.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Observed issues with GTT routes</title>
+        <link>https://status.x4b.net/issues/2021-10-14-observed-issues-with-gtt-routes/</link>
+        <pubDate>Thu, 14 Oct 2021 03:23:50 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2021-10-14-observed-issues-with-gtt-routes/</guid>
+        <category>2021-10-15T01:32:04.521Z</category>
+        <description>We are aware of issues with GTT routes at the transit level. These occur primarily from EU&amp;lt;-&amp;gt;US however some issues have been observed with other routes. We have contacted them for a comment however have not (as of yet) received one.
+Observed Resolved We are not longer observing GTT related packet loss.</description>
+        <content type="html">&lt;p&gt;We are aware of issues with GTT routes at the transit level. These occur primarily from EU&amp;lt;-&amp;gt;US however some issues have been observed with other routes. We have contacted them for a comment however have not (as of yet) received one.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Observed Resolved&lt;/strong&gt; We are not longer observing GTT related packet loss.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Amsterdam: Instability</title>
+        <link>https://status.x4b.net/issues/2021-06-30-amsterdam-instability/</link>
+        <pubDate>Wed, 30 Jun 2021 14:58:53 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2021-06-30-amsterdam-instability/</guid>
+        <category>2021-06-30T16:48:51.560Z</category>
+        <description>Investigating - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+Update Resolved. Will continue to observe.</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Update&lt;/em&gt; Resolved. Will continue to observe.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Amsterdam: Issues</title>
+        <link>https://status.x4b.net/issues/2021-06-03-amsterdam-issues/</link>
+        <pubDate>Thu, 03 Jun 2021 00:46:45 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2021-06-03-amsterdam-issues/</guid>
+        <category>2021-06-04T05:13:10.188Z</category>
+        <description>Investigating - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+Investigating - We are seeing an issue with either network port stability or ixgbe driver stability in Amsterdam. We are investigating.
+Monitoring - We continue to watch for issues
+Monitoring - We continue to watch for issues.</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are seeing  an issue with either network port stability or ixgbe driver stability in Amsterdam. We are investigating.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Monitoring&lt;/em&gt; - We continue to watch for issues&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Monitoring&lt;/em&gt; - We continue to watch for issues. Nothing has been observed as of yet.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We continue to search for the root cause. Another incident occurred around 07:35 GMT.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Changes&lt;/em&gt; - Some changes have been made to test a theory. We continue to monitor.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Update&lt;/em&gt; - We beleive the changes to have mostly resolved the issue. Further changes will be made to complete this. With this the issue can be closed.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Cogent interruption</title>
+        <link>https://status.x4b.net/issues/2021-05-12-cogent-interruption/</link>
+        <pubDate>Wed, 12 May 2021 17:00:00 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2021-05-12-cogent-interruption/</guid>
+        <category>2021-05-12T20:14:36.632Z</category>
+        <description>Investigating - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+Investigating - We have narrowed the issue down to outgoing routes going over Cogent in two locations (AMS &amp;amp; LAX)
+Identified - Cogent activated uRPF (without notice) on our upstream ports (2 PoPs) leading to an interruption as we don&amp;rsquo;t use Cogent for Ingress but they are used (if they are the best route) for Egress selectively.</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We have narrowed the issue down to outgoing routes going over Cogent in two locations (AMS &amp;amp; LAX)&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Identified&lt;/em&gt; - Cogent activated uRPF (without notice) on our upstream ports (2 PoPs) leading to an interruption as we don&amp;rsquo;t use Cogent for Ingress but they are used (if they are the best route) for Egress selectively.&lt;/p&gt;
+&lt;p&gt;To resolve this we are now exporting ingress routes to Cogent with Cogents own no-export community.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] UK &amp; Amsterdam Maintenance</title>
+        <link>https://status.x4b.net/issues/2021-03-03-uk-amsterdam-maintenance/</link>
+        <pubDate>Sat, 03 Apr 2021 02:00:00 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2021-03-03-uk-amsterdam-maintenance/</guid>
+        <category>2021-03-04T02:18:22.810Z</category>
+        <description>We will be conducting maintenance during regional off-peak in Europe tomorrow. No interruption is expected however a low risk of packet loss or latency does exist. This is the same maintenance conducted without interuption in Miami and L.A today.
+Update Maintenance is complete in both regions. Unfortunately not as smooth as yesterday with both regions experiencing short interruptions. Appologies for the inconvenience.
+Everything should now be at 100%. Please feel free to contact us if you are experiencing any issues.</description>
+        <content type="html">&lt;p&gt;We will be conducting maintenance during regional off-peak in Europe tomorrow. No interruption is expected however a low risk of packet loss or latency does exist. This is the same maintenance conducted without interuption in Miami and L.A today.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;  Maintenance is complete in both regions. Unfortunately not as smooth as yesterday with both regions experiencing short interruptions. Appologies for the inconvenience.&lt;/p&gt;
+&lt;p&gt;Everything should now be at 100%. Please feel free to contact us if you are experiencing any issues.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Amsterdam: Minor Maintenance</title>
+        <link>https://status.x4b.net/issues/2021-02-14-amsterdam-minor-maintenance/</link>
+        <pubDate>Mon, 15 Feb 2021 20:00:00 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2021-02-14-amsterdam-minor-maintenance/</guid>
+        <category>2021-02-15T22:00:00.000Z</category>
+        <description>We will be conducting minor maintenance in Amsterdam. There will be a risk of a minutes of interruption as sessions are updated. We will attempt to keep the interruption as quick as possible if required (which we hope it will not be).</description>
+        <content type="html">&lt;p&gt;We will be conducting minor maintenance in Amsterdam. There will be a risk of a minutes of interruption as sessions are updated. We will attempt to keep the interruption as quick as possible if required (which we hope it will not be).&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Amsterdam: Hazzard Notice</title>
+        <link>https://status.x4b.net/issues/2021-02-14-amsterdam-hazzard-notice/</link>
+        <pubDate>Mon, 15 Feb 2021 02:00:00 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2021-02-14-amsterdam-hazzard-notice/</guid>
+        <category>2021-02-15T06:00:00.000Z</category>
+        <description>Today we will be performing preperation for tomorrows scheduled maintenance. No interruption is expected.</description>
+        <content type="html">&lt;p&gt;Today we will be performing preperation for tomorrows scheduled maintenance. No interruption is expected.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Amsterdam: Maintenance</title>
+        <link>https://status.x4b.net/issues/2021-01-09-amsterday-maintenance/</link>
+        <pubDate>Sat, 09 Jan 2021 01:40:16 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2021-01-09-amsterday-maintenance/</guid>
+        <category>2021-01-09T03:12:08.243Z</category>
+        <description>Investigating - We are investigating an increase in latency observed last night. In order to perform this investigating without risk to customer performance we have removed AMS from the network with UK taking over to provide capacity while we investigate.
+Complete - AMS routes restored. Issue should be resolved.</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating an increase in latency observed last night. In order to perform this investigating without risk to customer performance we have removed AMS from the network with UK taking over to provide capacity while we investigate.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Complete&lt;/em&gt; - AMS routes restored. Issue should be resolved.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Amsterdam: Connectivity Issues (2)</title>
+        <link>https://status.x4b.net/issues/2020-12-19-amsterdam-connectivity-issues-2/</link>
+        <pubDate>Sat, 19 Dec 2020 14:42:11 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2020-12-19-amsterdam-connectivity-issues-2/</guid>
+        <category>2020-12-19T22:52:18.874Z</category>
+        <description>Investigating - It appears that the Emergency maintenance performed by upstream to resolve Amsterdam: Connectivity Issues has not been successful in resolving the ToR stability issue. We have seen what appears to be a similar interuption. We have pulled routes again and await upstream response.
+Investigating - CPU spikes on upstream ToR switch. They have made some adjustments and continue to monitor. We have restored routes.
+Fixed - Upstream reports fixed.</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - It appears that the Emergency maintenance performed by upstream to resolve Amsterdam: Connectivity Issues has not been successful in resolving the ToR stability issue. We have seen what appears to be a similar interuption. We have pulled routes again and await upstream response.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - CPU spikes on upstream ToR switch. They have made some adjustments and continue to monitor. We have restored routes.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Fixed&lt;/em&gt; - Upstream reports fixed. We will continue to monitor closely over the next few days however.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Amsterdam: Connectivity Issues</title>
+        <link>https://status.x4b.net/issues/2020-12-18-amsterdam-connectivity-issues/</link>
+        <pubDate>Fri, 18 Dec 2020 16:02:44 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2020-12-18-amsterdam-connectivity-issues/</guid>
+        <category>2020-12-18T16:02:44.146Z</category>
+        <description>Investigating - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.
+Identified - We hae confirmed a partial interruption in network traffic in region. This is similar to a smaller incident observed yesterday which was reported upstream. We have collected data and reported this incident upstream and are awaiting resolution.</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Identified&lt;/em&gt; -  We hae confirmed a partial interruption in network traffic in region. This is similar to a smaller incident observed yesterday which was reported upstream. We have collected data and reported this incident upstream and are awaiting resolution. Routes have been pulled from Amsterdam at this time.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Identified&lt;/em&gt; - Upstream beleives they have identified the issue on their end and are taking action to confirm. Routes remain removed from region.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Resolution (1)&lt;/em&gt; - An emergency top of rack switch update has been scheduled to resolve a software bug in the managment software. Routes restored until we have a date/time.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Resolved&lt;/em&gt; - ToR switch updated&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Amsterdam: Reverse Proxy issue</title>
+        <link>https://status.x4b.net/issues/2020-12-16-amsterdam-reverse-proxy-issue/</link>
+        <pubDate>Wed, 16 Dec 2020 11:37:16 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2020-12-16-amsterdam-reverse-proxy-issue/</guid>
+        <category>2020-12-16T11:37:16.086Z</category>
+        <description>An issue affecting Layer 4 reverse proxies in Amsterdam after todays maintenance has been reported and resolved. Appologies for the inconvenience.</description>
+        <content type="html">&lt;p&gt;An issue affecting Layer 4 reverse proxies in Amsterdam after todays maintenance has been reported and resolved. Appologies for the inconvenience.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Maintenance: Amsterdam Network Upgrade</title>
+        <link>https://status.x4b.net/issues/2020-12-14-maintenance-amsterdam-network-upgrade/</link>
+        <pubDate>Tue, 15 Dec 2020 19:50:52 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2020-12-14-maintenance-amsterdam-network-upgrade/</guid>
+        <category>2020-12-15T21:00:52.175Z</category>
+        <description>We will be upgrading our network capacity and filtering hardware in Amsterdam. Any customers who have configured a HA type setup will be largely unaffected as routes will be removed from the region at-least 10 minutes before start of maintenance and traffic redirected to London and Ashburn PoPs.
+We expect the total maintenance to take approx 1-hour.
+Update - Maintenance taking a little longer than expected. Routes will be restored to Amsterdam as soon as possible.</description>
+        <content type="html">&lt;p&gt;We will be upgrading our network capacity and filtering hardware in Amsterdam. Any customers who have configured a HA type setup will be largely unaffected as routes will be removed from the region at-least 10 minutes before start of maintenance and traffic redirected to London and Ashburn PoPs.&lt;/p&gt;
+&lt;p&gt;We expect the total maintenance to take approx 1-hour.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Update&lt;/em&gt; - Maintenance taking a little longer than expected. Routes will be restored to Amsterdam as soon as possible.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Update&lt;/em&gt; - Routes have been restored, final finishing of tasks continues in the background with no expected interruption.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Update&lt;/em&gt; - Final checks complete. If you are experiencing any issues please don&amp;rsquo;t hesitate to contact us.&lt;/p&gt;
+</content>
+      </item>
+    
+  </channel>
+</rss>

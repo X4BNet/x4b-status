@@ -1,0 +1,181 @@
+{
+  "is": "system",
+  "title": "DAL1",
+  "permalink": "https://status.x4b.net/affected/dal1/",
+  "status": "notice", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "Software Upgrades: Anycast",
+        "createdAt": "2025-11-17 22:30:12.248 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2025-11-11-software-upgrades-anycast/",
+        "severity": "notice",
+        "resolved": false,
+        "informational": false,
+        "resolvedAt": "2025-11-18T07:30:00.000Z",
+        "affected": ["ASH1", "CHI1", "DAL1", "LAX1", "MIM1", "AMS1", "LON1", "BR1", "SG1", "JP1", "SYD1"],
+        "filename": "2025-11-11-software-upgrades-anycast.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Maintenance",
+        "createdAt": "2025-11-07 00:30:00 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2025-11-06-maintenance/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2025-11-07T02:07:35.898Z",
+        "affected": ["LAX1", "DAL1", "CHI1", "ASH1", "MIM1", "AMS1", "LON1", "BR1", "SGP1", "TOK1", "SYD1"],
+        "filename": "2025-11-06-maintenance.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Software Updates (Anycast)",
+        "createdAt": "2025-07-22 23:00:00 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2025-07-22-software-updates-anycast/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2025-07-23T00:03:22.113Z",
+        "affected": ["LAX1", "DAL1", "CHI1", "ASH1", "MIM1", "AMS1", "LON1", "BR1", "SGP1", "TOK1", "SYD1"],
+        "filename": "2025-07-22-software-updates-anycast.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Dallas: Network Maintenance",
+        "createdAt": "2025-05-19 09:00:00 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2025-05-14-dallas-network-maintenance/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2025-05-19T09:08:47.588Z",
+        "affected": ["DAL1"],
+        "filename": "2025-05-14-dallas-network-maintenance.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Dallas: Potential issue with Cogent",
+        "createdAt": "2025-03-10 09:40:07.055 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2025-03-10-dallas-potential-issue-with-cogent/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2025-04-15T11:05:28.830Z",
+        "affected": ["DAL1"],
+        "filename": "2025-03-10-dallas-potential-issue-with-cogent.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Dallas storm",
+        "createdAt": "2024-05-26 12:15:00 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2024-05-26-dallas-storm/",
+        "severity": "down",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-05-26T19:57:28.115Z",
+        "affected": ["DAL1"],
+        "filename": "2024-05-26-dallas-storm.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Dallas & Japan issue detected",
+        "createdAt": "2023-06-26 12:47:18.504 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2023-06-26-dallas-japan-issue-detected/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-06-27T04:12:21.031Z",
+        "affected": ["DAL1", "TOK1"],
+        "filename": "2023-06-26-dallas-japan-issue-detected.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Hazard Notice",
+        "createdAt": "2023-06-23 04:00:00 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2023-06-22-hazard-notice/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-06-23T07:28:23.682Z",
+        "affected": ["TOK1", "BR1", "DAL1"],
+        "filename": "2023-06-22-hazard-notice.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Dallas: Issue",
+        "createdAt": "2021-04-14 11:56:26.583 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2021-04-14-dallas-issue/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2021-04-14T12:15:00.000Z",
+        "affected": ["DAL1"],
+        "filename": "2021-04-14-dallas-issue.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Dallas: Switch issues",
+        "createdAt": "2021-04-14 00:01:59.444 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2021-04-14-dallas-switch-issues/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2021-04-14T02:01:59.462Z",
+        "affected": ["DAL1"],
+        "filename": "2021-04-14-dallas-switch-issues.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Dallas: Partial Interruption",
+        "createdAt": "2021-02-08 18:51:06.019 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2021-02-08-dallas-partial-interruption/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2021-02-08T18:58:43.061Z",
+        "affected": ["DAL1"],
+        "filename": "2021-02-08-dallas-partial-interruption.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Hazard Notice: Dallas",
+        "createdAt": "2021-01-14 01:50:45.511 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2021-01-14-hazard-notice-dallas/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2021-01-15T01:50:00.000Z",
+        "affected": ["DAL1"],
+        "filename": "2021-01-14-hazard-notice-dallas.md"
+      }
+    
+  ]
+}
+
+
+
+
+

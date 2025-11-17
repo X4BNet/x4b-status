@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Recaptcha Depreciation",
+  "body": "\u003cp\u003eWe are depreciating Recaptcha \u0026amp; recaptcha fallback for validation pages. Currently recaptcha is in use for less than 0.01% of all verification page requests so far in 2025 and with the exception of an attack utilizing a captcha solver (a growing risk that will be mitigated by removal) was similarly represented in 2024.\u003c/p\u003e\n\u003cp\u003eIf any customer requires a no-javascript verification page they may contact us and we will see what we can do, however its our current belief given the analytics gathered from user agents and usage of the default PoW verification system that this is below a significant number.\u003c/p\u003e\n\u003cp\u003eWe will of course be adding an appropriate message for clients without javascipt enabled when Recaptcha fallback \u0026amp; support is removed before the end of 2025.\u003c/p\u003e\n",
+  "createdAt": "2025-08-12 04:29:29.11 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2025-08-12-recaptcha-depreciation/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2025-08-12T04:29:29.120Z",
+  "affected": ["WEB"],
+  "filename": "2025-08-12-recaptcha-depreciation.md"
+}

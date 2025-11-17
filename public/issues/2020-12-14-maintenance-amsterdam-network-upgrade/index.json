@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Maintenance: Amsterdam Network Upgrade",
+  "body": "\u003cp\u003eWe will be upgrading our network capacity and filtering hardware in Amsterdam. Any customers who have configured a HA type setup will be largely unaffected as routes will be removed from the region at-least 10 minutes before start of maintenance and traffic redirected to London and Ashburn PoPs.\u003c/p\u003e\n\u003cp\u003eWe expect the total maintenance to take approx 1-hour.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e - Maintenance taking a little longer than expected. Routes will be restored to Amsterdam as soon as possible.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e - Routes have been restored, final finishing of tasks continues in the background with no expected interruption.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e - Final checks complete. If you are experiencing any issues please don\u0026rsquo;t hesitate to contact us.\u003c/p\u003e\n",
+  "createdAt": "2020-12-15 19:50:52.161 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2020-12-14-maintenance-amsterdam-network-upgrade/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": true,
+  "resolvedAt": "2020-12-15T21:00:52.175Z",
+  "affected": ["AMS1"],
+  "filename": "2020-12-14-maintenance-amsterdam-network-upgrade.md"
+}

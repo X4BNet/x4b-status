@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Vegas and Luxembourg",
+  "body": "\u003cp\u003eWe are scheduling maintenance (system restart) tomorrow for a quick patch. Interuption of less than 10 minutes is expected.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eC﻿omplete\u003c/strong\u003e\u003c/p\u003e\n",
+  "createdAt": "2023-01-06 00:00:23.393 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2023-01-05-vegas-and-luxembourg/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2023-01-06T00:57:27.047Z",
+  "affected": ["LU1", "LV1"],
+  "filename": "2023-01-05-vegas-and-luxembourg.md"
+}

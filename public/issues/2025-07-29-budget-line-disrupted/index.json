@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Budget Line Disrupted (US-EAST)",
+  "body": "\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e No upstream updates at this time.\u003c/p\u003e\n\u003cp\u003eUpstream network for all three PoPs has a reported interruption in New York. New York has been routed around sucessfully according to our observations.\u003c/p\u003e\n\u003cp\u003eEastern US may experience higher than expected latency until the situation is resolved.\u003c/p\u003e\n",
+  "createdAt": "2025-07-29 10:14:47.644 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2025-07-29-budget-line-disrupted/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2025-07-29T10:14:47.651Z",
+  "affected": ["LV1", "NY1", "LU1"],
+  "filename": "2025-07-29-budget-line-disrupted.md"
+}

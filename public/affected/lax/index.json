@@ -1,0 +1,27 @@
+{
+  "is": "system",
+  "title": "LAX",
+  "permalink": "https://status.x4b.net/affected/lax/",
+  "status": "ok", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "LA: Hardware Upgrade",
+        "createdAt": "2021-09-28 04:50:32.42 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2021-09-23-la-hardware-upgrade/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": true,
+        "resolvedAt": "2021-09-28T06:44:35.075Z",
+        "affected": ["LAX"],
+        "filename": "2021-09-23-la-hardware-upgrade.md"
+      }
+    
+  ]
+}
+
+
+
+
+

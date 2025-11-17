@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Amsterdam: Instability",
+  "body": "\u003cp\u003e\u003cem\u003eInvestigating\u003c/em\u003e - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e Resolved. Will continue to observe.\u003c/p\u003e\n",
+  "createdAt": "2021-06-30 14:58:53.106 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2021-06-30-amsterdam-instability/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2021-06-30T16:48:51.560Z",
+  "affected": ["AMS1"],
+  "filename": "2021-06-30-amsterdam-instability.md"
+}

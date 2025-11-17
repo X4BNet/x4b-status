@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Ashburn Maintenance",
+  "body": "\u003cp\u003eAs of this latest update we are marking this maintenance window as complete. If you are experiencing any issues please don\u0026rsquo;t hesitate to open a support ticket.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e Regarding the network interruption (~30 second) that occurred during the Ashburn maintenance we do appologise for any inconvenience, particularly those in other regions adversely affected that should not have been involved in this maintenance. Clearly we did not intend for this response and will be investigating a fix for the faulty module ASAP which will be deployed before any other hardware upgrades are completed.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e Update not going as smoothly as planned. However there should be no further interruptions. Further information to follow once upgrade is complete.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e We will be starting maintenance shortly. We expect minimal interuption. It is however possible some connections will be interrupted near the start and end of the maintenance. As always we will do our best to limit interruptions.\u003c/p\u003e\n\u003cp\u003eWe are planning to conduct a hardware upgrade during off-peak in Ashburn. Exact time is currently being scheduled with local technicians. We will update this entry with more information when we get scheduling confirmation.\u003c/p\u003e\n",
+  "createdAt": "2021-06-28 04:48:39.094 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2021-06-26-ashburn-maintenance/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2021-06-28T06:43:46.378Z",
+  "affected": ["ASH1"],
+  "filename": "2021-06-26-ashburn-maintenance.md"
+}

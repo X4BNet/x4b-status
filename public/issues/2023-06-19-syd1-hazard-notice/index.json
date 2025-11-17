@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "SYD1: Hazard Notice",
+  "body": "\u003cp\u003e\u003cstrong\u003e﻿Update\u003c/strong\u003e Maintenance complete for tonight. One action has been delayed to a further maintenance period which we will perform in the coming days.\u003c/p\u003e\n\u003cp\u003eWe will be be performing some maintenance in Sydney tonight. N﻿o interruption is expected however some periods of packet loss are possible.\u003c/p\u003e\n\u003cp\u003eC﻿ertain internal metrics such as filter graphs may be affected for periods of the maintenance.\u003c/p\u003e\n",
+  "createdAt": "2023-06-19 09:30:00 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2023-06-19-syd1-hazard-notice/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2023-06-19T10:35:51.285Z",
+  "affected": ["SYD1"],
+  "filename": "2023-06-19-syd1-hazard-notice.md"
+}

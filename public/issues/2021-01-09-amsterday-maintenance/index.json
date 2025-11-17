@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Amsterdam: Maintenance",
+  "body": "\u003cp\u003e\u003cem\u003eInvestigating\u003c/em\u003e - We are investigating an increase in latency observed last night. In order to perform this investigating without risk to customer performance we have removed AMS from the network with UK taking over to provide capacity while we investigate.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eComplete\u003c/em\u003e - AMS routes restored. Issue should be resolved.\u003c/p\u003e\n",
+  "createdAt": "2021-01-09 01:40:16.217 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2021-01-09-amsterday-maintenance/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2021-01-09T03:12:08.243Z",
+  "affected": ["AMS1"],
+  "filename": "2021-01-09-amsterday-maintenance.md"
+}

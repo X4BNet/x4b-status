@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Autossl issues ",
+  "body": "\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e - Looks resolved. We will continue to monitor.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eInvestigating\u003c/em\u003e - Issue seems to have been limited to 13/37k certificates we generate. We beleive this was caused by an increase in errors due to a large number of bad certificate generations being attempted.\u003c/p\u003e\n\u003cp\u003eWe have made some changes and are monitoring. Please let us know if you have any issues.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eInvestigating\u003c/em\u003e - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.\u003c/p\u003e\n",
+  "createdAt": "2025-07-11 09:39:54.845 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2025-07-11-autossl-issues/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2025-07-13T00:56:26.667Z",
+  "affected": ["Web"],
+  "filename": "2025-07-11-autossl-issues.md"
+}

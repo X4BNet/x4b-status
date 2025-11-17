@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "LUX interruption",
+  "body": "\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e Looks like theres an interuption currently. No information yet provided from upstream on current or previous interruptions.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e No interruptions today. Upstream really messed up communication on this one. They will be emailing everyone over the next couple of days at which time we will know more. The next couple of days may have some network noise but is generally expected to be fine.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e. No information currently from upstream. Will leave open as more interruptions are posssible during the night.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e Appears down again.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e Upstream reports resolved through early moving our hardware to Switzerland.\u003c/p\u003e\n\u003cp\u003eLuxembourg network issues affecting Budget Line Luxembourg services currently.\u003c/p\u003e\n\u003cp\u003eNo information currently on the cause or status.\u003c/p\u003e\n\u003cp\u003eServices will return online when upstream resolves.\u003c/p\u003e\n",
+  "createdAt": "2025-07-26 13:18:31.979 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2025-07-26-lux-interruption/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2025-07-27T11:20:23.547Z",
+  "affected": ["LU1"],
+  "filename": "2025-07-26-lux-interruption.md"
+}

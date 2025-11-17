@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Client Panel & Website Upgrade",
+  "body": "\u003cp\u003e\u003cstrong\u003eUpdate\u003c/strong\u003e Deployment of all queued customer configuration updates has been performed. If you are encountering any issues please do let us know.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eUpdate\u003c/strong\u003e Customer deployments and all customer facing services are up. If you are encountering any issues please do let us know. We will process the backlog of request for all services after a short break.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eUpdate\u003c/strong\u003e Most site components are are up. Customer service deployments will be available shortly. Appologies that this has taken much longer than expected.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eUpdate\u003c/strong\u003e Site is up (in dry-run mode). Changes to customer services will be deployed once we have completed full system tests. We will be taking this slowly and will update when an ETA is available.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eUpdate\u003c/strong\u003e We are currently running a bit behind schedule on the first stage of the maintenance. We now hope to complete the first stage within the next 45 minutes.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eUpdate\u003c/strong\u003e Maintenance has begun\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eUpdate\u003c/strong\u003e Maintenance will begin on time in less than half an hour.\u003c/p\u003e\n\u003chr\u003e\n\u003cp\u003eOn Tuesday afternoon we will be moving our web panel and database to new upgraded servers. This will consist of approximately 1 hour of panel and site outage (maintenance page) and up to 1 hour of partial ouage (dry run mode) while we complete manual tests on all components and services. During this time any customer service changes requested will be queued for execution on completion.\u003c/p\u003e\n\u003cp\u003eWe appologies for any inconvenience this may cause.\u003c/p\u003e\n\u003cp\u003eWe will update this status announcement as appropriate with updates.\u003c/p\u003e\n",
+  "createdAt": "2022-03-22 02:00:00 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2022-03-21-client-panel-website-upgrade/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": true,
+  "resolvedAt": "2022-03-22T04:00:00.000Z",
+  "affected": ["WEB"],
+  "filename": "2022-03-21-client-panel-website-upgrade.md"
+}

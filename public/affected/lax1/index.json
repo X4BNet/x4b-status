@@ -1,0 +1,153 @@
+{
+  "is": "system",
+  "title": "LAX1",
+  "permalink": "https://status.x4b.net/affected/lax1/",
+  "status": "notice", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "Software Upgrades: Anycast",
+        "createdAt": "2025-11-17 22:30:12.248 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2025-11-11-software-upgrades-anycast/",
+        "severity": "notice",
+        "resolved": false,
+        "informational": false,
+        "resolvedAt": "2025-11-18T07:30:00.000Z",
+        "affected": ["ASH1", "CHI1", "DAL1", "LAX1", "MIM1", "AMS1", "LON1", "BR1", "SG1", "JP1", "SYD1"],
+        "filename": "2025-11-11-software-upgrades-anycast.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Maintenance",
+        "createdAt": "2025-11-07 00:30:00 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2025-11-06-maintenance/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2025-11-07T02:07:35.898Z",
+        "affected": ["LAX1", "DAL1", "CHI1", "ASH1", "MIM1", "AMS1", "LON1", "BR1", "SGP1", "TOK1", "SYD1"],
+        "filename": "2025-11-06-maintenance.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Software Updates (Anycast)",
+        "createdAt": "2025-07-22 23:00:00 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2025-07-22-software-updates-anycast/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2025-07-23T00:03:22.113Z",
+        "affected": ["LAX1", "DAL1", "CHI1", "ASH1", "MIM1", "AMS1", "LON1", "BR1", "SGP1", "TOK1", "SYD1"],
+        "filename": "2025-07-22-software-updates-anycast.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "LA: Fault",
+        "createdAt": "2024-10-24 09:42:25.211 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2024-10-24-la-fault/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-12-03T03:40:50.534Z",
+        "affected": ["LAX1"],
+        "filename": "2024-10-24-la-fault.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "LAX: Temporarily removed",
+        "createdAt": "2023-09-01 12:11:32.868 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2023-09-01-lax-temporarily-removed/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-03-05T05:24:21.250Z",
+        "affected": ["LAX1"],
+        "filename": "2023-09-01-lax-temporarily-removed.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "LAX: Issues",
+        "createdAt": "2023-08-20 08:37:56.227 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2023-08-20-lax-issues/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-08-20T12:35:32.332Z",
+        "affected": ["LAX1"],
+        "filename": "2023-08-20-lax-issues.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Observed issues with GTT routes",
+        "createdAt": "2021-10-14 03:23:50.44 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2021-10-14-observed-issues-with-gtt-routes/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2021-10-15T01:32:04.521Z",
+        "affected": ["CHI1", "ASH1", "LAX1", "AMS1", "LON1", "MIM1"],
+        "filename": "2021-10-14-observed-issues-with-gtt-routes.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Cogent interruption",
+        "createdAt": "2021-05-12 17:00:00 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2021-05-12-cogent-interruption/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2021-05-12T20:14:36.632Z",
+        "affected": ["LAX1", "AMS1"],
+        "filename": "2021-05-12-cogent-interruption.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "LA: maintenance",
+        "createdAt": "2021-03-03 10:00:00 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2021-03-03-la-maintenance/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": true,
+        "resolvedAt": "2021-03-03T10:01:13.634Z",
+        "affected": ["LAX1"],
+        "filename": "2021-03-03-la-maintenance.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Packet Loss (multiple locations)",
+        "createdAt": "2020-12-13 05:53:02.543 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2020-12-13-packet-loss-multiple-locations/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2020-12-16T05:10:00.000Z",
+        "affected": ["LAX1", "LON1", "ASH1"],
+        "filename": "2020-12-13-packet-loss-multiple-locations.md"
+      }
+    
+  ]
+}
+
+
+
+
+

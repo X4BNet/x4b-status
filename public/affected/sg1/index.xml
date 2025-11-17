@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <link rel="alternate" type="text/html" href="https://status.x4b.net/"/>
+    <title>SG1 on X4B Network Status</title>
+    <link>https://status.x4b.net/affected/sg1/</link>
+    <description>Incident history</description>
+    <generator>github.com/cstate</generator>
+    <language>en</language>
+    
+    <lastBuildDate>2025-11-17T22:30:12+00:00</lastBuildDate>
+    <updated>2025-11-17T22:30:12+00:00</updated>
+    
+    
+    
+      <atom:link href="https://status.x4b.net/affected/sg1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Software Upgrades: Anycast</title>
+        <link>https://status.x4b.net/issues/2025-11-11-software-upgrades-anycast/</link>
+        <pubDate>Mon, 17 Nov 2025 22:30:12 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2025-11-11-software-upgrades-anycast/</guid>
+        <category>2025-11-18T07:30:00.000Z</category>
+        <description>It is expected that maintenance will take approximately 1 hour per server. No interruption is expected however risk does exist. We will be updating a couple servers at a time.
+There is the chance that we will need to do the update of some servers the following day. However the plan is to get all the servers done in one day if possible.
+This is the same update that has already been performed on the budget line.</description>
+        <content type="html">&lt;p&gt;It is expected that maintenance will take approximately 1 hour per server. No interruption is expected however risk does exist. We will be updating a couple servers at a time.&lt;/p&gt;
+&lt;p&gt;There is the chance that we will need to do the update of some servers the following day. However the plan is to get all the servers done in one day if possible.&lt;/p&gt;
+&lt;p&gt;This is the same update that has already been performed on the budget line.&lt;/p&gt;
+&lt;p&gt;We will update this announcment when maintenance for each region is complete. Thank you for your patience.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Singapore: Emergency Maintenance</title>
+        <link>https://status.x4b.net/issues/2024-01-24-singapore-emergency-maintenance/</link>
+        <pubDate>Wed, 24 Jan 2024 20:16:20 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2024-01-24-singapore-emergency-maintenance/</guid>
+        <category>2024-01-24T20:26:27.090Z</category>
+        <description>﻿Update - Problem appears resolved. We will continue to observe for any regression.
+Investigating - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.</description>
+        <content type="html">&lt;p&gt;&lt;em&gt;﻿Update&lt;/em&gt; - Problem appears resolved. We will continue to observe for any regression.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Investigating&lt;/em&gt; - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.&lt;/p&gt;
+</content>
+      </item>
+    
+      <item>
+        <title>[Resolved] Hazard Notice</title>
+        <link>https://status.x4b.net/issues/2023-07-25-hazard-notice/</link>
+        <pubDate>Wed, 26 Jul 2023 03:00:00 +0000</pubDate>
+        <guid>https://status.x4b.net/issues/2023-07-25-hazard-notice/</guid>
+        <category>2023-07-19T07:00:22.832Z</category>
+        <description>W﻿e will be performing maintenance tomorrow. No interruption is expected however risk exists for iterruptions over this time window.</description>
+        <content type="html">&lt;p&gt;W﻿e will be performing maintenance tomorrow. No interruption is expected however risk exists for iterruptions over this time window.&lt;/p&gt;
+</content>
+      </item>
+    
+  </channel>
+</rss>

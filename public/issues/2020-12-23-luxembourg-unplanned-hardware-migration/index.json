@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Luxembourg: Unplanned Hardware Migration",
+  "body": "\u003cp\u003eWe have been made aware of an emergency migration taking place in Luxembourg. We have been given an ETA of 1hr to move our data. Once moved we will endevour to get the node booted ASAP.\u003c/p\u003e\n\u003cp\u003eAppologies for the inconvenience expecially at this time of year.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eFixed\u003c/strong\u003e Maintenance complete. We are currently conducting tests to ensure everything is A-OK. Please let us know if something is currently not.\u003c/p\u003e\n",
+  "createdAt": "2020-12-23 09:50:55.125 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2020-12-23-luxembourg-unplanned-hardware-migration/",
+  "severity": "down",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2020-12-23T10:53:40.864Z",
+  "affected": ["LU1"],
+  "filename": "2020-12-23-luxembourg-unplanned-hardware-migration.md"
+}

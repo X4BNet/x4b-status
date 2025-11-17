@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "LA: Hardware Upgrade",
+  "body": "\u003cp\u003e\u003cstrong\u003eUpdate\u003c/strong\u003e Routes are up. We will observe closely for any issues. Please do open a support ticket if you notice anything we don\u0026rsquo;t.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eUpdate\u003c/strong\u003e Maintenance is proceeding roughly on schedule. We expect to be complete in 15-30 minutes.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eUpdate\u003c/strong\u003e Maintenance is begining now\u003c/p\u003e\n\u003cp\u003eWe will be performing maintenance in L.A on Monday and Tuesday to upgrade the hardware we have deployed in the region.\u003c/p\u003e\n\u003cp\u003eWe will endeavour to keep interruption to a minimum by removing the PoP before and during major works. We expect to be able to perform this maintenance within 1-2 hours.\u003c/p\u003e\n\u003cp\u003eWe will update this announcement with further information when available.\u003c/p\u003e\n",
+  "createdAt": "2021-09-28 04:50:32.42 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2021-09-23-la-hardware-upgrade/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": true,
+  "resolvedAt": "2021-09-28T06:44:35.075Z",
+  "affected": ["LAX"],
+  "filename": "2021-09-23-la-hardware-upgrade.md"
+}

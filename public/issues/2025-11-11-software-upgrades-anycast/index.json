@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Software Upgrades: Anycast",
+  "body": "\u003cp\u003eIt is expected that maintenance will take approximately 1 hour per server. No interruption is expected however risk does exist. We will be updating a couple servers at a time.\u003c/p\u003e\n\u003cp\u003eThere is the chance that we will need to do the update of some servers the following day. However the plan is to get all the servers done in one day if possible.\u003c/p\u003e\n\u003cp\u003eThis is the same update that has already been performed on the budget line.\u003c/p\u003e\n\u003cp\u003eWe will update this announcment when maintenance for each region is complete. Thank you for your patience.\u003c/p\u003e\n",
+  "createdAt": "2025-11-17 22:30:12.248 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2025-11-11-software-upgrades-anycast/",
+  "severity": "notice",
+  "resolved": false,
+  "informational": false,
+  "resolvedAt": "2025-11-18T07:30:00.000Z",
+  "affected": ["ASH1", "CHI1", "DAL1", "LAX1", "MIM1", "AMS1", "LON1", "BR1", "SG1", "JP1", "SYD1"],
+  "filename": "2025-11-11-software-upgrades-anycast.md"
+}

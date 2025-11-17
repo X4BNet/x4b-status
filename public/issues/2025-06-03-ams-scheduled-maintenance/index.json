@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "AMS: Scheduled Maintenance",
+  "body": "\u003cp\u003eOur upstream datacenter has notified us today of upcoming maintenance in Amsterdam.\u003c/p\u003e\n\u003cp\u003eNetwork engineers will be upgrading top-of-rack switches and reworking some of the network topologies for a more robust and stable overall network in the server cabinet.\u003c/p\u003e\n\u003cp\u003eThough the outage is not expected to last more than 5 to 10 minutes, the work window will be longer as our team will test and ensure connectivity is stable before completing the maintenance.\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eMaintenance Details\u003c/strong\u003e\u003c/p\u003e\n\u003cpre tabindex=\"0\"\u003e\u003ccode\u003eDay/Date: Thursday, June 05th, 2025\r\nStart Time: 6:00 AM (PDT)\r\nEnd Time: 8:00 AM (PDT)\r\nOutage Estimated Duration:  5-10 mins\r\nEffect: Short Outage\r\nFacilities: AM11\r\nDevice Description: 0818.16.Black\n\u003c/code\u003e\u003c/pre\u003e",
+  "createdAt": "2025-06-05 08:00:00 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2025-06-03-ams-scheduled-maintenance/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2025-06-05T10:00:00.000Z",
+  "affected": ["AMS1"],
+  "filename": "2025-06-03-ams-scheduled-maintenance.md"
+}

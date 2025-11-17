@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Amsterdam: Minor Maintenance",
+  "body": "\u003cp\u003eWe will be conducting minor maintenance in Amsterdam. There will be a risk of a minutes of interruption as sessions are updated. We will attempt to keep the interruption as quick as possible if required (which we hope it will not be).\u003c/p\u003e\n",
+  "createdAt": "2021-02-15 20:00:00 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2021-02-14-amsterdam-minor-maintenance/",
+  "severity": "notice",
+  "resolved": true,
+  "informational": true,
+  "resolvedAt": "2021-02-15T22:00:00.000Z",
+  "affected": ["AMS1"],
+  "filename": "2021-02-14-amsterdam-minor-maintenance.md"
+}

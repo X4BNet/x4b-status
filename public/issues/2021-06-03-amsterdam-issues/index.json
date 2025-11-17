@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Amsterdam: Issues",
+  "body": "\u003cp\u003e\u003cem\u003eInvestigating\u003c/em\u003e - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eInvestigating\u003c/em\u003e - We are seeing  an issue with either network port stability or ixgbe driver stability in Amsterdam. We are investigating.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eMonitoring\u003c/em\u003e - We continue to watch for issues\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eMonitoring\u003c/em\u003e - We continue to watch for issues. Nothing has been observed as of yet.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eInvestigating\u003c/em\u003e - We continue to search for the root cause. Another incident occurred around 07:35 GMT.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eChanges\u003c/em\u003e - Some changes have been made to test a theory. We continue to monitor.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e - We beleive the changes to have mostly resolved the issue. Further changes will be made to complete this. With this the issue can be closed.\u003c/p\u003e\n",
+  "createdAt": "2021-06-03 00:46:45.311 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2021-06-03-amsterdam-issues/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2021-06-04T05:13:10.188Z",
+  "affected": ["AMS1"],
+  "filename": "2021-06-03-amsterdam-issues.md"
+}

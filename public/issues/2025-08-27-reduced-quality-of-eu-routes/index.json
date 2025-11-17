@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Reduced quality of EU routes",
+  "body": "\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e issue was found upstream and resolved. Upstream will update their internal documentation to prevent recurrance.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e Appears to be a GTT fault. Fault ticket has been opened.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e Investigation continues upstream. This issue only appears to affect Premium Anycast customers. Standard Anycast routes seem unaffected.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eInvestigating\u003c/em\u003e - We are investigating a potential issue that might affect the uptime of one our of services. It appears to be a bug in the upstream providers routing configuration. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.\u003c/p\u003e\n",
+  "createdAt": "2025-08-27 02:02:17.725 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2025-08-27-reduced-quality-of-eu-routes/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2025-08-27T08:26:55.459Z",
+  "affected": ["AMS1", "LON1"],
+  "filename": "2025-08-27-reduced-quality-of-eu-routes.md"
+}

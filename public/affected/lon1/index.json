@@ -1,0 +1,265 @@
+{
+  "is": "system",
+  "title": "LON1",
+  "permalink": "https://status.x4b.net/affected/lon1/",
+  "status": "notice", 
+  "pages": [
+      {
+        "is": "issue",
+        "title": "Software Upgrades: Anycast",
+        "createdAt": "2025-11-17 22:30:12.248 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2025-11-11-software-upgrades-anycast/",
+        "severity": "notice",
+        "resolved": false,
+        "informational": false,
+        "resolvedAt": "2025-11-18T07:30:00.000Z",
+        "affected": ["ASH1", "CHI1", "DAL1", "LAX1", "MIM1", "AMS1", "LON1", "BR1", "SG1", "JP1", "SYD1"],
+        "filename": "2025-11-11-software-upgrades-anycast.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Maintenance",
+        "createdAt": "2025-11-07 00:30:00 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2025-11-06-maintenance/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2025-11-07T02:07:35.898Z",
+        "affected": ["LAX1", "DAL1", "CHI1", "ASH1", "MIM1", "AMS1", "LON1", "BR1", "SGP1", "TOK1", "SYD1"],
+        "filename": "2025-11-06-maintenance.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Reduced quality of EU routes",
+        "createdAt": "2025-08-27 02:02:17.725 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2025-08-27-reduced-quality-of-eu-routes/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2025-08-27T08:26:55.459Z",
+        "affected": ["AMS1", "LON1"],
+        "filename": "2025-08-27-reduced-quality-of-eu-routes.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Software Updates (Anycast)",
+        "createdAt": "2025-07-22 23:00:00 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2025-07-22-software-updates-anycast/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2025-07-23T00:03:22.113Z",
+        "affected": ["LAX1", "DAL1", "CHI1", "ASH1", "MIM1", "AMS1", "LON1", "BR1", "SGP1", "TOK1", "SYD1"],
+        "filename": "2025-07-22-software-updates-anycast.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "UK Migration 04/06 - 05/06",
+        "createdAt": "2024-06-04 10:10:22.94 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2024-05-29-uk-migration-04-06-05-06/",
+        "severity": "down",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-06-06T01:50:54.183Z",
+        "affected": ["LON1"],
+        "filename": "2024-05-29-uk-migration-04-06-05-06.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "UK / LON removal (temporary)",
+        "createdAt": "2024-04-13 12:28:14.135 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2024-04-13-uk-lon-removal-temporary/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-04-18T01:58:46.394Z",
+        "affected": ["LON1"],
+        "filename": "2024-04-13-uk-lon-removal-temporary.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "London Core Router Software Update",
+        "createdAt": "2024-02-02 14:00:05.816 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2024-02-01-london-core-router-software-update/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-02-04T00:32:32.180Z",
+        "affected": ["LON1"],
+        "filename": "2024-02-01-london-core-router-software-update.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Network Maintenance",
+        "createdAt": "2024-02-01 08:08:16.425 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2024-02-01-network-maintenance/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2024-02-02T09:01:22.629Z",
+        "affected": ["LON1"],
+        "filename": "2024-02-01-network-maintenance.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Hazard Notice",
+        "createdAt": "2023-07-26 03:00:00 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2023-07-25-hazard-notice/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-07-19T07:00:22.832Z",
+        "affected": ["LA1", "LON1", "SG1"],
+        "filename": "2023-07-25-hazard-notice.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Premium Anycast: Lumen Transit",
+        "createdAt": "2022-10-04 01:55:08.023 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2021-07-19-lumen-apac-upgrade/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2023-02-09T02:44:02.746Z",
+        "affected": ["LON1"],
+        "filename": "2021-07-19-lumen-apac-upgrade.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Observed issues with GTT routes",
+        "createdAt": "2021-10-14 03:23:50.44 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2021-10-14-observed-issues-with-gtt-routes/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2021-10-15T01:32:04.521Z",
+        "affected": ["CHI1", "ASH1", "LAX1", "AMS1", "LON1", "MIM1"],
+        "filename": "2021-10-14-observed-issues-with-gtt-routes.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Packet Loss in London",
+        "createdAt": "2021-05-23 21:17:00 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2021-05-23-packet-loss-in-london/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2021-05-24T00:10:10.292Z",
+        "affected": ["LON1"],
+        "filename": "2021-05-23-packet-loss-in-london.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "UK & Amsterdam Maintenance",
+        "createdAt": "2021-04-03 02:00:00 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2021-03-03-uk-amsterdam-maintenance/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2021-03-04T02:18:22.810Z",
+        "affected": ["LON1", "AMS1"],
+        "filename": "2021-03-03-uk-amsterdam-maintenance.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "London: Hardware Crash",
+        "createdAt": "2021-02-27 17:40:50.52 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2021-02-27-london-hardware-crash/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2021-02-27T17:40:50.539Z",
+        "affected": ["LON1"],
+        "filename": "2021-02-27-london-hardware-crash.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "London: Minor Maintenance",
+        "createdAt": "2021-02-12 19:00:00 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2021-02-10-london-minor-maintenance/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2021-02-12T22:30:00.000Z",
+        "affected": ["LON1"],
+        "filename": "2021-02-10-london-minor-maintenance.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "UK: Hazard Warning",
+        "createdAt": "2021-02-10 03:00:00 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2021-02-10-uk-hazard-warning/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": true,
+        "resolvedAt": "2021-02-10T05:30:00.000Z",
+        "affected": ["LON1"],
+        "filename": "2021-02-10-uk-hazard-warning.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "London: Investigating",
+        "createdAt": "2021-01-05 04:31:15.058 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2021-01-05-london-investigating/",
+        "severity": "notice",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2021-01-05T08:31:55.445Z",
+        "affected": ["LON1"],
+        "filename": "2021-01-05-london-investigating.md"
+      }
+    ,
+      {
+        "is": "issue",
+        "title": "Packet Loss (multiple locations)",
+        "createdAt": "2020-12-13 05:53:02.543 +0000 UTC",
+        "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+        "permalink": "https://status.x4b.net/issues/2020-12-13-packet-loss-multiple-locations/",
+        "severity": "disrupted",
+        "resolved": true,
+        "informational": false,
+        "resolvedAt": "2020-12-16T05:10:00.000Z",
+        "affected": ["LAX1", "LON1", "ASH1"],
+        "filename": "2020-12-13-packet-loss-multiple-locations.md"
+      }
+    
+  ]
+}
+
+
+
+
+

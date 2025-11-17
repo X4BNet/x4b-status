@@ -1,0 +1,14 @@
+{
+  "is": "issue",
+  "title": "Lux: offline event ",
+  "body": "\u003cp\u003e\u003cem\u003eInvestigating\u003c/em\u003e - We are investigating a potential issue that might affect the uptime of one our of services. We are sorry for any inconvenience this may cause you. This incident post will be updated once we have more information.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eUpdate\u003c/em\u003e - Upstream router had a major issue interrupting services to all in Luxembourg.\u003c/p\u003e\n",
+  "createdAt": "2024-10-08 14:37:17.787 +0000 UTC",
+  "lastMod": "2025-11-12 05:42:10 +0000 UTC",
+  "permalink": "https://status.x4b.net/issues/2024-10-08-lux-offline-event/",
+  "severity": "disrupted",
+  "resolved": true,
+  "informational": false,
+  "resolvedAt": "2024-10-08T20:07:05.103Z",
+  "affected": ["LU1"],
+  "filename": "2024-10-08-lux-offline-event.md"
+}
