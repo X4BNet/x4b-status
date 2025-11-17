@@ -7,6 +7,7 @@ draft: false
 informational: false
 pin: false
 severity: notice
+resolvedWhen: 2025-11-18T02:30:00.000Z
 affected:
   - LAX1
   - DAL1
@@ -20,6 +21,11 @@ affected:
   - TOK1
   - SYD1
 ---
+*Update* as of 10:15AM
+
+ - SYD, SG, LAX are complete pending final review
+ - JP, MIA, DAL are currently in progress
+
 *Update* As a reminder this is starting tomorrow at 9:30 AM AEDT. We expect it will take approximately 1 hour per server (for all 11 servers)
 
 It is expected that maintenance will take approximately 1 hour per server. No interruption is expected however risk does exist. We will be updating a couple servers at a time.
