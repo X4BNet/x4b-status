@@ -2,12 +2,12 @@
 section: issue
 title: 'Software Upgrades: Anycast'
 date: 2025-11-17T22:30:00.000Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false
 severity: notice
-resolvedWhen: 2025-11-18T02:30:00.000Z
+resolvedWhen: 2025-11-18T00:30:00.000Z
 affected:
   - LAX1
   - DAL1
@@ -21,6 +21,8 @@ affected:
   - TOK1
   - SYD1
 ---
+*Update* as of 11:39AM all done.
+
 *Update* as of 11:15AM
 
 All servers other than LON are complete pending final review.
