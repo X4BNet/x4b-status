@@ -21,6 +21,12 @@ affected:
   - TOK1
   - SYD1
 ---
+*Update* as of 11:15AM
+
+All servers other than LON are complete pending final review.
+
+Hopefully will be done before lunch.
+
 *Update* as of 10:15AM
 
  - SYD, SG, LAX are complete pending final review
