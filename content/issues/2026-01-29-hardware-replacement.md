@@ -2,15 +2,17 @@
 section: issue
 title: Hardware Replacement
 date: 2026-02-04T01:00:00.000Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false
 severity: notice
-resolvedWhen: 2026-02-04T12:30:00.000Z
+resolvedWhen: 2026-02-04T12:03:00.000Z
 affected:
   - SGP1
 ---
+*Update* Routes have been restored. If you encounter any issues please do let us know
+
 *Update* We are still working on this. Currently running behind schedule. Hoping to have this done tonight.
 
 *Update* Currently waiting on upstream technicians to do their side. We are hoping for everything to be done tonight. Once upstream side is done we will complete testing & QA and proceed accordingly.
