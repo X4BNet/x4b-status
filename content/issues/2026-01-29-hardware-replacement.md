@@ -11,7 +11,7 @@ resolvedWhen: 2026-02-04T10:00:00.000Z
 affected:
   - SGP1
 ---
-*Update* Currently waiting on upstream technicians to do their side. We are hoping for everything to be done tonight.
+*Update* Currently waiting on upstream technicians to do their side. We are hoping for everything to be done tonight. Once upstream side is done we will complete testing & QA and proceed accordingly.
 
 *Update* We are still working on this. Currently running behind schedule. Hoping to have this done by 7pm tonight.
 
