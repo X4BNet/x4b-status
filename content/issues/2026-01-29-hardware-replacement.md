@@ -1,7 +1,7 @@
 ---
 section: issue
 title: Hardware Replacement
-date: 2026-02-03T13:00:00.000Z
+date: 2026-02-04T01:00:00.000Z
 resolved: false
 draft: false
 informational: false
