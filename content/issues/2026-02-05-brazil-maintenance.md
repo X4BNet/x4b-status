@@ -2,15 +2,17 @@
 section: issue
 title: Brazil Maintenance
 date: 2026-02-09T03:50:00.000Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false
 severity: notice
-resolvedWhen: 2026-02-09T06:10:00.000Z
+resolvedWhen: 2026-02-09T06:51:00.000Z
 affected:
   - BR1
 ---
+*Update* We have confirmed the upstream techs work and restored routes.
+
 Upstream provider has requested that we move our servers to a different cabinet. Server will be moved via offline imaging by their technicians.
 
 We do not know exactly how long it will take but we expect a couple hours. We will be around to check services before restoring routes.
