@@ -11,6 +11,10 @@ resolvedWhen: 2026-06-03T11:35:00.000Z
 affected:
   - WEB
 ---
+**Update** We are seeing issues again. Seems less than fixed.
+
+---
+
 **Update** Akamai have marked the issue as resolved.
 
 ---
