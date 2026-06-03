@@ -11,6 +11,12 @@ affected:
   - WEB
 severity: down
 ---
+**Update** as a result of our ticket they have now opened https://status.linode.com/incidents/qrxbxvrn9h54
+
+Hoping for a quick resolution
+
+--
+
 Linode outage in US-East affecting our block storage volume hosting the database is affecting our services. We have opened a ticket with them.
 
 Will be back up when they fix their end.
