@@ -6,11 +6,13 @@ resolved: true
 draft: false
 informational: false
 pin: false
-severity: disrupted
 resolvedWhen: 2026-06-03T11:35:00.000Z
 affected:
   - WEB
+severity: disrupted
 ---
+**Update** Akamai have re-opened their incident 
+--
 **Update** We are seeing issues again. Seems less than fixed.
 
 ---
