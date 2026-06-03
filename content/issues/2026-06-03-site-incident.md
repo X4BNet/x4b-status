@@ -1,16 +1,22 @@
 ---
 section: issue
 title: Site incident
-date: 2026-06-03T08:57:53.346Z
+date: 2026-06-03T08:57:00.000Z
 resolved: false
 draft: false
 informational: false
 pin: false
-resolvedWhen: 2026-06-03T08:57:53.353Z
+severity: disrupted
+resolvedWhen: 2026-06-03T08:57:00.000Z
 affected:
   - WEB
-severity: down
 ---
+**Update** while the volume is back up the linode incident remains and we have not seen an update.
+
+Will keep this incident open until we know more.
+
+--
+
 **Update** as a result of our ticket they have now opened https://status.linode.com/incidents/qrxbxvrn9h54
 
 Hoping for a quick resolution
