@@ -2,11 +2,12 @@
 section: issue
 title: Interruption to graphs and HTTP Logs
 date: 2026-06-16T03:56:00.000Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false
 severity: notice
+resolvedWhen: 2026-06-16T05:23:00.000Z
 affected:
   - WEB
 ---
