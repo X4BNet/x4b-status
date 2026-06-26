@@ -2,7 +2,7 @@
 section: issue
 title: Maintenance Jun 17
 date: 2026-06-25T10:30:00.000Z
-resolved: false
+resolved: true
 draft: false
 informational: true
 pin: false
@@ -11,6 +11,10 @@ resolvedWhen: 2026-06-25T18:30:00.000Z
 affected:
   - LON1
 ---
+Complete
+
+---
+
 *Update* Got new dates from upstream DC just now.
 
 Please see below for the revised schedule of the rescheduled migration:
