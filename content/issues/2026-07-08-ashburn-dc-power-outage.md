@@ -2,7 +2,7 @@
 section: issue
 title: Ashburn DC power outage
 date: 2026-07-08T11:41:00.000Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false
