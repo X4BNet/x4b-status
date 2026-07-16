@@ -2,11 +2,12 @@
 section: issue
 title: Scheduled Maintenance Notification – ToR Switch Firmware Upgrade (Ashburn DC)
 date: 2026-07-16T11:30:00.000Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false
 severity: notice
+resolvedWhen: 2026-07-16T22:34:00.000Z
 affected:
   - ASH1
 ---
