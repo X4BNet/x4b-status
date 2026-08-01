@@ -2,7 +2,7 @@
 section: issue
 title: Upstream maintenance
 date: 2026-07-29T23:00:00.000Z
-resolved: false
+resolved: true
 draft: false
 informational: true
 pin: false
