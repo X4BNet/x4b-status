@@ -10,6 +10,10 @@ severity: notice
 affected:
   - MIM1
 ---
+**Update** We have restored routes to the Premium line. We will keep routes pulled from the standard line at present. We are in discussions with NOC in region to see if we can get some changes introduced to gain access to more capacity in region.
+
+---
+
 We have taken Miami PoP offline to perform an investigation into an issue that has re-occurred a few times this year resulting in interruptions.
 
 Routes have been removed and traffic directed to nearby PoPs.
