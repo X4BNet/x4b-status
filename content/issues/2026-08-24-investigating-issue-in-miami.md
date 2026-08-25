@@ -2,11 +2,12 @@
 section: issue
 title: Investigating issue in Miami
 date: 2026-08-23T20:28:00.000Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false
 severity: notice
+resolvedWhen: 2026-08-25T11:32:05+00:00
 affected:
   - MIM1
 ---
