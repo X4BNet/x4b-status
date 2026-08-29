@@ -10,6 +10,10 @@ severity: disrupted
 affected:
   - TOK1
 ---
+We are begining to see signs of life but no update from the upstream yet. 
+
+--
+
 **Update** From upstream network provider
 
 Thank you for your patience. Our network engineering team is actively collaborating with our data center specialists to resolve a hardware issue recently experienced by one of our core routers.
