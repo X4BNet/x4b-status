@@ -2,15 +2,19 @@
 section: issue
 title: Tokyo DC outage
 date: 2026-08-28T06:19:00.000Z
-resolved: true
+resolved: false
 draft: false
 informational: false
 pin: false
 severity: disrupted
-resolvedWhen: 2026-08-29T05:28:00.000Z
+resolvedWhen: 2026-08-29T13:39:00.000Z
 affected:
   - TOK1
 ---
+No restoration of stability yet
+
+--
+
 We are begining to see signs of life but no update from the upstream yet. 
 
 --
