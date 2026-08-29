@@ -2,15 +2,28 @@
 section: issue
 title: Tokyo DC outage
 date: 2026-08-28T06:19:00.000Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false
 severity: disrupted
-resolvedWhen: 2026-08-29T13:39:00.000Z
+resolvedWhen: 2026-08-29T21:16:00.000Z
 affected:
   - TOK1
 ---
+We have restored routes
+
+Upstream update
+
+Dear Customer,
+
+We apologize for the inconvenience.
+The issue was caused by a failure on the core router, which required additional time for our Network Engineering and Data Center teams to recover and stabilize the affected services.
+
+The core router has now been recovered, and the service is currently stable. We will continue to monitor the network to ensure there are no further issues.
+
+--
+
 No restoration of stability yet
 
 --
