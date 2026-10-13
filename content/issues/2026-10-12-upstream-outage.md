@@ -10,4 +10,6 @@ severity: disrupted
 affected:
   - LV1
 ---
+*Update* upstream has confirmed dead power supply in the server and will be visiting the DC to replace today.
+
 We have ticketed the upstream network provider as they are offline
