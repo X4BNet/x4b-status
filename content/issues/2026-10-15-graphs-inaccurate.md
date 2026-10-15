@@ -2,7 +2,7 @@
 section: issue
 title: Graphs inaccurate
 date: 2026-10-15T09:30:00.000Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false
