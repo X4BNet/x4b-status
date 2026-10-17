@@ -10,6 +10,8 @@ severity: notice
 affected:
   - WEB
 ---
+**Update** Issue identified. Will get this fixed shortly, probably 1-2 hours.
+
 We have become aware of some services missing data in the HTTP graphs.
 
 We are investigating.
