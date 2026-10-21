@@ -2,7 +2,7 @@
 section: issue
 title: 'Data Accuracy Error: Graphs'
 date: 2026-10-21T06:05:00.000Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false
